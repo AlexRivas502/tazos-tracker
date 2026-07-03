@@ -1,0 +1,236 @@
+number,count,owned,conditions
+1,1,yes,Mint
+2,2,yes,Mint; Mint
+3,2,yes,Mint; Mint
+4,1,yes,Mint
+5,2,yes,Mint; Mint
+6,3,yes,Mint; Mint; Mint
+7,2,yes,Mint; Mint
+8,2,yes,Mint; Mint
+9,2,yes,Mint; Mint
+10,1,yes,Mint
+11,2,yes,Mint; Mint
+12,2,yes,Mint; Mint
+13,4,yes,Mint; Mint; Mint; Mint
+14,1,yes,Mint
+15,1,yes,Mint
+16,0,no,
+17,3,yes,Mint; Mint; Mint
+18,3,yes,Mint; Mint; Mint
+19,2,yes,Mint; Mint
+20,1,yes,Mint
+21,1,yes,Mint
+22,2,yes,Mint; Mint
+23,1,yes,Mint
+24,1,yes,Mint
+25,2,yes,Mint; Mint
+26,3,yes,Mint; Mint; Mint
+27,1,yes,Mint
+28,3,yes,Mint; Mint; Mint
+29,1,yes,Mint
+30,2,yes,Mint; Good
+31,1,yes,Mint
+32,1,yes,Mint
+33,1,yes,Mint
+34,1,yes,Mint
+35,1,yes,Mint
+36,1,yes,Mint
+37,1,yes,Mint
+38,1,yes,Mint
+39,1,yes,Mint
+40,1,yes,Mint
+41,1,yes,Mint
+42,1,yes,Mint
+43,1,yes,Mint
+44,1,yes,Mint
+45,1,yes,Mint
+46,1,yes,Mint
+47,1,yes,Good
+48,1,yes,Mint
+49,1,yes,Mint
+50,1,yes,Good
+51,1,yes,Mint
+52,1,yes,Mint
+53,2,yes,Mint; Good
+54,1,yes,Good
+55,1,yes,Mint
+56,1,yes,Used
+57,1,yes,Good
+58,1,yes,Mint
+59,1,yes,Good
+60,2,yes,Mint; Good
+61,1,yes,Mint
+62,1,yes,Mint
+63,2,yes,Mint; Mint
+64,1,yes,Mint
+65,1,yes,Mint
+66,2,yes,Mint; Mint
+67,2,yes,Mint; Mint
+68,1,yes,Mint
+69,1,yes,Mint
+70,1,yes,Mint
+71,2,yes,Mint; Good
+72,1,yes,Mint
+73,1,yes,Mint
+74,1,yes,Mint
+75,1,yes,Mint
+76,1,yes,Used
+77,1,yes,Mint
+78,1,yes,Mint
+79,1,yes,Mint
+80,1,yes,Mint
+81,1,yes,Mint
+82,2,yes,Mint; Mint
+83,1,yes,Mint
+84,1,yes,Mint
+85,1,yes,Mint
+86,1,yes,Mint
+87,1,yes,Mint
+88,1,yes,Mint
+89,1,yes,Mint
+90,1,yes,Mint
+91,1,yes,Mint
+92,2,yes,Mint; Mint
+93,1,yes,Mint
+94,1,yes,Mint
+95,2,yes,Mint; Mint
+96,1,yes,Mint
+97,1,yes,Mint
+98,1,yes,Mint
+99,1,yes,Mint
+100,1,yes,Mint
+101,1,yes,Mint
+102,1,yes,Mint
+103,1,yes,Mint
+104,1,yes,Mint
+105,1,yes,Mint
+106,1,yes,Mint
+107,1,yes,Mint
+108,1,yes,Mint
+109,1,yes,Mint
+110,1,yes,Mint
+111,1,yes,Mint
+112,1,yes,Mint
+113,1,yes,Mint
+114,1,yes,Mint
+115,1,yes,Mint
+116,2,yes,Mint; Mint
+117,1,yes,Mint
+118,1,yes,Mint
+119,1,yes,Mint
+120,1,yes,Mint
+121,1,yes,Mint
+122,1,yes,Mint
+123,1,yes,Good
+124,1,yes,Mint
+125,2,yes,Mint; Good
+126,1,yes,Mint
+127,1,yes,Good
+128,1,yes,Mint
+129,1,yes,Good
+130,1,yes,Mint
+131,1,yes,Mint
+132,1,yes,Mint
+133,1,yes,Mint
+134,1,yes,Mint
+135,1,yes,Mint
+136,1,yes,Damaged
+137,2,yes,Mint; Good
+138,1,yes,Mint
+139,1,yes,Mint
+140,1,yes,Mint
+141,1,yes,Mint
+142,1,yes,Mint
+143,1,yes,Mint
+144,1,yes,Mint
+145,1,yes,Mint
+146,1,yes,Mint
+147,1,yes,Mint
+148,1,yes,Mint
+149,1,yes,Mint
+150,1,yes,Mint
+151,1,yes,Good
+152,1,yes,Good
+153,1,yes,Mint
+154,1,yes,Mint
+155,2,yes,Mint; Damaged
+156,1,yes,Mint
+157,1,yes,Mint
+158,2,yes,Mint; Damaged
+159,1,yes,Good
+160,1,yes,Mint
+161,1,yes,Mint
+162,1,yes,Mint
+163,2,yes,Good; Used
+164,2,yes,Mint; Mint
+165,1,yes,Mint
+166,1,yes,Mint
+167,1,yes,Mint
+168,1,yes,Mint
+169,1,yes,Mint
+170,1,yes,Mint
+171,1,yes,Mint
+172,1,yes,Mint
+173,1,yes,Mint
+174,1,yes,Mint
+175,1,yes,Mint
+176,1,yes,Good
+177,1,yes,Mint
+178,1,yes,Good
+179,1,yes,Good
+180,1,yes,Good
+181,1,yes,Good
+182,1,yes,Mint
+183,1,yes,Mint
+184,1,yes,Used
+185,1,yes,Mint
+186,1,yes,Used
+187,1,yes,Used
+188,1,yes,Mint
+189,1,yes,Mint
+190,1,yes,Mint
+191,0,no,
+192,0,no,
+193,1,yes,Used
+194,1,yes,Used
+195,1,yes,Used
+196,3,yes,Mint; Good; Used
+197,4,yes,Mint; Mint; Good; Used
+198,1,yes,Mint
+199,1,yes,Mint
+200,4,yes,Mint; Good; Good; Used
+201,1,yes,Mint
+202,1,yes,Mint
+203,3,yes,Mint; Mint; Mint
+204,3,yes,Mint; Good; Used
+205,2,yes,Mint; Used
+206,2,yes,Mint; Used
+207,2,yes,Mint; Good
+208,2,yes,Mint; Mint
+209,2,yes,Mint; Used
+210,2,yes,Good; Good
+211,1,yes,Mint
+212,1,yes,Mint
+213,2,yes,Mint; Good
+214,3,yes,Mint; Mint; Mint
+215,1,yes,Mint
+216,1,yes,Mint
+217,2,yes,Good; Good
+218,1,yes,Mint
+219,1,yes,Mint
+220,1,yes,Mint
+221,4,yes,Mint; Good; Good; Good
+222,1,yes,Good
+223,1,yes,Mint
+224,3,yes,Mint; Good; Good
+225,3,yes,Mint; Mint; Mint
+226,4,yes,Mint; Mint; Mint; Mint
+227,4,yes,Mint; Mint; Mint; Used
+228,3,yes,Mint; Mint; Good
+229,5,yes,Mint; Mint; Mint; Mint; Good
+230,2,yes,Mint; Mint
+231,2,yes,Mint; Mint
+232,4,yes,Mint; Mint; Mint; Mint
+233,1,yes,Good
+234,1,yes,Mint
+235,0,no,
