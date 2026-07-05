@@ -1,0 +1,145 @@
+number,count,owned,conditions
+1,11,yes,Mint; Mint; Good; Good; Used; Used; Used; Used; Used; Used; Damaged
+2,2,yes,Mint; Good
+3,4,yes,Mint; Good; Good; Used
+4,4,yes,Good; Used; Damaged; Damaged
+5,4,yes,Good; Used; Very Damaged; Damaged
+6,3,yes,Mint; Mint; Mint
+7,3,yes,Mint; Mint; Good
+8,3,yes,Good; Good; Good
+9,5,yes,Mint; Good; Used; Used; Mint
+10,3,yes,Good; Good; Used
+11,4,yes,Good; Good; Good; Used
+12,3,yes,Mint; Good; Used
+13,5,yes,Mint; Used; Used; Damaged; Very Damaged
+14,2,yes,Mint; Good
+15,2,yes,Mint; Mint
+16,4,yes,Good; Used; Good; Used
+17,3,yes,Good; Good; Used
+18,3,yes,Good; Good; Used
+19,4,yes,Mint; Good; Good; Used
+20,5,yes,Mint; Mint; Good; Good; Good
+21,4,yes,Good; Good; Mint; Very Damaged
+22,4,yes,Mint; Good; Good; Used
+23,5,yes,Mint; Mint; Mint; Mint; Used
+24,1,yes,Good
+25,4,yes,Mint; Mint; Good; Very Damaged
+26,2,yes,Mint; Good
+27,5,yes,Mint; Mint; Mint; Mint; Mint
+28,1,yes,Mint
+29,6,yes,Mint; Good; Used; Used; Used; Damaged
+30,1,yes,Mint
+31,4,yes,Mint; Mint; Good; Good
+32,2,yes,Mint; Mint
+33,2,yes,Mint; Good
+34,4,yes,Mint; Mint; Mint; Mint
+35,4,yes,Mint; Mint; Good; Good
+36,5,yes,Mint; Mint; Good; Good; Good
+37,3,yes,Mint; Good; Good
+38,2,yes,Mint; Good
+39,9,yes,Mint; Good; Good; Good; Good; Used; Used; Used; Damaged
+40,2,yes,Mint; Damaged
+41,3,yes,Mint; Mint; Mint
+42,2,yes,Used; Very Damaged
+43,3,yes,Mint; Good; Used
+44,3,yes,Mint; Good; Good
+45,4,yes,Mint; Good; Mint; Good
+46,1,yes,Mint
+47,3,yes,Mint; Mint; Mint
+48,2,yes,Mint; Good
+49,2,yes,Mint; Good
+50,2,yes,Good; Very Damaged
+51,3,yes,Mint; Mint; Mint
+52,3,yes,Good; Used; Very Damaged
+53,4,yes,Mint; Mint; Good; Used
+54,3,yes,Mint; Mint; Good
+55,3,yes,Mint; Good; Good
+56,2,yes,Mint; Used
+57,4,yes,Mint; Mint; Mint; Good
+58,1,yes,Mint
+59,2,yes,Mint; Good
+60,1,yes,Mint
+61,2,yes,Mint; Good
+62,6,yes,Mint; Good; Good; Used; Used; Damaged
+63,2,yes,Good; Damaged
+64,9,yes,Mint; Mint; Good; Used; Used; Used; Damaged; Damaged; Damaged
+65,4,yes,Used; Used; Damaged; Good
+66,1,yes,Mint
+67,4,yes,Mint; Mint; Good; Good
+68,5,yes,Mint; Good; Good; Good; Used
+69,5,yes,Mint; Good; Good; Used; Damaged
+70,3,yes,Mint; Good; Damaged
+71,2,yes,Mint; Good
+72,3,yes,Good; Used; Very Damaged
+73,5,yes,Mint; Good; Good; Used; Used
+74,2,yes,Mint; Used
+75,1,yes,Mint
+76,4,yes,Good; Good; Good; Used
+77,2,yes,Mint; Good
+78,3,yes,Mint; Used; Used
+79,2,yes,Good; Good
+80,2,yes,Mint; Good
+81,6,yes,Mint; Good; Good; Good; Good; Good
+82,4,yes,Mint; Good; Good; Good
+83,4,yes,Mint; Used; Used; Used
+84,4,yes,Mint; Good; Good; Good
+85,0,no,
+86,1,yes,Mint
+87,8,yes,Mint; Mint; Mint; Good; Good; Good; Damaged; Damaged
+88,2,yes,Mint; Good
+89,2,yes,Mint; Good
+90,7,yes,Mint; Mint; Good; Good; Used; Used; Used
+91,3,yes,Mint; Good; Good
+92,2,yes,Mint; Good
+93,8,yes,Mint; Mint; Good; Good; Used; Used; Damaged; Very Damaged
+94,7,yes,Mint; Good; Good; Used; Used; Used; Used
+95,2,yes,Mint; Mint
+96,2,yes,Mint; Used
+97,5,yes,Mint; Good; Good; Good; Good
+98,3,yes,Mint; Mint; Good
+99,4,yes,Mint; Good; Used; Used
+100,5,yes,Mint; Good; Used; Damaged; Used
+101,1,yes,Good
+102,2,yes,Mint; Mint
+103,3,yes,Good; Good; Good
+104,2,yes,Mint; Good
+105,3,yes,Mint; Good; Used
+106,5,yes,Mint; Good; Good; Used; Used
+107,6,yes,Mint; Mint; Good; Good; Used; Used
+108,1,yes,Mint
+109,2,yes,Mint; Good
+110,3,yes,Mint; Good; Used
+111,3,yes,Mint; Good; Used
+112,1,yes,Mint
+113,3,yes,Mint; Mint; Mint
+114,2,yes,Mint; Good
+115,3,yes,Mint; Good; Used
+116,2,yes,Mint; Used
+117,2,yes,Good; Used
+118,3,yes,Mint; Good; Good
+119,5,yes,Mint; Mint; Mint; Good; Used
+120,2,yes,Mint; Mint
+121,1,yes,Mint
+122,4,yes,Mint; Mint; Mint; Mint
+123,6,yes,Mint; Mint; Good; Very Damaged; Used; Used
+124,6,yes,Mint; Mint; Mint; Mint; Damaged; Very Damaged
+125,3,yes,Mint; Mint; Used
+126,4,yes,Good; Good; Good; Used
+127,2,yes,Mint; Mint
+128,1,yes,Mint
+129,2,yes,Mint; Used
+130,3,yes,Mint; Mint; Good
+131,1,yes,Mint
+132,2,yes,Mint; Mint
+133,5,yes,Mint; Mint; Good; Used; Used
+134,4,yes,Good; Good; Used; Used
+135,2,yes,Mint; Good
+136,2,yes,Mint; Mint
+137,2,yes,Used; Damaged
+138,5,yes,Mint; Mint; Good; Good; Good
+139,1,yes,Good
+140,5,yes,Mint; Mint; Mint; Good; Good
+141,2,yes,Mint; Mint
+142,4,yes,Mint; Good; Good; Good
+143,5,yes,Mint; Mint; Mint; Mint; Good
+144,1,yes,Mint
