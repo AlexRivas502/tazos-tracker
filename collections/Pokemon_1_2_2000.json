@@ -1,0 +1,711 @@
+{
+  "name": "Pokemon 1 & 2 (2000)",
+  "total": 151,
+  "items": {
+    "1": {
+      "count": 2,
+      "conditions": [
+        "Good",
+        "Damaged"
+      ]
+    },
+    "2": {
+      "count": 1,
+      "conditions": [
+        "Good"
+      ]
+    },
+    "3": {
+      "count": 1,
+      "conditions": [
+        "Good"
+      ]
+    },
+    "4": {
+      "count": 2,
+      "conditions": [
+        "Damaged",
+        "Very Damaged"
+      ]
+    },
+    "5": {
+      "count": 1,
+      "conditions": [
+        "Used"
+      ]
+    },
+    "6": {
+      "count": 0,
+      "conditions": []
+    },
+    "7": {
+      "count": 1,
+      "conditions": [
+        "Good"
+      ]
+    },
+    "8": {
+      "count": 1,
+      "conditions": [
+        "Good"
+      ]
+    },
+    "9": {
+      "count": 0,
+      "conditions": []
+    },
+    "10": {
+      "count": 1,
+      "conditions": [
+        "Used"
+      ]
+    },
+    "11": {
+      "count": 0,
+      "conditions": []
+    },
+    "12": {
+      "count": 1,
+      "conditions": [
+        "Used"
+      ]
+    },
+    "13": {
+      "count": 0,
+      "conditions": []
+    },
+    "14": {
+      "count": 0,
+      "conditions": []
+    },
+    "15": {
+      "count": 1,
+      "conditions": [
+        "Used"
+      ]
+    },
+    "16": {
+      "count": 0,
+      "conditions": []
+    },
+    "17": {
+      "count": 1,
+      "conditions": [
+        "Good"
+      ]
+    },
+    "18": {
+      "count": 0,
+      "conditions": []
+    },
+    "19": {
+      "count": 1,
+      "conditions": [
+        "Used"
+      ]
+    },
+    "20": {
+      "count": 0,
+      "conditions": []
+    },
+    "21": {
+      "count": 2,
+      "conditions": [
+        "Mint",
+        "Used"
+      ]
+    },
+    "22": {
+      "count": 0,
+      "conditions": []
+    },
+    "23": {
+      "count": 0,
+      "conditions": []
+    },
+    "24": {
+      "count": 0,
+      "conditions": []
+    },
+    "25": {
+      "count": 0,
+      "conditions": []
+    },
+    "26": {
+      "count": 0,
+      "conditions": []
+    },
+    "27": {
+      "count": 1,
+      "conditions": [
+        "Good"
+      ]
+    },
+    "28": {
+      "count": 0,
+      "conditions": []
+    },
+    "29": {
+      "count": 1,
+      "conditions": [
+        "Good"
+      ]
+    },
+    "30": {
+      "count": 0,
+      "conditions": []
+    },
+    "31": {
+      "count": 0,
+      "conditions": []
+    },
+    "32": {
+      "count": 0,
+      "conditions": []
+    },
+    "33": {
+      "count": 0,
+      "conditions": []
+    },
+    "34": {
+      "count": 0,
+      "conditions": []
+    },
+    "35": {
+      "count": 1,
+      "conditions": [
+        "Used"
+      ]
+    },
+    "36": {
+      "count": 0,
+      "conditions": []
+    },
+    "37": {
+      "count": 2,
+      "conditions": [
+        "Good",
+        "Good"
+      ]
+    },
+    "38": {
+      "count": 0,
+      "conditions": []
+    },
+    "39": {
+      "count": 1,
+      "conditions": [
+        "Good"
+      ]
+    },
+    "40": {
+      "count": 0,
+      "conditions": []
+    },
+    "41": {
+      "count": 0,
+      "conditions": []
+    },
+    "42": {
+      "count": 0,
+      "conditions": []
+    },
+    "43": {
+      "count": 0,
+      "conditions": []
+    },
+    "44": {
+      "count": 0,
+      "conditions": []
+    },
+    "45": {
+      "count": 0,
+      "conditions": []
+    },
+    "46": {
+      "count": 0,
+      "conditions": []
+    },
+    "47": {
+      "count": 0,
+      "conditions": []
+    },
+    "48": {
+      "count": 0,
+      "conditions": []
+    },
+    "49": {
+      "count": 0,
+      "conditions": []
+    },
+    "50": {
+      "count": 0,
+      "conditions": []
+    },
+    "51": {
+      "count": 1,
+      "conditions": [
+        "Good"
+      ]
+    },
+    "52": {
+      "count": 0,
+      "conditions": []
+    },
+    "53": {
+      "count": 0,
+      "conditions": []
+    },
+    "54": {
+      "count": 2,
+      "conditions": [
+        "Good",
+        "Very Damaged"
+      ]
+    },
+    "55": {
+      "count": 1,
+      "conditions": [
+        "Mint"
+      ]
+    },
+    "56": {
+      "count": 0,
+      "conditions": []
+    },
+    "57": {
+      "count": 0,
+      "conditions": []
+    },
+    "58": {
+      "count": 0,
+      "conditions": []
+    },
+    "59": {
+      "count": 0,
+      "conditions": []
+    },
+    "60": {
+      "count": 0,
+      "conditions": []
+    },
+    "61": {
+      "count": 0,
+      "conditions": []
+    },
+    "62": {
+      "count": 0,
+      "conditions": []
+    },
+    "63": {
+      "count": 0,
+      "conditions": []
+    },
+    "64": {
+      "count": 1,
+      "conditions": [
+        "Used"
+      ]
+    },
+    "65": {
+      "count": 0,
+      "conditions": []
+    },
+    "66": {
+      "count": 2,
+      "conditions": [
+        "Mint",
+        "Used"
+      ]
+    },
+    "67": {
+      "count": 0,
+      "conditions": []
+    },
+    "68": {
+      "count": 0,
+      "conditions": []
+    },
+    "69": {
+      "count": 0,
+      "conditions": []
+    },
+    "70": {
+      "count": 0,
+      "conditions": []
+    },
+    "71": {
+      "count": 0,
+      "conditions": []
+    },
+    "72": {
+      "count": 0,
+      "conditions": []
+    },
+    "73": {
+      "count": 0,
+      "conditions": []
+    },
+    "74": {
+      "count": 1,
+      "conditions": [
+        "Mint"
+      ]
+    },
+    "75": {
+      "count": 0,
+      "conditions": []
+    },
+    "76": {
+      "count": 0,
+      "conditions": []
+    },
+    "77": {
+      "count": 0,
+      "conditions": []
+    },
+    "78": {
+      "count": 0,
+      "conditions": []
+    },
+    "79": {
+      "count": 1,
+      "conditions": [
+        "Used"
+      ]
+    },
+    "80": {
+      "count": 0,
+      "conditions": []
+    },
+    "81": {
+      "count": 1,
+      "conditions": [
+        "Used"
+      ]
+    },
+    "82": {
+      "count": 0,
+      "conditions": []
+    },
+    "83": {
+      "count": 0,
+      "conditions": []
+    },
+    "84": {
+      "count": 0,
+      "conditions": []
+    },
+    "85": {
+      "count": 1,
+      "conditions": [
+        "Mint"
+      ]
+    },
+    "86": {
+      "count": 0,
+      "conditions": []
+    },
+    "87": {
+      "count": 0,
+      "conditions": []
+    },
+    "88": {
+      "count": 0,
+      "conditions": []
+    },
+    "89": {
+      "count": 0,
+      "conditions": []
+    },
+    "90": {
+      "count": 0,
+      "conditions": []
+    },
+    "91": {
+      "count": 1,
+      "conditions": [
+        "Good"
+      ]
+    },
+    "92": {
+      "count": 1,
+      "conditions": [
+        "Used"
+      ]
+    },
+    "93": {
+      "count": 0,
+      "conditions": []
+    },
+    "94": {
+      "count": 0,
+      "conditions": []
+    },
+    "95": {
+      "count": 1,
+      "conditions": [
+        "Used"
+      ]
+    },
+    "96": {
+      "count": 1,
+      "conditions": [
+        "Mint"
+      ]
+    },
+    "97": {
+      "count": 0,
+      "conditions": []
+    },
+    "98": {
+      "count": 1,
+      "conditions": [
+        "Very Damaged"
+      ]
+    },
+    "99": {
+      "count": 0,
+      "conditions": []
+    },
+    "100": {
+      "count": 1,
+      "conditions": [
+        "Good"
+      ]
+    },
+    "101": {
+      "count": 1,
+      "conditions": [
+        "Good"
+      ]
+    },
+    "102": {
+      "count": 0,
+      "conditions": []
+    },
+    "103": {
+      "count": 0,
+      "conditions": []
+    },
+    "104": {
+      "count": 0,
+      "conditions": []
+    },
+    "105": {
+      "count": 0,
+      "conditions": []
+    },
+    "106": {
+      "count": 0,
+      "conditions": []
+    },
+    "107": {
+      "count": 0,
+      "conditions": []
+    },
+    "108": {
+      "count": 0,
+      "conditions": []
+    },
+    "109": {
+      "count": 1,
+      "conditions": [
+        "Used"
+      ]
+    },
+    "110": {
+      "count": 0,
+      "conditions": []
+    },
+    "111": {
+      "count": 0,
+      "conditions": []
+    },
+    "112": {
+      "count": 0,
+      "conditions": []
+    },
+    "113": {
+      "count": 0,
+      "conditions": []
+    },
+    "114": {
+      "count": 0,
+      "conditions": []
+    },
+    "115": {
+      "count": 0,
+      "conditions": []
+    },
+    "116": {
+      "count": 0,
+      "conditions": []
+    },
+    "117": {
+      "count": 0,
+      "conditions": []
+    },
+    "118": {
+      "count": 1,
+      "conditions": [
+        "Very Damaged"
+      ]
+    },
+    "119": {
+      "count": 1,
+      "conditions": [
+        "Good"
+      ]
+    },
+    "120": {
+      "count": 0,
+      "conditions": []
+    },
+    "121": {
+      "count": 0,
+      "conditions": []
+    },
+    "122": {
+      "count": 0,
+      "conditions": []
+    },
+    "123": {
+      "count": 0,
+      "conditions": []
+    },
+    "124": {
+      "count": 1,
+      "conditions": [
+        "Used"
+      ]
+    },
+    "125": {
+      "count": 1,
+      "conditions": [
+        "Good"
+      ]
+    },
+    "126": {
+      "count": 1,
+      "conditions": [
+        "Good"
+      ]
+    },
+    "127": {
+      "count": 0,
+      "conditions": []
+    },
+    "128": {
+      "count": 0,
+      "conditions": []
+    },
+    "129": {
+      "count": 0,
+      "conditions": []
+    },
+    "130": {
+      "count": 0,
+      "conditions": []
+    },
+    "131": {
+      "count": 0,
+      "conditions": []
+    },
+    "132": {
+      "count": 0,
+      "conditions": []
+    },
+    "133": {
+      "count": 1,
+      "conditions": [
+        "Damaged"
+      ]
+    },
+    "134": {
+      "count": 0,
+      "conditions": []
+    },
+    "135": {
+      "count": 0,
+      "conditions": []
+    },
+    "136": {
+      "count": 0,
+      "conditions": []
+    },
+    "137": {
+      "count": 0,
+      "conditions": []
+    },
+    "138": {
+      "count": 1,
+      "conditions": [
+        "Used"
+      ]
+    },
+    "139": {
+      "count": 1,
+      "conditions": [
+        "Good"
+      ]
+    },
+    "140": {
+      "count": 0,
+      "conditions": []
+    },
+    "141": {
+      "count": 0,
+      "conditions": []
+    },
+    "142": {
+      "count": 0,
+      "conditions": []
+    },
+    "143": {
+      "count": 0,
+      "conditions": []
+    },
+    "144": {
+      "count": 0,
+      "conditions": []
+    },
+    "145": {
+      "count": 0,
+      "conditions": []
+    },
+    "146": {
+      "count": 0,
+      "conditions": []
+    },
+    "147": {
+      "count": 1,
+      "conditions": [
+        "Good"
+      ]
+    },
+    "148": {
+      "count": 0,
+      "conditions": []
+    },
+    "149": {
+      "count": 0,
+      "conditions": []
+    },
+    "150": {
+      "count": 1,
+      "conditions": [
+        "Damaged"
+      ]
+    },
+    "151": {
+      "count": 0,
+      "conditions": []
+    },
+    "152": {
+      "count": 0,
+      "conditions": []
+    }
+  },
+  "extras": []
+}

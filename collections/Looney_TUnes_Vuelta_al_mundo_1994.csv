@@ -1,0 +1,101 @@
+number,count,owned,conditions
+1,1,yes,Mint
+2,1,yes,Mint
+3,1,yes,Mint
+4,1,yes,Mint
+5,1,yes,Mint
+6,2,yes,Mint; Good
+7,1,yes,Good
+8,1,yes,Mint
+9,1,yes,Mint
+10,1,yes,Mint
+11,1,yes,Mint
+12,0,no,
+13,1,yes,Good
+14,0,no,
+15,0,no,
+16,1,yes,Mint
+17,1,yes,Mint
+18,1,yes,Mint
+19,0,no,
+20,1,yes,Mint
+21,3,yes,Mint; Mint; Mint
+22,2,yes,Mint; Mint
+23,2,yes,Mint; Mint
+24,4,yes,Mint; Mint; Mint; Mint
+25,1,yes,Mint
+26,4,yes,Mint; Mint; Mint; Mint
+27,2,yes,Mint; Mint
+28,2,yes,Mint; Mint
+29,3,yes,Mint; Mint; Mint
+30,3,yes,Mint; Mint; Good
+31,1,yes,Good
+32,1,yes,Mint
+33,3,yes,Mint; Mint; Good
+34,4,yes,Mint; Mint; Mint; Mint
+35,1,yes,Mint
+36,0,no,
+37,3,yes,Mint; Mint; Mint
+38,1,yes,Mint
+39,2,yes,Mint; Mint
+40,3,yes,Mint; Mint; Used
+41,1,yes,Mint
+42,1,yes,Mint
+43,2,yes,Mint; Mint
+44,0,no,
+45,0,no,
+46,0,no,
+47,1,yes,Mint
+48,0,no,
+49,0,no,
+50,1,yes,Mint
+51,0,no,
+52,1,yes,Mint
+53,0,no,
+54,1,yes,Mint
+55,1,yes,Mint
+56,0,no,
+57,1,yes,Mint
+58,0,no,
+59,0,no,
+60,1,yes,Mint
+61,1,yes,Mint
+62,0,no,
+63,0,no,
+64,1,yes,Mint
+65,1,yes,Mint
+66,1,yes,Mint
+67,1,yes,Mint
+68,0,no,
+69,0,no,
+70,0,no,
+71,0,no,
+72,0,no,
+73,2,yes,Mint; Damaged
+74,1,yes,Mint
+75,0,no,
+76,1,yes,Mint
+77,0,no,
+78,1,yes,Mint
+79,0,no,
+80,1,yes,Mint
+81,0,no,
+82,0,no,
+83,0,no,
+84,0,no,
+85,0,no,
+86,0,no,
+87,0,no,
+88,0,no,
+89,0,no,
+90,0,no,
+91,0,no,
+92,0,no,
+93,0,no,
+94,0,no,
+95,0,no,
+96,0,no,
+97,0,no,
+98,0,no,
+99,0,no,
+100,0,no,

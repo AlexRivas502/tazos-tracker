@@ -1,0 +1,545 @@
+{
+  "name": "Tiny Tunes (1994)",
+  "total": 124,
+  "items": {
+    "1": {
+      "count": 0,
+      "conditions": []
+    },
+    "2": {
+      "count": 0,
+      "conditions": []
+    },
+    "3": {
+      "count": 0,
+      "conditions": []
+    },
+    "4": {
+      "count": 0,
+      "conditions": []
+    },
+    "5": {
+      "count": 0,
+      "conditions": []
+    },
+    "6": {
+      "count": 1,
+      "conditions": [
+        "Very Damaged"
+      ]
+    },
+    "7": {
+      "count": 0,
+      "conditions": []
+    },
+    "8": {
+      "count": 0,
+      "conditions": []
+    },
+    "9": {
+      "count": 0,
+      "conditions": []
+    },
+    "10": {
+      "count": 0,
+      "conditions": []
+    },
+    "11": {
+      "count": 0,
+      "conditions": []
+    },
+    "12": {
+      "count": 0,
+      "conditions": []
+    },
+    "13": {
+      "count": 0,
+      "conditions": []
+    },
+    "14": {
+      "count": 0,
+      "conditions": []
+    },
+    "15": {
+      "count": 0,
+      "conditions": []
+    },
+    "16": {
+      "count": 0,
+      "conditions": []
+    },
+    "17": {
+      "count": 0,
+      "conditions": []
+    },
+    "18": {
+      "count": 0,
+      "conditions": []
+    },
+    "19": {
+      "count": 0,
+      "conditions": []
+    },
+    "20": {
+      "count": 0,
+      "conditions": []
+    },
+    "21": {
+      "count": 0,
+      "conditions": []
+    },
+    "22": {
+      "count": 0,
+      "conditions": []
+    },
+    "23": {
+      "count": 0,
+      "conditions": []
+    },
+    "24": {
+      "count": 0,
+      "conditions": []
+    },
+    "25": {
+      "count": 0,
+      "conditions": []
+    },
+    "26": {
+      "count": 0,
+      "conditions": []
+    },
+    "27": {
+      "count": 0,
+      "conditions": []
+    },
+    "28": {
+      "count": 0,
+      "conditions": []
+    },
+    "29": {
+      "count": 0,
+      "conditions": []
+    },
+    "30": {
+      "count": 0,
+      "conditions": []
+    },
+    "31": {
+      "count": 0,
+      "conditions": []
+    },
+    "32": {
+      "count": 0,
+      "conditions": []
+    },
+    "33": {
+      "count": 0,
+      "conditions": []
+    },
+    "34": {
+      "count": 0,
+      "conditions": []
+    },
+    "35": {
+      "count": 0,
+      "conditions": []
+    },
+    "36": {
+      "count": 0,
+      "conditions": []
+    },
+    "37": {
+      "count": 0,
+      "conditions": []
+    },
+    "38": {
+      "count": 0,
+      "conditions": []
+    },
+    "39": {
+      "count": 0,
+      "conditions": []
+    },
+    "40": {
+      "count": 0,
+      "conditions": []
+    },
+    "41": {
+      "count": 0,
+      "conditions": []
+    },
+    "42": {
+      "count": 0,
+      "conditions": []
+    },
+    "43": {
+      "count": 0,
+      "conditions": []
+    },
+    "44": {
+      "count": 0,
+      "conditions": []
+    },
+    "45": {
+      "count": 0,
+      "conditions": []
+    },
+    "46": {
+      "count": 1,
+      "conditions": [
+        "Mint"
+      ]
+    },
+    "47": {
+      "count": 0,
+      "conditions": []
+    },
+    "48": {
+      "count": 0,
+      "conditions": []
+    },
+    "49": {
+      "count": 1,
+      "conditions": [
+        "Damaged"
+      ]
+    },
+    "50": {
+      "count": 0,
+      "conditions": []
+    },
+    "51": {
+      "count": 0,
+      "conditions": []
+    },
+    "52": {
+      "count": 0,
+      "conditions": []
+    },
+    "53": {
+      "count": 0,
+      "conditions": []
+    },
+    "54": {
+      "count": 0,
+      "conditions": []
+    },
+    "55": {
+      "count": 0,
+      "conditions": []
+    },
+    "56": {
+      "count": 0,
+      "conditions": []
+    },
+    "57": {
+      "count": 0,
+      "conditions": []
+    },
+    "58": {
+      "count": 0,
+      "conditions": []
+    },
+    "59": {
+      "count": 0,
+      "conditions": []
+    },
+    "60": {
+      "count": 0,
+      "conditions": []
+    },
+    "61": {
+      "count": 0,
+      "conditions": []
+    },
+    "62": {
+      "count": 1,
+      "conditions": [
+        "Damaged"
+      ]
+    },
+    "63": {
+      "count": 0,
+      "conditions": []
+    },
+    "64": {
+      "count": 0,
+      "conditions": []
+    },
+    "65": {
+      "count": 0,
+      "conditions": []
+    },
+    "66": {
+      "count": 0,
+      "conditions": []
+    },
+    "67": {
+      "count": 1,
+      "conditions": [
+        "Good"
+      ]
+    },
+    "68": {
+      "count": 0,
+      "conditions": []
+    },
+    "69": {
+      "count": 1,
+      "conditions": [
+        "Good"
+      ]
+    },
+    "70": {
+      "count": 0,
+      "conditions": []
+    },
+    "71": {
+      "count": 1,
+      "conditions": [
+        "Good"
+      ]
+    },
+    "72": {
+      "count": 0,
+      "conditions": []
+    },
+    "73": {
+      "count": 0,
+      "conditions": []
+    },
+    "74": {
+      "count": 0,
+      "conditions": []
+    },
+    "75": {
+      "count": 0,
+      "conditions": []
+    },
+    "76": {
+      "count": 0,
+      "conditions": []
+    },
+    "77": {
+      "count": 0,
+      "conditions": []
+    },
+    "78": {
+      "count": 0,
+      "conditions": []
+    },
+    "79": {
+      "count": 1,
+      "conditions": [
+        "Mint"
+      ]
+    },
+    "80": {
+      "count": 1,
+      "conditions": [
+        "Good"
+      ]
+    },
+    "81": {
+      "count": 1,
+      "conditions": [
+        "Damaged"
+      ]
+    },
+    "82": {
+      "count": 0,
+      "conditions": []
+    },
+    "83": {
+      "count": 0,
+      "conditions": []
+    },
+    "84": {
+      "count": 0,
+      "conditions": []
+    },
+    "85": {
+      "count": 1,
+      "conditions": [
+        "Mint"
+      ]
+    },
+    "86": {
+      "count": 0,
+      "conditions": []
+    },
+    "87": {
+      "count": 1,
+      "conditions": [
+        "Used"
+      ]
+    },
+    "88": {
+      "count": 0,
+      "conditions": []
+    },
+    "89": {
+      "count": 1,
+      "conditions": [
+        "Mint"
+      ]
+    },
+    "90": {
+      "count": 1,
+      "conditions": [
+        "Mint"
+      ]
+    },
+    "91": {
+      "count": 0,
+      "conditions": []
+    },
+    "92": {
+      "count": 0,
+      "conditions": []
+    },
+    "93": {
+      "count": 1,
+      "conditions": [
+        "Good"
+      ]
+    },
+    "94": {
+      "count": 0,
+      "conditions": []
+    },
+    "95": {
+      "count": 0,
+      "conditions": []
+    },
+    "96": {
+      "count": 0,
+      "conditions": []
+    },
+    "97": {
+      "count": 0,
+      "conditions": []
+    },
+    "98": {
+      "count": 0,
+      "conditions": []
+    },
+    "99": {
+      "count": 0,
+      "conditions": []
+    },
+    "100": {
+      "count": 0,
+      "conditions": []
+    },
+    "101": {
+      "count": 0,
+      "conditions": []
+    },
+    "102": {
+      "count": 1,
+      "conditions": [
+        "Good"
+      ]
+    },
+    "103": {
+      "count": 0,
+      "conditions": []
+    },
+    "104": {
+      "count": 0,
+      "conditions": []
+    },
+    "105": {
+      "count": 0,
+      "conditions": []
+    },
+    "106": {
+      "count": 0,
+      "conditions": []
+    },
+    "107": {
+      "count": 1,
+      "conditions": [
+        "Good"
+      ]
+    },
+    "108": {
+      "count": 0,
+      "conditions": []
+    },
+    "109": {
+      "count": 0,
+      "conditions": []
+    },
+    "110": {
+      "count": 1,
+      "conditions": [
+        "Good"
+      ]
+    },
+    "111": {
+      "count": 0,
+      "conditions": []
+    },
+    "112": {
+      "count": 0,
+      "conditions": []
+    },
+    "113": {
+      "count": 1,
+      "conditions": [
+        "Good"
+      ]
+    },
+    "114": {
+      "count": 0,
+      "conditions": []
+    },
+    "115": {
+      "count": 1,
+      "conditions": [
+        "Good"
+      ]
+    },
+    "116": {
+      "count": 0,
+      "conditions": []
+    },
+    "117": {
+      "count": 0,
+      "conditions": []
+    },
+    "118": {
+      "count": 0,
+      "conditions": []
+    },
+    "119": {
+      "count": 0,
+      "conditions": []
+    },
+    "120": {
+      "count": 0,
+      "conditions": []
+    },
+    "121": {
+      "count": 0,
+      "conditions": []
+    },
+    "122": {
+      "count": 1,
+      "conditions": [
+        "Mint"
+      ]
+    },
+    "123": {
+      "count": 0,
+      "conditions": []
+    },
+    "124": {
+      "count": 0,
+      "conditions": []
+    }
+  },
+  "extras": []
+}

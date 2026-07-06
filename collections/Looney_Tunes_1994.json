@@ -1,0 +1,491 @@
+{
+  "name": "Looney Tunes (1994)",
+  "total": 100,
+  "items": {
+    "1": {
+      "count": 0,
+      "conditions": []
+    },
+    "2": {
+      "count": 1,
+      "conditions": [
+        "Mint"
+      ]
+    },
+    "3": {
+      "count": 1,
+      "conditions": [
+        "Mint"
+      ]
+    },
+    "4": {
+      "count": 0,
+      "conditions": []
+    },
+    "5": {
+      "count": 0,
+      "conditions": []
+    },
+    "6": {
+      "count": 0,
+      "conditions": []
+    },
+    "7": {
+      "count": 1,
+      "conditions": [
+        "Mint"
+      ]
+    },
+    "8": {
+      "count": 0,
+      "conditions": []
+    },
+    "9": {
+      "count": 0,
+      "conditions": []
+    },
+    "10": {
+      "count": 0,
+      "conditions": []
+    },
+    "11": {
+      "count": 0,
+      "conditions": []
+    },
+    "12": {
+      "count": 1,
+      "conditions": [
+        "Used"
+      ]
+    },
+    "13": {
+      "count": 0,
+      "conditions": []
+    },
+    "14": {
+      "count": 0,
+      "conditions": []
+    },
+    "15": {
+      "count": 1,
+      "conditions": [
+        "Good"
+      ]
+    },
+    "16": {
+      "count": 0,
+      "conditions": []
+    },
+    "17": {
+      "count": 0,
+      "conditions": []
+    },
+    "18": {
+      "count": 1,
+      "conditions": [
+        "Good"
+      ]
+    },
+    "19": {
+      "count": 1,
+      "conditions": [
+        "Mint"
+      ]
+    },
+    "20": {
+      "count": 1,
+      "conditions": [
+        "Good"
+      ]
+    },
+    "21": {
+      "count": 1,
+      "conditions": [
+        "Good"
+      ]
+    },
+    "22": {
+      "count": 0,
+      "conditions": []
+    },
+    "23": {
+      "count": 0,
+      "conditions": []
+    },
+    "24": {
+      "count": 0,
+      "conditions": []
+    },
+    "25": {
+      "count": 1,
+      "conditions": [
+        "Used"
+      ]
+    },
+    "26": {
+      "count": 1,
+      "conditions": [
+        "Good"
+      ]
+    },
+    "27": {
+      "count": 1,
+      "conditions": [
+        "Mint"
+      ]
+    },
+    "28": {
+      "count": 0,
+      "conditions": []
+    },
+    "29": {
+      "count": 0,
+      "conditions": []
+    },
+    "30": {
+      "count": 0,
+      "conditions": []
+    },
+    "31": {
+      "count": 0,
+      "conditions": []
+    },
+    "32": {
+      "count": 0,
+      "conditions": []
+    },
+    "33": {
+      "count": 1,
+      "conditions": [
+        "Mint"
+      ]
+    },
+    "34": {
+      "count": 0,
+      "conditions": []
+    },
+    "35": {
+      "count": 1,
+      "conditions": [
+        "Mint"
+      ]
+    },
+    "36": {
+      "count": 0,
+      "conditions": []
+    },
+    "37": {
+      "count": 0,
+      "conditions": []
+    },
+    "38": {
+      "count": 1,
+      "conditions": [
+        "Good"
+      ]
+    },
+    "39": {
+      "count": 0,
+      "conditions": []
+    },
+    "40": {
+      "count": 0,
+      "conditions": []
+    },
+    "41": {
+      "count": 0,
+      "conditions": []
+    },
+    "42": {
+      "count": 0,
+      "conditions": []
+    },
+    "43": {
+      "count": 1,
+      "conditions": [
+        "Mint"
+      ]
+    },
+    "44": {
+      "count": 1,
+      "conditions": [
+        "Good"
+      ]
+    },
+    "45": {
+      "count": 0,
+      "conditions": []
+    },
+    "46": {
+      "count": 0,
+      "conditions": []
+    },
+    "47": {
+      "count": 0,
+      "conditions": []
+    },
+    "48": {
+      "count": 0,
+      "conditions": []
+    },
+    "49": {
+      "count": 0,
+      "conditions": []
+    },
+    "50": {
+      "count": 1,
+      "conditions": [
+        "Good"
+      ]
+    },
+    "51": {
+      "count": 1,
+      "conditions": [
+        "Mint"
+      ]
+    },
+    "52": {
+      "count": 0,
+      "conditions": []
+    },
+    "53": {
+      "count": 1,
+      "conditions": [
+        "Good"
+      ]
+    },
+    "54": {
+      "count": 1,
+      "conditions": [
+        "Mint"
+      ]
+    },
+    "55": {
+      "count": 0,
+      "conditions": []
+    },
+    "56": {
+      "count": 0,
+      "conditions": []
+    },
+    "57": {
+      "count": 0,
+      "conditions": []
+    },
+    "58": {
+      "count": 0,
+      "conditions": []
+    },
+    "59": {
+      "count": 1,
+      "conditions": [
+        "Mint"
+      ]
+    },
+    "60": {
+      "count": 0,
+      "conditions": []
+    },
+    "61": {
+      "count": 1,
+      "conditions": [
+        "Mint"
+      ]
+    },
+    "62": {
+      "count": 0,
+      "conditions": []
+    },
+    "63": {
+      "count": 1,
+      "conditions": [
+        "Mint"
+      ]
+    },
+    "64": {
+      "count": 0,
+      "conditions": []
+    },
+    "65": {
+      "count": 1,
+      "conditions": [
+        "Mint"
+      ]
+    },
+    "66": {
+      "count": 1,
+      "conditions": [
+        "Mint"
+      ]
+    },
+    "67": {
+      "count": 1,
+      "conditions": [
+        "Mint"
+      ]
+    },
+    "68": {
+      "count": 1,
+      "conditions": [
+        "Mint"
+      ]
+    },
+    "69": {
+      "count": 1,
+      "conditions": [
+        "Good"
+      ]
+    },
+    "70": {
+      "count": 0,
+      "conditions": []
+    },
+    "71": {
+      "count": 1,
+      "conditions": [
+        "Damaged"
+      ]
+    },
+    "72": {
+      "count": 0,
+      "conditions": []
+    },
+    "73": {
+      "count": 0,
+      "conditions": []
+    },
+    "74": {
+      "count": 0,
+      "conditions": []
+    },
+    "75": {
+      "count": 0,
+      "conditions": []
+    },
+    "76": {
+      "count": 0,
+      "conditions": []
+    },
+    "77": {
+      "count": 0,
+      "conditions": []
+    },
+    "78": {
+      "count": 0,
+      "conditions": []
+    },
+    "79": {
+      "count": 1,
+      "conditions": [
+        "Good"
+      ]
+    },
+    "80": {
+      "count": 1,
+      "conditions": [
+        "Mint"
+      ]
+    },
+    "81": {
+      "count": 1,
+      "conditions": [
+        "Mint"
+      ]
+    },
+    "82": {
+      "count": 0,
+      "conditions": []
+    },
+    "83": {
+      "count": 1,
+      "conditions": [
+        "Mint"
+      ]
+    },
+    "84": {
+      "count": 0,
+      "conditions": []
+    },
+    "85": {
+      "count": 0,
+      "conditions": []
+    },
+    "86": {
+      "count": 1,
+      "conditions": [
+        "Mint"
+      ]
+    },
+    "87": {
+      "count": 1,
+      "conditions": [
+        "Mint"
+      ]
+    },
+    "88": {
+      "count": 1,
+      "conditions": [
+        "Mint"
+      ]
+    },
+    "89": {
+      "count": 0,
+      "conditions": []
+    },
+    "90": {
+      "count": 0,
+      "conditions": []
+    },
+    "91": {
+      "count": 1,
+      "conditions": [
+        "Mint"
+      ]
+    },
+    "92": {
+      "count": 1,
+      "conditions": [
+        "Mint"
+      ]
+    },
+    "93": {
+      "count": 0,
+      "conditions": []
+    },
+    "94": {
+      "count": 0,
+      "conditions": []
+    },
+    "95": {
+      "count": 0,
+      "conditions": []
+    },
+    "96": {
+      "count": 1,
+      "conditions": [
+        "Mint"
+      ]
+    },
+    "97": {
+      "count": 1,
+      "conditions": [
+        "Mint"
+      ]
+    },
+    "98": {
+      "count": 1,
+      "conditions": [
+        "Mint"
+      ]
+    },
+    "99": {
+      "count": 0,
+      "conditions": []
+    },
+    "100": {
+      "count": 0,
+      "conditions": []
+    }
+  },
+  "extras": []
+}
