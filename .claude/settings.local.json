@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python3 -)",
+      "Bash(node --check /tmp/claude-1000/-mnt-c-Users-forev-OneDrive-Documentos-GitHub-tazos-tracker/7227b334-8f79-4431-a9f6-be47d0e81bf8/scratchpad/app.js)"
+    ]
+  }
+}

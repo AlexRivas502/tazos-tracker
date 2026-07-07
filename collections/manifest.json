@@ -1,0 +1,82 @@
+[
+  {
+    "file": "Bob_Esponja_1_2007.json",
+    "name": "Bob Esponja 1 (2007)",
+    "total": 163
+  },
+  {
+    "file": "Bob_Esponja_3_2014.json",
+    "name": "Bob Esponja 3 (2014)",
+    "total": 50
+  },
+  {
+    "file": "Funki_Punky_Extremo_2011.json",
+    "name": "Funki Punky Extremo (2011)",
+    "total": 226
+  },
+  {
+    "file": "Looney_TUnes_Vuelta_al_mundo_1994.json",
+    "name": "Looney Tunes (Vuelta al mundo) 1994",
+    "total": 100
+  },
+  {
+    "file": "Looney_Tunes_1994.json",
+    "name": "Looney Tunes (1994)",
+    "total": 100
+  },
+  {
+    "file": "Mucha_Lucha_1.json",
+    "name": "Mucha Lucha 1",
+    "total": 150
+  },
+  {
+    "file": "Mucha_Lucha_2.json",
+    "name": "Mucha Lucha 2",
+    "total": 180
+  },
+  {
+    "file": "Plants_vs_Zombies_2013.json",
+    "name": "Plants vs Zombies (2013)",
+    "total": 309
+  },
+  {
+    "file": "Pokemon_1_1999.json",
+    "name": "Pokemon 1 (1999)",
+    "total": 51
+  },
+  {
+    "file": "Pokemon_1_2_2000.json",
+    "name": "Pokemon 1 & 2 (2000)",
+    "total": 151
+  },
+  {
+    "file": "Pokemon_2_Lenticulares_2000.json",
+    "name": "Pokemon 2 (Lenticulares) (2000)",
+    "total": 50
+  },
+  {
+    "file": "Pokemon_3_2001.json",
+    "name": "Pokemon 3 (2001)",
+    "total": 88
+  },
+  {
+    "file": "Pokemon_4_2007.json",
+    "name": "Pokemon 4 (2007)",
+    "total": 235
+  },
+  {
+    "file": "Simpsons_1_2006.json",
+    "name": "Simpsons 1 (2006)",
+    "total": 144
+  },
+  {
+    "file": "Super_Funki_Punky_2013.json",
+    "name": "Super Funki Punky (2013)",
+    "total": 236
+  },
+  {
+    "file": "Tiny_Tunes_1994.json",
+    "name": "Tiny Tunes (1994)",
+    "total": 124
+  }
+]
