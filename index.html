@@ -284,14 +284,18 @@ function writeStore(store) {
   localStorage.setItem(STORAGE_KEY, JSON.stringify(store));
 }
 
-// Seed localStorage from the bundled JSON files. Runs when the store is empty
-// and we haven't already seeded successfully. Crucially, we only set the
-// "seeded" flag when at least one collection actually loaded — so a failed or
-// too-early first visit retries on the next load instead of getting stuck.
+// Load collections from the bundled JSON files.
+//   • Read-only build: refresh on EVERY load and overwrite the cached copy, so
+//     the published view always reflects the current repo (correct names,
+//     colours, etc.) and never shows stale data. There are no local edits to
+//     lose because editing is disabled.
+//   • Editable build: seed only once, and never clobber the user's own edits.
 async function seedIfNeeded() {
   const store = readStore();
-  if (Object.keys(store).length > 0) return;   // user already has data locally
-  if (localStorage.getItem(SEEDED_KEY)) return; // seeded before, then emptied on purpose
+  if (!READ_ONLY) {
+    if (Object.keys(store).length > 0) return;   // user already has data locally
+    if (localStorage.getItem(SEEDED_KEY)) return; // seeded before, then emptied on purpose
+  }
   try {
     const res = await fetch("collections/manifest.json", { cache: "no-store" });
     if (!res.ok) throw new Error("manifest HTTP " + res.status);
@@ -303,13 +307,13 @@ async function seedIfNeeded() {
         if (!r.ok) return;
         const data = await r.json();
         const key = safeName(data.name || entry.name);
-        if (!store[key]) { store[key] = data; loaded++; }
+        if (READ_ONLY || !store[key]) { store[key] = data; loaded++; }  // overwrite when read-only
       } catch (e) { /* skip a bad file */ }
     }));
     if (loaded > 0) {
       writeStore(store);
       localStorage.setItem(SEEDED_KEY, "1");
-    } else {
+    } else if (!READ_ONLY) {
       console.warn("Tazos: manifest loaded but no collections were seeded.");
     }
   } catch (e) {
