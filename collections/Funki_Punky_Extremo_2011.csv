@@ -5,18 +5,18 @@ number,count,owned,conditions
 4,0,no,
 5,0,no,
 6,0,no,
-7,1,yes,Mint
-8,2,yes,Mint; Mint
+7,1,yes,Excelente
+8,2,yes,Excelente; Excelente
 9,0,no,
-10,1,yes,Mint
-11,1,yes,Mint
+10,1,yes,Excelente
+11,1,yes,Excelente
 12,0,no,
-13,1,yes,Mint
-14,1,yes,Mint
+13,1,yes,Excelente
+14,1,yes,Excelente
 15,0,no,
 16,0,no,
 17,0,no,
-18,1,yes,Mint
+18,1,yes,Excelente
 19,0,no,
 20,0,no,
 21,0,no,
@@ -38,21 +38,21 @@ number,count,owned,conditions
 37,0,no,
 38,0,no,
 39,0,no,
-40,1,yes,Mint
-41,1,yes,Mint
-42,1,yes,Mint
+40,1,yes,Excelente
+41,1,yes,Excelente
+42,1,yes,Excelente
 43,0,no,
-44,1,yes,Mint
+44,1,yes,Excelente
 45,0,no,
-46,2,yes,Mint; Mint
-47,2,yes,Mint; Mint
+46,2,yes,Excelente; Excelente
+47,2,yes,Excelente; Excelente
 48,0,no,
 49,0,no,
 50,0,no,
-51,1,yes,Mint
+51,1,yes,Excelente
 52,0,no,
-53,1,yes,Mint
-54,2,yes,Mint; Mint
+53,1,yes,Excelente
+54,2,yes,Excelente; Excelente
 55,0,no,
 56,0,no,
 57,0,no,
@@ -62,29 +62,29 @@ number,count,owned,conditions
 61,0,no,
 62,0,no,
 63,0,no,
-64,1,yes,Mint
-65,1,yes,Mint
+64,1,yes,Excelente
+65,1,yes,Excelente
 66,0,no,
 67,0,no,
 68,0,no,
-69,2,yes,Mint; Mint
-70,1,yes,Mint
-71,1,yes,Mint
+69,2,yes,Excelente; Excelente
+70,1,yes,Excelente
+71,1,yes,Excelente
 72,0,no,
-73,1,yes,Mint
+73,1,yes,Excelente
 74,0,no,
 75,0,no,
 76,0,no,
 77,0,no,
-78,1,yes,Mint
-79,1,yes,Mint
+78,1,yes,Excelente
+79,1,yes,Excelente
 80,0,no,
 81,0,no,
-82,1,yes,Mint
+82,1,yes,Excelente
 83,0,no,
 84,0,no,
-85,3,yes,Mint; Mint; Mint
-86,2,yes,Mint; Mint
+85,3,yes,Excelente; Excelente; Excelente
+86,2,yes,Excelente; Excelente
 87,0,no,
 88,0,no,
 89,0,no,
@@ -93,47 +93,47 @@ number,count,owned,conditions
 92,0,no,
 93,0,no,
 94,0,no,
-95,1,yes,Mint
-96,1,yes,Mint
-97,1,yes,Mint
-98,1,yes,Mint
+95,1,yes,Excelente
+96,1,yes,Excelente
+97,1,yes,Excelente
+98,1,yes,Excelente
 99,0,no,
 100,0,no,
 101,0,no,
 102,0,no,
 103,0,no,
-104,1,yes,Mint
+104,1,yes,Excelente
 105,0,no,
-106,1,yes,Mint
-107,1,yes,Mint
+106,1,yes,Excelente
+107,1,yes,Excelente
 108,0,no,
 109,0,no,
 110,0,no,
 111,0,no,
-112,1,yes,Mint
+112,1,yes,Excelente
 113,0,no,
 114,0,no,
 115,0,no,
 116,0,no,
-117,1,yes,Mint
-118,1,yes,Mint
+117,1,yes,Excelente
+118,1,yes,Excelente
 119,0,no,
 120,0,no,
-121,1,yes,Mint
+121,1,yes,Excelente
 122,0,no,
-123,1,yes,Mint
-124,1,yes,Mint
-125,1,yes,Mint
+123,1,yes,Excelente
+124,1,yes,Excelente
+125,1,yes,Excelente
 126,0,no,
 127,0,no,
 128,0,no,
 129,0,no,
-130,1,yes,Mint
+130,1,yes,Excelente
 131,0,no,
 132,0,no,
 133,0,no,
-134,1,yes,Mint
-135,1,yes,Mint
+134,1,yes,Excelente
+135,1,yes,Excelente
 136,0,no,
 137,0,no,
 138,0,no,
@@ -141,22 +141,22 @@ number,count,owned,conditions
 140,0,no,
 141,0,no,
 142,0,no,
-143,1,yes,Mint
+143,1,yes,Excelente
 144,0,no,
 145,0,no,
-146,1,yes,Mint
+146,1,yes,Excelente
 147,0,no,
 148,0,no,
 149,0,no,
 150,0,no,
 151,0,no,
-152,3,yes,Mint; Mint; Mint
+152,3,yes,Excelente; Excelente; Excelente
 153,0,no,
 154,0,no,
 155,0,no,
-156,1,yes,Mint
+156,1,yes,Excelente
 157,0,no,
-158,1,yes,Mint
+158,1,yes,Excelente
 159,0,no,
 160,0,no,
 161,0,no,
@@ -171,24 +171,24 @@ number,count,owned,conditions
 170,0,no,
 171,0,no,
 172,0,no,
-173,1,yes,Mint
+173,1,yes,Excelente
 174,0,no,
 175,0,no,
 176,0,no,
-177,1,yes,Mint
+177,1,yes,Excelente
 178,0,no,
 179,0,no,
-180,1,yes,Mint
+180,1,yes,Excelente
 181,0,no,
-182,1,yes,Mint
+182,1,yes,Excelente
 183,0,no,
 184,0,no,
 185,0,no,
 186,0,no,
 187,0,no,
 188,0,no,
-189,1,yes,Mint
-190,1,yes,Mint
+189,1,yes,Excelente
+190,1,yes,Excelente
 191,0,no,
 192,0,no,
 193,0,no,
@@ -211,7 +211,7 @@ number,count,owned,conditions
 210,0,no,
 211,0,no,
 212,0,no,
-213,1,yes,Mint
+213,1,yes,Excelente
 214,0,no,
 215,0,no,
 216,0,no,
@@ -224,4 +224,4 @@ number,count,owned,conditions
 223,0,no,
 224,0,no,
 225,0,no,
-226,1,yes,Mint
+226,1,yes,Excelente

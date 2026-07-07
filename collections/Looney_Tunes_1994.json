@@ -9,13 +9,13 @@
     "2": {
       "count": 1,
       "conditions": [
-        "Mint"
+        "Excelente"
       ]
     },
     "3": {
       "count": 1,
       "conditions": [
-        "Mint"
+        "Excelente"
       ]
     },
     "4": {
@@ -33,7 +33,7 @@
     "7": {
       "count": 1,
       "conditions": [
-        "Mint"
+        "Excelente"
       ]
     },
     "8": {
@@ -55,7 +55,7 @@
     "12": {
       "count": 1,
       "conditions": [
-        "Used"
+        "Maltratado"
       ]
     },
     "13": {
@@ -69,7 +69,7 @@
     "15": {
       "count": 1,
       "conditions": [
-        "Good"
+        "Bien"
       ]
     },
     "16": {
@@ -83,25 +83,25 @@
     "18": {
       "count": 1,
       "conditions": [
-        "Good"
+        "Bien"
       ]
     },
     "19": {
       "count": 1,
       "conditions": [
-        "Mint"
+        "Excelente"
       ]
     },
     "20": {
       "count": 1,
       "conditions": [
-        "Good"
+        "Bien"
       ]
     },
     "21": {
       "count": 1,
       "conditions": [
-        "Good"
+        "Bien"
       ]
     },
     "22": {
@@ -119,19 +119,19 @@
     "25": {
       "count": 1,
       "conditions": [
-        "Used"
+        "Maltratado"
       ]
     },
     "26": {
       "count": 1,
       "conditions": [
-        "Good"
+        "Bien"
       ]
     },
     "27": {
       "count": 1,
       "conditions": [
-        "Mint"
+        "Excelente"
       ]
     },
     "28": {
@@ -157,7 +157,7 @@
     "33": {
       "count": 1,
       "conditions": [
-        "Mint"
+        "Excelente"
       ]
     },
     "34": {
@@ -167,7 +167,7 @@
     "35": {
       "count": 1,
       "conditions": [
-        "Mint"
+        "Excelente"
       ]
     },
     "36": {
@@ -181,7 +181,7 @@
     "38": {
       "count": 1,
       "conditions": [
-        "Good"
+        "Bien"
       ]
     },
     "39": {
@@ -203,13 +203,13 @@
     "43": {
       "count": 1,
       "conditions": [
-        "Mint"
+        "Excelente"
       ]
     },
     "44": {
       "count": 1,
       "conditions": [
-        "Good"
+        "Bien"
       ]
     },
     "45": {
@@ -235,13 +235,13 @@
     "50": {
       "count": 1,
       "conditions": [
-        "Good"
+        "Bien"
       ]
     },
     "51": {
       "count": 1,
       "conditions": [
-        "Mint"
+        "Excelente"
       ]
     },
     "52": {
@@ -251,13 +251,13 @@
     "53": {
       "count": 1,
       "conditions": [
-        "Good"
+        "Bien"
       ]
     },
     "54": {
       "count": 1,
       "conditions": [
-        "Mint"
+        "Excelente"
       ]
     },
     "55": {
@@ -279,7 +279,7 @@
     "59": {
       "count": 1,
       "conditions": [
-        "Mint"
+        "Excelente"
       ]
     },
     "60": {
@@ -289,7 +289,7 @@
     "61": {
       "count": 1,
       "conditions": [
-        "Mint"
+        "Excelente"
       ]
     },
     "62": {
@@ -299,7 +299,7 @@
     "63": {
       "count": 1,
       "conditions": [
-        "Mint"
+        "Excelente"
       ]
     },
     "64": {
@@ -309,31 +309,31 @@
     "65": {
       "count": 1,
       "conditions": [
-        "Mint"
+        "Excelente"
       ]
     },
     "66": {
       "count": 1,
       "conditions": [
-        "Mint"
+        "Excelente"
       ]
     },
     "67": {
       "count": 1,
       "conditions": [
-        "Mint"
+        "Excelente"
       ]
     },
     "68": {
       "count": 1,
       "conditions": [
-        "Mint"
+        "Excelente"
       ]
     },
     "69": {
       "count": 1,
       "conditions": [
-        "Good"
+        "Bien"
       ]
     },
     "70": {
@@ -343,7 +343,7 @@
     "71": {
       "count": 1,
       "conditions": [
-        "Damaged"
+        "Muy Maltratado"
       ]
     },
     "72": {
@@ -377,19 +377,19 @@
     "79": {
       "count": 1,
       "conditions": [
-        "Good"
+        "Bien"
       ]
     },
     "80": {
       "count": 1,
       "conditions": [
-        "Mint"
+        "Excelente"
       ]
     },
     "81": {
       "count": 1,
       "conditions": [
-        "Mint"
+        "Excelente"
       ]
     },
     "82": {
@@ -399,7 +399,7 @@
     "83": {
       "count": 1,
       "conditions": [
-        "Mint"
+        "Excelente"
       ]
     },
     "84": {
@@ -413,19 +413,19 @@
     "86": {
       "count": 1,
       "conditions": [
-        "Mint"
+        "Excelente"
       ]
     },
     "87": {
       "count": 1,
       "conditions": [
-        "Mint"
+        "Excelente"
       ]
     },
     "88": {
       "count": 1,
       "conditions": [
-        "Mint"
+        "Excelente"
       ]
     },
     "89": {
@@ -439,13 +439,13 @@
     "91": {
       "count": 1,
       "conditions": [
-        "Mint"
+        "Excelente"
       ]
     },
     "92": {
       "count": 1,
       "conditions": [
-        "Mint"
+        "Excelente"
       ]
     },
     "93": {
@@ -463,19 +463,19 @@
     "96": {
       "count": 1,
       "conditions": [
-        "Mint"
+        "Excelente"
       ]
     },
     "97": {
       "count": 1,
       "conditions": [
-        "Mint"
+        "Excelente"
       ]
     },
     "98": {
       "count": 1,
       "conditions": [
-        "Mint"
+        "Excelente"
       ]
     },
     "99": {

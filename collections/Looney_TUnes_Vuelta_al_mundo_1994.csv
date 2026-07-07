@@ -1,84 +1,84 @@
 number,count,owned,conditions
-1,1,yes,Mint
-2,1,yes,Mint
-3,1,yes,Mint
-4,1,yes,Mint
-5,1,yes,Mint
-6,2,yes,Mint; Good
-7,1,yes,Good
-8,1,yes,Mint
-9,1,yes,Mint
-10,1,yes,Mint
-11,1,yes,Mint
+1,1,yes,Excelente
+2,1,yes,Excelente
+3,1,yes,Excelente
+4,1,yes,Excelente
+5,1,yes,Excelente
+6,2,yes,Excelente; Bien
+7,1,yes,Bien
+8,1,yes,Excelente
+9,1,yes,Excelente
+10,1,yes,Excelente
+11,1,yes,Excelente
 12,0,no,
-13,1,yes,Good
+13,1,yes,Bien
 14,0,no,
 15,0,no,
-16,1,yes,Mint
-17,1,yes,Mint
-18,1,yes,Mint
+16,1,yes,Excelente
+17,1,yes,Excelente
+18,1,yes,Excelente
 19,0,no,
-20,1,yes,Mint
-21,3,yes,Mint; Mint; Mint
-22,2,yes,Mint; Mint
-23,2,yes,Mint; Mint
-24,4,yes,Mint; Mint; Mint; Mint
-25,1,yes,Mint
-26,4,yes,Mint; Mint; Mint; Mint
-27,2,yes,Mint; Mint
-28,2,yes,Mint; Mint
-29,3,yes,Mint; Mint; Mint
-30,3,yes,Mint; Mint; Good
-31,1,yes,Good
-32,1,yes,Mint
-33,3,yes,Mint; Mint; Good
-34,4,yes,Mint; Mint; Mint; Mint
-35,1,yes,Mint
+20,1,yes,Excelente
+21,3,yes,Excelente; Excelente; Excelente
+22,2,yes,Excelente; Excelente
+23,2,yes,Excelente; Excelente
+24,4,yes,Excelente; Excelente; Excelente; Excelente
+25,1,yes,Excelente
+26,4,yes,Excelente; Excelente; Excelente; Excelente
+27,2,yes,Excelente; Excelente
+28,2,yes,Excelente; Excelente
+29,3,yes,Excelente; Excelente; Excelente
+30,3,yes,Excelente; Excelente; Bien
+31,1,yes,Bien
+32,1,yes,Excelente
+33,3,yes,Excelente; Excelente; Bien
+34,4,yes,Excelente; Excelente; Excelente; Excelente
+35,1,yes,Excelente
 36,0,no,
-37,3,yes,Mint; Mint; Mint
-38,1,yes,Mint
-39,2,yes,Mint; Mint
-40,3,yes,Mint; Mint; Used
-41,1,yes,Mint
-42,1,yes,Mint
-43,2,yes,Mint; Mint
+37,3,yes,Excelente; Excelente; Excelente
+38,1,yes,Excelente
+39,2,yes,Excelente; Excelente
+40,3,yes,Excelente; Excelente; Maltratado
+41,1,yes,Excelente
+42,1,yes,Excelente
+43,2,yes,Excelente; Excelente
 44,0,no,
 45,0,no,
 46,0,no,
-47,1,yes,Mint
+47,1,yes,Excelente
 48,0,no,
 49,0,no,
-50,1,yes,Mint
+50,1,yes,Excelente
 51,0,no,
-52,1,yes,Mint
+52,1,yes,Excelente
 53,0,no,
-54,1,yes,Mint
-55,1,yes,Mint
+54,1,yes,Excelente
+55,1,yes,Excelente
 56,0,no,
-57,1,yes,Mint
+57,1,yes,Excelente
 58,0,no,
 59,0,no,
-60,1,yes,Mint
-61,1,yes,Mint
+60,1,yes,Excelente
+61,1,yes,Excelente
 62,0,no,
 63,0,no,
-64,1,yes,Mint
-65,1,yes,Mint
-66,1,yes,Mint
-67,1,yes,Mint
+64,1,yes,Excelente
+65,1,yes,Excelente
+66,1,yes,Excelente
+67,1,yes,Excelente
 68,0,no,
 69,0,no,
 70,0,no,
 71,0,no,
 72,0,no,
-73,2,yes,Mint; Damaged
-74,1,yes,Mint
+73,2,yes,Excelente; Muy Maltratado
+74,1,yes,Excelente
 75,0,no,
-76,1,yes,Mint
+76,1,yes,Excelente
 77,0,no,
-78,1,yes,Mint
+78,1,yes,Excelente
 79,0,no,
-80,1,yes,Mint
+80,1,yes,Excelente
 81,0,no,
 82,0,no,
 83,0,no,

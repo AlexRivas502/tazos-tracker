@@ -44,11 +44,11 @@ directly on disk (the static/Pages version cannot, since Pages has no backend).
 ## How to use
 
 1. Type a **collection name** and the **total number** of tazos, then click **Set up grid**.
-2. **Left-click** a tazo to mark you own it (adds one copy as **Mint** by default).
+2. **Left-click** a tazo to mark you own it (adds one copy as **Excelente** by default).
 3. **Left-click again** to add another copy (repeated tazo).
 4. **Shift+Click** removes one copy.
 5. **Right-click** a tazo to:
-   - add a copy with a specific condition (Mint / Good / Used / Damaged / Very Damaged),
+   - add a copy with a specific condition (Excelente / Bien / Maltratado / Muy Maltratado / Dañado),
    - change the condition of an existing copy,
    - remove one or all copies.
 6. Switch between saved collections with the **— load saved —** dropdown.

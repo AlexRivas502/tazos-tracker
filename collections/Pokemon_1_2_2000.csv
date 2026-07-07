@@ -1,43 +1,43 @@
 number,count,owned,conditions
-1,2,yes,Good; Damaged
-2,1,yes,Good
-3,1,yes,Good
-4,2,yes,Damaged; Very Damaged
-5,1,yes,Used
+1,2,yes,Bien; Muy Maltratado
+2,1,yes,Bien
+3,1,yes,Bien
+4,2,yes,Muy Maltratado; Dañado
+5,1,yes,Maltratado
 6,0,no,
-7,1,yes,Good
-8,1,yes,Good
+7,1,yes,Bien
+8,1,yes,Bien
 9,0,no,
-10,1,yes,Used
+10,1,yes,Maltratado
 11,0,no,
-12,1,yes,Used
+12,1,yes,Maltratado
 13,0,no,
 14,0,no,
-15,1,yes,Used
+15,1,yes,Maltratado
 16,0,no,
-17,1,yes,Good
+17,1,yes,Bien
 18,0,no,
-19,1,yes,Used
+19,1,yes,Maltratado
 20,0,no,
-21,2,yes,Mint; Used
+21,2,yes,Excelente; Maltratado
 22,0,no,
 23,0,no,
 24,0,no,
 25,0,no,
 26,0,no,
-27,1,yes,Good
+27,1,yes,Bien
 28,0,no,
-29,1,yes,Good
+29,1,yes,Bien
 30,0,no,
 31,0,no,
 32,0,no,
 33,0,no,
 34,0,no,
-35,1,yes,Used
+35,1,yes,Maltratado
 36,0,no,
-37,2,yes,Good; Good
+37,2,yes,Bien; Bien
 38,0,no,
-39,1,yes,Good
+39,1,yes,Bien
 40,0,no,
 41,0,no,
 42,0,no,
@@ -49,11 +49,11 @@ number,count,owned,conditions
 48,0,no,
 49,0,no,
 50,0,no,
-51,1,yes,Good
+51,1,yes,Bien
 52,0,no,
 53,0,no,
-54,2,yes,Good; Very Damaged
-55,1,yes,Mint
+54,2,yes,Bien; Dañado
+55,1,yes,Excelente
 56,0,no,
 57,0,no,
 58,0,no,
@@ -62,9 +62,9 @@ number,count,owned,conditions
 61,0,no,
 62,0,no,
 63,0,no,
-64,1,yes,Used
+64,1,yes,Maltratado
 65,0,no,
-66,2,yes,Mint; Used
+66,2,yes,Excelente; Maltratado
 67,0,no,
 68,0,no,
 69,0,no,
@@ -72,34 +72,34 @@ number,count,owned,conditions
 71,0,no,
 72,0,no,
 73,0,no,
-74,1,yes,Mint
+74,1,yes,Excelente
 75,0,no,
 76,0,no,
 77,0,no,
 78,0,no,
-79,1,yes,Used
+79,1,yes,Maltratado
 80,0,no,
-81,1,yes,Used
+81,1,yes,Maltratado
 82,0,no,
 83,0,no,
 84,0,no,
-85,1,yes,Mint
+85,1,yes,Excelente
 86,0,no,
 87,0,no,
 88,0,no,
 89,0,no,
 90,0,no,
-91,1,yes,Good
-92,1,yes,Used
+91,1,yes,Bien
+92,1,yes,Maltratado
 93,0,no,
 94,0,no,
-95,1,yes,Used
-96,1,yes,Mint
+95,1,yes,Maltratado
+96,1,yes,Excelente
 97,0,no,
-98,1,yes,Very Damaged
+98,1,yes,Dañado
 99,0,no,
-100,1,yes,Good
-101,1,yes,Good
+100,1,yes,Bien
+101,1,yes,Bien
 102,0,no,
 103,0,no,
 104,0,no,
@@ -107,7 +107,7 @@ number,count,owned,conditions
 106,0,no,
 107,0,no,
 108,0,no,
-109,1,yes,Used
+109,1,yes,Maltratado
 110,0,no,
 111,0,no,
 112,0,no,
@@ -116,28 +116,28 @@ number,count,owned,conditions
 115,0,no,
 116,0,no,
 117,0,no,
-118,1,yes,Very Damaged
-119,1,yes,Good
+118,1,yes,Dañado
+119,1,yes,Bien
 120,0,no,
 121,0,no,
 122,0,no,
 123,0,no,
-124,1,yes,Used
-125,1,yes,Good
-126,1,yes,Good
+124,1,yes,Maltratado
+125,1,yes,Bien
+126,1,yes,Bien
 127,0,no,
 128,0,no,
 129,0,no,
 130,0,no,
 131,0,no,
 132,0,no,
-133,1,yes,Damaged
+133,1,yes,Muy Maltratado
 134,0,no,
 135,0,no,
 136,0,no,
 137,0,no,
-138,1,yes,Used
-139,1,yes,Good
+138,1,yes,Maltratado
+139,1,yes,Bien
 140,0,no,
 141,0,no,
 142,0,no,
@@ -145,8 +145,8 @@ number,count,owned,conditions
 144,0,no,
 145,0,no,
 146,0,no,
-147,1,yes,Good
+147,1,yes,Bien
 148,0,no,
 149,0,no,
-150,1,yes,Damaged
+150,1,yes,Muy Maltratado
 151,0,no,

@@ -21,7 +21,7 @@ import urllib.parse
 PORT = 8765
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 DATA_DIR = os.path.join(BASE_DIR, "collections")
-CONDITIONS = ["Mint", "Good", "Used", "Damaged", "Very Damaged"]
+CONDITIONS = ["Excelente", "Bien", "Maltratado", "Muy Maltratado", "Dañado"]
 
 os.makedirs(DATA_DIR, exist_ok=True)
 
@@ -202,11 +202,11 @@ class Handler(http.server.BaseHTTPRequestHandler):
 
 
 INDEX_HTML = r"""<!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Tazos Collection Tracker</title>
+<title>Rastreador de Colección de Tazos</title>
 <style>
   :root {
     --bg: #0f1419;
@@ -371,43 +371,43 @@ INDEX_HTML = r"""<!DOCTYPE html>
 <body>
 <aside>
   <div class="side-head">
-    <h1>🎴 Tazos Tracker</h1>
-    <button id="newBtn" class="primary block">＋ New collection</button>
+    <h1>🎴 Rastreador de Tazos</h1>
+    <button id="newBtn" class="primary block">＋ Nueva colección</button>
   </div>
   <div id="collections" class="collections"></div>
 </aside>
 
 <div class="container">
 <header>
-  <label>Collection
-    <input id="name" type="text" placeholder="e.g. Pokémon 2000" value="My Collection" style="width:180px">
+  <label>Colección
+    <input id="name" type="text" placeholder="ej. Pokémon 2000" value="Mi colección" style="width:180px">
   </label>
   <label>Total
     <input id="total" type="number" min="1" max="2000" value="50">
   </label>
-  <button id="apply" class="primary">Set up grid</button>
-  <button id="addCustomBtn">＋ Add custom tazo</button>
-  <button id="renameBtn">Rename</button>
-  <button id="deleteBtn" class="danger-btn">Delete</button>
+  <button id="apply" class="primary">Crear cuadrícula</button>
+  <button id="addCustomBtn">＋ Agregar tazo personalizado</button>
+  <button id="renameBtn">Renombrar</button>
+  <button id="deleteBtn" class="danger-btn">Eliminar</button>
   <div class="stats" id="stats"></div>
   <span class="save-status" id="saveStatus"></span>
 </header>
 
 <main>
   <div class="legend">
-    Left-click a tazo to add one (defaults to <b>Mint</b>). Click again to add another copy.
-    Right-click to set the condition of a copy, remove a copy, or <b>reset the number</b> if you clicked it by accident. <code>Shift+Click</code> removes one copy.
+    Haz clic izquierdo en un tazo para agregar uno (por defecto <b>Excelente</b>). Haz clic de nuevo para agregar otra copia.
+    Haz clic derecho para establecer la condición de una copia, quitar una copia o <b>reiniciar el número</b> si lo marcaste por error. <code>Shift+Clic</code> quita una copia.
   </div>
   <div id="grid" class="grid"></div>
-  <div id="emptyMsg" class="empty-msg">Set a total number above and click “Set up grid”, or use “＋ Add custom tazo”.</div>
+  <div id="emptyMsg" class="empty-msg">Escribe un número total arriba y haz clic en “Crear cuadrícula”, o usa “＋ Agregar tazo personalizado”.</div>
 </main>
 </div>
 
 <div id="menu" class="menu"></div>
 
 <script>
-const CONDITIONS = ["Mint", "Good", "Used", "Damaged", "Very Damaged"];
-let state = { name: "My Collection", total: 0, items: {}, extras: [] };
+const CONDITIONS = ["Excelente", "Bien", "Maltratado", "Muy Maltratado", "Dañado"];
+let state = { name: "Mi colección", total: 0, items: {}, extras: [] };
 let saveTimer = null;
 
 const $ = id => document.getElementById(id);
@@ -418,7 +418,7 @@ function item(n) {
   return state.items[k];
 }
 
-function addCopy(n, condition = "Mint") {
+function addCopy(n, condition = "Excelente") {
   const it = item(n);
   it.count += 1;
   it.conditions.push(condition);
@@ -469,7 +469,7 @@ function buildCell(key, isCustom) {
 
   cell.innerHTML =
     (it.count > 0 ? `<span class="count">${it.count}</span>` : "") +
-    (isCustom ? `<span class="tag">custom</span>` : "");
+    (isCustom ? `<span class="tag">extra</span>` : "");
   cell.appendChild(numSpan);
   if (it.conditions.length) {
     const cs = document.createElement("span");
@@ -490,7 +490,7 @@ function buildCell(key, isCustom) {
 }
 
 function condSummary(conds) {
-  // compact like: Mint×2, Good
+  // compact like: Excelente×2, Bien
   const order = {};
   conds.forEach(c => order[c] = (order[c] || 0) + 1);
   return Object.entries(order)
@@ -511,9 +511,9 @@ function updateStats() {
   const totalSlots = keys.length;
   const missing = totalSlots - owned;
   const extraNote = (state.extras && state.extras.length)
-    ? ` &nbsp;·&nbsp; incl. ${state.extras.length} custom` : "";
+    ? ` &nbsp;·&nbsp; incl. ${state.extras.length} personalizados` : "";
   $("stats").innerHTML = totalSlots
-    ? `Owned <b>${owned}</b> / ${totalSlots} &nbsp;·&nbsp; Missing <b>${missing}</b> &nbsp;·&nbsp; Total copies <b>${copies}</b>${extraNote}`
+    ? `Tienes <b>${owned}</b> / ${totalSlots} &nbsp;·&nbsp; Faltan <b>${missing}</b> &nbsp;·&nbsp; Copias totales <b>${copies}</b>${extraNote}`
     : "";
 }
 
@@ -527,22 +527,22 @@ function openMenu(e, n, isCustom = false) {
   const it = item(n);
   const menu = $("menu");
   const label = escapeHtml(n);
-  let html = `<div class="mtitle">Tazo ${label} — add a copy as:</div>`;
+  let html = `<div class="mtitle">Tazo ${label} — agregar una copia como:</div>`;
   CONDITIONS.forEach(c => {
     html += `<button data-act="add" data-cond="${c}">＋ ${c}</button>`;
   });
   if (it.count > 0) {
-    html += `<div class="sep"></div><div class="mtitle">Existing copies (click to change condition):</div>`;
+    html += `<div class="sep"></div><div class="mtitle">Copias existentes (clic para cambiar la condición):</div>`;
     it.conditions.forEach((c, i) => {
       html += `<button data-act="edit" data-idx="${i}">#${i + 1}: ${c} ▾</button>`;
     });
     html += `<div class="sep"></div>`;
-    html += `<button class="danger" data-act="removeone">－ Remove one copy</button>`;
+    html += `<button class="danger" data-act="removeone">－ Quitar una copia</button>`;
   }
   html += `<div class="sep"></div>`;
-  html += `<button class="danger" data-act="reset">↺ Reset this tazo (clear all copies)</button>`;
+  html += `<button class="danger" data-act="reset">↺ Reiniciar este tazo (borrar todas las copias)</button>`;
   if (isCustom) {
-    html += `<button class="danger" data-act="deletecustom">🗑 Delete this custom tazo</button>`;
+    html += `<button class="danger" data-act="deletecustom">🗑 Eliminar este tazo personalizado</button>`;
   }
   menu.innerHTML = html;
   menu.classList.add("show");
@@ -571,11 +571,11 @@ function openMenu(e, n, isCustom = false) {
 
 function openCondPicker(e, n, idx) {
   const menu = $("menu");
-  let html = `<div class="mtitle">Tazo ${escapeHtml(n)}, copy #${idx + 1} → set condition:</div>`;
+  let html = `<div class="mtitle">Tazo ${escapeHtml(n)}, copia #${idx + 1} → establecer condición:</div>`;
   CONDITIONS.forEach(c => {
     html += `<button data-cond="${c}">${c}</button>`;
   });
-  html += `<div class="sep"></div><button class="danger" data-remove="1">－ Remove this copy</button>`;
+  html += `<div class="sep"></div><button class="danger" data-remove="1">－ Quitar esta copia</button>`;
   menu.innerHTML = html;
   positionMenu(e.clientX, e.clientY);
   menu.querySelectorAll("button").forEach(btn => {
@@ -601,7 +601,7 @@ document.addEventListener("scroll", closeMenu, true);
 /* ---- custom tazos (labels outside the 1..total range, e.g. 0, A, Special) ---- */
 function addCustom() {
   if (!state.extras) state.extras = [];
-  const raw = prompt("Label for the custom tazo (e.g. 0, A, B, Special):", "");
+  const raw = prompt("Etiqueta para el tazo personalizado (ej. 0, A, B, Especial):", "");
   if (raw === null) return;
   const label = raw.trim();
   if (!label) return;
@@ -609,11 +609,11 @@ function addCustom() {
   // reject collisions with an existing numbered slot or an existing custom label
   const asNum = Number(label);
   if (Number.isInteger(asNum) && asNum >= 1 && asNum <= state.total) {
-    alert(`“${label}” is already a numbered tazo (1–${state.total}).`);
+    alert(`“${label}” ya es un tazo numerado (1–${state.total}).`);
     return;
   }
   if (state.extras.some(e => String(e) === label)) {
-    alert(`“${label}” already exists as a custom tazo.`);
+    alert(`“${label}” ya existe como tazo personalizado.`);
     return;
   }
 
@@ -624,7 +624,7 @@ function addCustom() {
 }
 
 function deleteCustom(label) {
-  if (!confirm(`Delete custom tazo “${label}” and all its copies?`)) return;
+  if (!confirm(`¿Eliminar el tazo personalizado “${label}” y todas sus copias?`)) return;
   state.extras = (state.extras || []).filter(e => String(e) !== String(label));
   delete state.items[String(label)];
   render();
@@ -644,7 +644,7 @@ function renderSidebar() {
   const box = $("collections");
   box.innerHTML = "";
   if (!allCollections.length) {
-    box.innerHTML = '<div class="col-empty">No collections yet.<br>Click “New collection”.</div>';
+    box.innerHTML = '<div class="col-empty">Aún no hay colecciones.<br>Haz clic en “Nueva colección”.</div>';
     return;
   }
   allCollections.forEach(c => {
@@ -672,10 +672,10 @@ async function loadCollection(name) {
 }
 
 function newCollection() {
-  const name = prompt("Name for the new collection:", "New Collection");
+  const name = prompt("Nombre de la nueva colección:", "Nueva colección");
   if (name === null) return;
-  const total = parseInt(prompt("How many tazos in this collection?", "50"), 10);
-  state = { name: name.trim() || "New Collection", total: (total > 0 ? total : 0), items: {}, extras: [] };
+  const total = parseInt(prompt("¿Cuántos tazos tiene esta colección?", "50"), 10);
+  state = { name: name.trim() || "Nueva colección", total: (total > 0 ? total : 0), items: {}, extras: [] };
   $("name").value = state.name;
   $("total").value = state.total;
   render();
@@ -683,7 +683,7 @@ function newCollection() {
 }
 
 async function renameCollection() {
-  const newName = prompt("Rename collection:", state.name);
+  const newName = prompt("Renombrar colección:", state.name);
   if (newName === null) return;
   const trimmed = newName.trim();
   if (!trimmed || trimmed === state.name) return;
@@ -699,7 +699,7 @@ async function renameCollection() {
 }
 
 async function deleteCollection() {
-  if (!confirm(`Delete collection “${state.name}”?\nThis removes its JSON and CSV files. This cannot be undone.`)) return;
+  if (!confirm(`¿Eliminar la colección “${state.name}”?\nSe eliminarán sus archivos JSON y CSV. Esto no se puede deshacer.`)) return;
   await fetch("/api/delete", {
     method: "POST",
     headers: { "Content-Type": "application/json" },
@@ -710,7 +710,7 @@ async function deleteCollection() {
   if (allCollections.length) {
     loadCollection(allCollections[0].name);
   } else {
-    state = { name: "My Collection", total: 0, items: {}, extras: [] };
+    state = { name: "Mi colección", total: 0, items: {}, extras: [] };
     $("name").value = state.name;
     $("total").value = state.total;
     render();
@@ -720,12 +720,12 @@ async function deleteCollection() {
 
 /* ---- persistence ---- */
 function scheduleSave() {
-  $("saveStatus").textContent = "saving…";
+  $("saveStatus").textContent = "guardando…";
   clearTimeout(saveTimer);
   saveTimer = setTimeout(() => save().then(refreshList), 400);
 }
 async function save() {
-  state.name = $("name").value.trim() || "My Collection";
+  state.name = $("name").value.trim() || "Mi colección";
   try {
     await fetch("/api/save", {
       method: "POST",
@@ -733,16 +733,16 @@ async function save() {
       body: JSON.stringify(state),
     });
     const t = new Date().toLocaleTimeString();
-    $("saveStatus").textContent = "saved ✓ " + t;
+    $("saveStatus").textContent = "guardado ✓ " + t;
   } catch (err) {
-    $("saveStatus").textContent = "save failed ✗";
+    $("saveStatus").textContent = "error al guardar ✗";
   }
 }
 
 /* ---- setup ---- */
 $("apply").addEventListener("click", () => {
   const total = parseInt($("total").value, 10) || 0;
-  state.name = $("name").value.trim() || "My Collection";
+  state.name = $("name").value.trim() || "Mi colección";
   state.total = total;
   render();
   scheduleSave();
@@ -774,15 +774,15 @@ def main():
     with socketserver.TCPServer(("127.0.0.1", PORT), Handler) as httpd:
         url = f"http://localhost:{PORT}"
         print("=" * 52)
-        print("  🎴  Tazos Collection Tracker is running")
-        print(f"  Open:  {url}")
-        print(f"  Files saved to: {DATA_DIR}")
-        print("  Press Ctrl+C to stop.")
+        print("  🎴  El Rastreador de Tazos está en marcha")
+        print(f"  Abre:  {url}")
+        print(f"  Archivos guardados en: {DATA_DIR}")
+        print("  Presiona Ctrl+C para detener.")
         print("=" * 52)
         try:
             httpd.serve_forever()
         except KeyboardInterrupt:
-            print("\nStopped.")
+            print("\nDetenido.")
 
 
 if __name__ == "__main__":

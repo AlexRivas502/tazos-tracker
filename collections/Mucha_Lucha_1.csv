@@ -1,151 +1,151 @@
 number,count,owned,conditions
-1,2,yes,Mint; Good
-2,2,yes,Mint; Used
-3,1,yes,Mint
-4,3,yes,Mint; Good; Good
-5,2,yes,Mint; Good
-6,1,yes,Good
+1,2,yes,Excelente; Bien
+2,2,yes,Excelente; Maltratado
+3,1,yes,Excelente
+4,3,yes,Excelente; Bien; Bien
+5,2,yes,Excelente; Bien
+6,1,yes,Bien
 7,0,no,
-8,1,yes,Mint
+8,1,yes,Excelente
 9,0,no,
-10,3,yes,Mint; Good; Good
+10,3,yes,Excelente; Bien; Bien
 11,0,no,
-12,2,yes,Mint; Used
-13,2,yes,Used; Damaged
-14,1,yes,Good
-15,2,yes,Used; Used
-16,1,yes,Used
-17,1,yes,Used
-18,2,yes,Good; Used
-19,2,yes,Good; Used
-20,2,yes,Good; Good
-21,1,yes,Used
-22,2,yes,Used; Used
+12,2,yes,Excelente; Maltratado
+13,2,yes,Maltratado; Muy Maltratado
+14,1,yes,Bien
+15,2,yes,Maltratado; Maltratado
+16,1,yes,Maltratado
+17,1,yes,Maltratado
+18,2,yes,Bien; Maltratado
+19,2,yes,Bien; Maltratado
+20,2,yes,Bien; Bien
+21,1,yes,Maltratado
+22,2,yes,Maltratado; Maltratado
 23,0,no,
-24,2,yes,Good; Damaged
-25,4,yes,Mint; Mint; Mint; Used
-26,1,yes,Used
-27,2,yes,Mint; Used
-28,1,yes,Used
-29,1,yes,Good
+24,2,yes,Bien; Muy Maltratado
+25,4,yes,Excelente; Excelente; Excelente; Maltratado
+26,1,yes,Maltratado
+27,2,yes,Excelente; Maltratado
+28,1,yes,Maltratado
+29,1,yes,Bien
 30,0,no,
-31,1,yes,Used
-32,1,yes,Good
-33,1,yes,Good
-34,1,yes,Good
-35,1,yes,Good
-36,1,yes,Good
-37,2,yes,Mint; Used
-38,2,yes,Good; Good
-39,2,yes,Good; Used
-40,1,yes,Mint
-41,2,yes,Good; Used
-42,2,yes,Good; Good
-43,1,yes,Good
-44,3,yes,Mint; Good; Used
-45,1,yes,Used
-46,4,yes,Good; Good; Used; Very Damaged
-47,3,yes,Mint; Mint; Good
-48,2,yes,Mint; Good
-49,1,yes,Mint
-50,4,yes,Mint; Mint; Mint; Used
-51,1,yes,Damaged
-52,4,yes,Mint; Mint; Good; Damaged
-53,3,yes,Mint; Good; Good
-54,3,yes,Mint; Good; Good
-55,2,yes,Used; Used
-56,4,yes,Good; Damaged; Damaged; Very Damaged
-57,2,yes,Good; Damaged
-58,2,yes,Good; Used
-59,2,yes,Good; Used
-60,3,yes,Good; Used; Damaged
+31,1,yes,Maltratado
+32,1,yes,Bien
+33,1,yes,Bien
+34,1,yes,Bien
+35,1,yes,Bien
+36,1,yes,Bien
+37,2,yes,Excelente; Maltratado
+38,2,yes,Bien; Bien
+39,2,yes,Bien; Maltratado
+40,1,yes,Excelente
+41,2,yes,Bien; Maltratado
+42,2,yes,Bien; Bien
+43,1,yes,Bien
+44,3,yes,Excelente; Bien; Maltratado
+45,1,yes,Maltratado
+46,4,yes,Bien; Bien; Maltratado; Dañado
+47,3,yes,Excelente; Excelente; Bien
+48,2,yes,Excelente; Bien
+49,1,yes,Excelente
+50,4,yes,Excelente; Excelente; Excelente; Maltratado
+51,1,yes,Muy Maltratado
+52,4,yes,Excelente; Excelente; Bien; Muy Maltratado
+53,3,yes,Excelente; Bien; Bien
+54,3,yes,Excelente; Bien; Bien
+55,2,yes,Maltratado; Maltratado
+56,4,yes,Bien; Muy Maltratado; Muy Maltratado; Dañado
+57,2,yes,Bien; Muy Maltratado
+58,2,yes,Bien; Maltratado
+59,2,yes,Bien; Maltratado
+60,3,yes,Bien; Maltratado; Muy Maltratado
 61,0,no,
-62,1,yes,Good
-63,2,yes,Good; Used
-64,1,yes,Used
-65,1,yes,Used
-66,1,yes,Mint
-67,1,yes,Good
-68,1,yes,Good
-69,2,yes,Mint; Good
-70,1,yes,Mint
-71,5,yes,Mint; Good; Good; Good; Damaged
-72,3,yes,Mint; Good; Good
-73,5,yes,Good; Good; Mint; Used; Used
-74,1,yes,Good
-75,1,yes,Good
-76,1,yes,Mint
-77,3,yes,Mint; Good; Good
-78,4,yes,Mint; Mint; Good; Used
-79,1,yes,Good
-80,1,yes,Mint
-81,1,yes,Good
-82,3,yes,Good; Good; Damaged
-83,2,yes,Good; Good
-84,4,yes,Mint; Damaged; Damaged; Used
-85,2,yes,Mint; Good
-86,2,yes,Mint; Good
-87,3,yes,Mint; Mint; Mint
-88,4,yes,Mint; Mint; Used; Damaged
-89,5,yes,Mint; Good; Damaged; Used; Used
-90,2,yes,Used; Used
-91,2,yes,Good; Used
-92,1,yes,Mint
-93,2,yes,Good; Good
-94,2,yes,Good; Used
-95,2,yes,Good; Used
-96,2,yes,Good; Used
-97,2,yes,Mint; Good
-98,2,yes,Good; Damaged
-99,2,yes,Good; Damaged
-100,1,yes,Mint
-101,2,yes,Good; Used
-102,2,yes,Good; Used
-103,2,yes,Good; Used
-104,2,yes,Mint; Used
-105,4,yes,Mint; Mint; Good; Damaged
-106,1,yes,Good
-107,2,yes,Mint; Mint
-108,1,yes,Used
-109,2,yes,Mint; Good
+62,1,yes,Bien
+63,2,yes,Bien; Maltratado
+64,1,yes,Maltratado
+65,1,yes,Maltratado
+66,1,yes,Excelente
+67,1,yes,Bien
+68,1,yes,Bien
+69,2,yes,Excelente; Bien
+70,1,yes,Excelente
+71,5,yes,Excelente; Bien; Bien; Bien; Muy Maltratado
+72,3,yes,Excelente; Bien; Bien
+73,5,yes,Bien; Bien; Excelente; Maltratado; Maltratado
+74,1,yes,Bien
+75,1,yes,Bien
+76,1,yes,Excelente
+77,3,yes,Excelente; Bien; Bien
+78,4,yes,Excelente; Excelente; Bien; Maltratado
+79,1,yes,Bien
+80,1,yes,Excelente
+81,1,yes,Bien
+82,3,yes,Bien; Bien; Muy Maltratado
+83,2,yes,Bien; Bien
+84,4,yes,Excelente; Muy Maltratado; Muy Maltratado; Maltratado
+85,2,yes,Excelente; Bien
+86,2,yes,Excelente; Bien
+87,3,yes,Excelente; Excelente; Excelente
+88,4,yes,Excelente; Excelente; Maltratado; Muy Maltratado
+89,5,yes,Excelente; Bien; Muy Maltratado; Maltratado; Maltratado
+90,2,yes,Maltratado; Maltratado
+91,2,yes,Bien; Maltratado
+92,1,yes,Excelente
+93,2,yes,Bien; Bien
+94,2,yes,Bien; Maltratado
+95,2,yes,Bien; Maltratado
+96,2,yes,Bien; Maltratado
+97,2,yes,Excelente; Bien
+98,2,yes,Bien; Muy Maltratado
+99,2,yes,Bien; Muy Maltratado
+100,1,yes,Excelente
+101,2,yes,Bien; Maltratado
+102,2,yes,Bien; Maltratado
+103,2,yes,Bien; Maltratado
+104,2,yes,Excelente; Maltratado
+105,4,yes,Excelente; Excelente; Bien; Muy Maltratado
+106,1,yes,Bien
+107,2,yes,Excelente; Excelente
+108,1,yes,Maltratado
+109,2,yes,Excelente; Bien
 110,0,no,
-111,4,yes,Mint; Good; Used; Used
-112,2,yes,Mint; Very Damaged
-113,4,yes,Mint; Good; Damaged; Very Damaged
-114,3,yes,Mint; Damaged; Good
-115,2,yes,Good; Good
-116,2,yes,Good; Mint
-117,2,yes,Good; Good
-118,2,yes,Mint; Very Damaged
-119,4,yes,Mint; Good; Good; Good
-120,2,yes,Good; Used
-121,3,yes,Mint; Mint; Good
-122,2,yes,Mint; Good
-123,3,yes,Mint; Mint; Mint
-124,3,yes,Mint; Good; Used
-125,2,yes,Mint; Good
-126,2,yes,Used; Mint
-127,1,yes,Mint
-128,2,yes,Mint; Mint
-129,2,yes,Mint; Good
-130,5,yes,Mint; Mint; Mint; Mint; Used
-131,4,yes,Mint; Good; Good; Damaged
-132,2,yes,Mint; Used
-133,4,yes,Mint; Good; Used; Damaged
-134,2,yes,Good; Used
-135,2,yes,Good; Good
-136,2,yes,Good; Good
-137,3,yes,Mint; Good; Damaged
-138,1,yes,Used
-139,2,yes,Good; Used
-140,1,yes,Mint
-141,1,yes,Mint
+111,4,yes,Excelente; Bien; Maltratado; Maltratado
+112,2,yes,Excelente; Dañado
+113,4,yes,Excelente; Bien; Muy Maltratado; Dañado
+114,3,yes,Excelente; Muy Maltratado; Bien
+115,2,yes,Bien; Bien
+116,2,yes,Bien; Excelente
+117,2,yes,Bien; Bien
+118,2,yes,Excelente; Dañado
+119,4,yes,Excelente; Bien; Bien; Bien
+120,2,yes,Bien; Maltratado
+121,3,yes,Excelente; Excelente; Bien
+122,2,yes,Excelente; Bien
+123,3,yes,Excelente; Excelente; Excelente
+124,3,yes,Excelente; Bien; Maltratado
+125,2,yes,Excelente; Bien
+126,2,yes,Maltratado; Excelente
+127,1,yes,Excelente
+128,2,yes,Excelente; Excelente
+129,2,yes,Excelente; Bien
+130,5,yes,Excelente; Excelente; Excelente; Excelente; Maltratado
+131,4,yes,Excelente; Bien; Bien; Muy Maltratado
+132,2,yes,Excelente; Maltratado
+133,4,yes,Excelente; Bien; Maltratado; Muy Maltratado
+134,2,yes,Bien; Maltratado
+135,2,yes,Bien; Bien
+136,2,yes,Bien; Bien
+137,3,yes,Excelente; Bien; Muy Maltratado
+138,1,yes,Maltratado
+139,2,yes,Bien; Maltratado
+140,1,yes,Excelente
+141,1,yes,Excelente
 142,0,no,
-143,1,yes,Mint
-144,2,yes,Good; Mint
-145,1,yes,Mint
-146,1,yes,Mint
-147,1,yes,Mint
+143,1,yes,Excelente
+144,2,yes,Bien; Excelente
+145,1,yes,Excelente
+146,1,yes,Excelente
+147,1,yes,Excelente
 148,0,no,
 149,0,no,
 150,0,no,

@@ -5,33 +5,33 @@
     "1": {
       "count": 2,
       "conditions": [
-        "Good",
-        "Damaged"
+        "Bien",
+        "Muy Maltratado"
       ]
     },
     "2": {
       "count": 1,
       "conditions": [
-        "Good"
+        "Bien"
       ]
     },
     "3": {
       "count": 1,
       "conditions": [
-        "Good"
+        "Bien"
       ]
     },
     "4": {
       "count": 2,
       "conditions": [
-        "Damaged",
-        "Very Damaged"
+        "Muy Maltratado",
+        "Dañado"
       ]
     },
     "5": {
       "count": 1,
       "conditions": [
-        "Used"
+        "Maltratado"
       ]
     },
     "6": {
@@ -41,13 +41,13 @@
     "7": {
       "count": 1,
       "conditions": [
-        "Good"
+        "Bien"
       ]
     },
     "8": {
       "count": 1,
       "conditions": [
-        "Good"
+        "Bien"
       ]
     },
     "9": {
@@ -57,7 +57,7 @@
     "10": {
       "count": 1,
       "conditions": [
-        "Used"
+        "Maltratado"
       ]
     },
     "11": {
@@ -67,7 +67,7 @@
     "12": {
       "count": 1,
       "conditions": [
-        "Used"
+        "Maltratado"
       ]
     },
     "13": {
@@ -81,7 +81,7 @@
     "15": {
       "count": 1,
       "conditions": [
-        "Used"
+        "Maltratado"
       ]
     },
     "16": {
@@ -91,7 +91,7 @@
     "17": {
       "count": 1,
       "conditions": [
-        "Good"
+        "Bien"
       ]
     },
     "18": {
@@ -101,7 +101,7 @@
     "19": {
       "count": 1,
       "conditions": [
-        "Used"
+        "Maltratado"
       ]
     },
     "20": {
@@ -111,8 +111,8 @@
     "21": {
       "count": 2,
       "conditions": [
-        "Mint",
-        "Used"
+        "Excelente",
+        "Maltratado"
       ]
     },
     "22": {
@@ -138,7 +138,7 @@
     "27": {
       "count": 1,
       "conditions": [
-        "Good"
+        "Bien"
       ]
     },
     "28": {
@@ -148,7 +148,7 @@
     "29": {
       "count": 1,
       "conditions": [
-        "Good"
+        "Bien"
       ]
     },
     "30": {
@@ -174,7 +174,7 @@
     "35": {
       "count": 1,
       "conditions": [
-        "Used"
+        "Maltratado"
       ]
     },
     "36": {
@@ -184,8 +184,8 @@
     "37": {
       "count": 2,
       "conditions": [
-        "Good",
-        "Good"
+        "Bien",
+        "Bien"
       ]
     },
     "38": {
@@ -195,7 +195,7 @@
     "39": {
       "count": 1,
       "conditions": [
-        "Good"
+        "Bien"
       ]
     },
     "40": {
@@ -245,7 +245,7 @@
     "51": {
       "count": 1,
       "conditions": [
-        "Good"
+        "Bien"
       ]
     },
     "52": {
@@ -259,14 +259,14 @@
     "54": {
       "count": 2,
       "conditions": [
-        "Good",
-        "Very Damaged"
+        "Bien",
+        "Dañado"
       ]
     },
     "55": {
       "count": 1,
       "conditions": [
-        "Mint"
+        "Excelente"
       ]
     },
     "56": {
@@ -304,7 +304,7 @@
     "64": {
       "count": 1,
       "conditions": [
-        "Used"
+        "Maltratado"
       ]
     },
     "65": {
@@ -314,8 +314,8 @@
     "66": {
       "count": 2,
       "conditions": [
-        "Mint",
-        "Used"
+        "Excelente",
+        "Maltratado"
       ]
     },
     "67": {
@@ -349,7 +349,7 @@
     "74": {
       "count": 1,
       "conditions": [
-        "Mint"
+        "Excelente"
       ]
     },
     "75": {
@@ -371,7 +371,7 @@
     "79": {
       "count": 1,
       "conditions": [
-        "Used"
+        "Maltratado"
       ]
     },
     "80": {
@@ -381,7 +381,7 @@
     "81": {
       "count": 1,
       "conditions": [
-        "Used"
+        "Maltratado"
       ]
     },
     "82": {
@@ -399,7 +399,7 @@
     "85": {
       "count": 1,
       "conditions": [
-        "Mint"
+        "Excelente"
       ]
     },
     "86": {
@@ -425,13 +425,13 @@
     "91": {
       "count": 1,
       "conditions": [
-        "Good"
+        "Bien"
       ]
     },
     "92": {
       "count": 1,
       "conditions": [
-        "Used"
+        "Maltratado"
       ]
     },
     "93": {
@@ -445,13 +445,13 @@
     "95": {
       "count": 1,
       "conditions": [
-        "Used"
+        "Maltratado"
       ]
     },
     "96": {
       "count": 1,
       "conditions": [
-        "Mint"
+        "Excelente"
       ]
     },
     "97": {
@@ -461,7 +461,7 @@
     "98": {
       "count": 1,
       "conditions": [
-        "Very Damaged"
+        "Dañado"
       ]
     },
     "99": {
@@ -471,13 +471,13 @@
     "100": {
       "count": 1,
       "conditions": [
-        "Good"
+        "Bien"
       ]
     },
     "101": {
       "count": 1,
       "conditions": [
-        "Good"
+        "Bien"
       ]
     },
     "102": {
@@ -511,7 +511,7 @@
     "109": {
       "count": 1,
       "conditions": [
-        "Used"
+        "Maltratado"
       ]
     },
     "110": {
@@ -549,13 +549,13 @@
     "118": {
       "count": 1,
       "conditions": [
-        "Very Damaged"
+        "Dañado"
       ]
     },
     "119": {
       "count": 1,
       "conditions": [
-        "Good"
+        "Bien"
       ]
     },
     "120": {
@@ -577,19 +577,19 @@
     "124": {
       "count": 1,
       "conditions": [
-        "Used"
+        "Maltratado"
       ]
     },
     "125": {
       "count": 1,
       "conditions": [
-        "Good"
+        "Bien"
       ]
     },
     "126": {
       "count": 1,
       "conditions": [
-        "Good"
+        "Bien"
       ]
     },
     "127": {
@@ -619,7 +619,7 @@
     "133": {
       "count": 1,
       "conditions": [
-        "Damaged"
+        "Muy Maltratado"
       ]
     },
     "134": {
@@ -641,13 +641,13 @@
     "138": {
       "count": 1,
       "conditions": [
-        "Used"
+        "Maltratado"
       ]
     },
     "139": {
       "count": 1,
       "conditions": [
-        "Good"
+        "Bien"
       ]
     },
     "140": {
@@ -681,7 +681,7 @@
     "147": {
       "count": 1,
       "conditions": [
-        "Good"
+        "Bien"
       ]
     },
     "148": {
@@ -695,7 +695,7 @@
     "150": {
       "count": 1,
       "conditions": [
-        "Damaged"
+        "Muy Maltratado"
       ]
     },
     "151": {

@@ -5,704 +5,704 @@
     "1": {
       "count": 11,
       "conditions": [
-        "Mint",
-        "Mint",
-        "Good",
-        "Good",
-        "Used",
-        "Used",
-        "Used",
-        "Used",
-        "Used",
-        "Used",
-        "Damaged"
+        "Excelente",
+        "Excelente",
+        "Bien",
+        "Bien",
+        "Maltratado",
+        "Maltratado",
+        "Maltratado",
+        "Maltratado",
+        "Maltratado",
+        "Maltratado",
+        "Muy Maltratado"
       ]
     },
     "2": {
       "count": 2,
       "conditions": [
-        "Mint",
-        "Good"
+        "Excelente",
+        "Bien"
       ]
     },
     "3": {
       "count": 4,
       "conditions": [
-        "Mint",
-        "Good",
-        "Good",
-        "Used"
+        "Excelente",
+        "Bien",
+        "Bien",
+        "Maltratado"
       ]
     },
     "4": {
       "count": 4,
       "conditions": [
-        "Good",
-        "Used",
-        "Damaged",
-        "Damaged"
+        "Bien",
+        "Maltratado",
+        "Muy Maltratado",
+        "Muy Maltratado"
       ]
     },
     "5": {
       "count": 4,
       "conditions": [
-        "Good",
-        "Used",
-        "Very Damaged",
-        "Damaged"
+        "Bien",
+        "Maltratado",
+        "Dañado",
+        "Muy Maltratado"
       ]
     },
     "6": {
       "count": 3,
       "conditions": [
-        "Mint",
-        "Mint",
-        "Mint"
+        "Excelente",
+        "Excelente",
+        "Excelente"
       ]
     },
     "7": {
       "count": 3,
       "conditions": [
-        "Mint",
-        "Mint",
-        "Good"
+        "Excelente",
+        "Excelente",
+        "Bien"
       ]
     },
     "8": {
       "count": 3,
       "conditions": [
-        "Good",
-        "Good",
-        "Good"
+        "Bien",
+        "Bien",
+        "Bien"
       ]
     },
     "9": {
       "count": 5,
       "conditions": [
-        "Mint",
-        "Good",
-        "Used",
-        "Used",
-        "Mint"
+        "Excelente",
+        "Bien",
+        "Maltratado",
+        "Maltratado",
+        "Excelente"
       ]
     },
     "10": {
       "count": 3,
       "conditions": [
-        "Good",
-        "Good",
-        "Used"
+        "Bien",
+        "Bien",
+        "Maltratado"
       ]
     },
     "11": {
       "count": 4,
       "conditions": [
-        "Good",
-        "Good",
-        "Good",
-        "Used"
+        "Bien",
+        "Bien",
+        "Bien",
+        "Maltratado"
       ]
     },
     "12": {
       "count": 3,
       "conditions": [
-        "Mint",
-        "Good",
-        "Used"
+        "Excelente",
+        "Bien",
+        "Maltratado"
       ]
     },
     "13": {
       "count": 5,
       "conditions": [
-        "Mint",
-        "Used",
-        "Used",
-        "Damaged",
-        "Very Damaged"
+        "Excelente",
+        "Maltratado",
+        "Maltratado",
+        "Muy Maltratado",
+        "Dañado"
       ]
     },
     "14": {
       "count": 2,
       "conditions": [
-        "Mint",
-        "Good"
+        "Excelente",
+        "Bien"
       ]
     },
     "15": {
       "count": 2,
       "conditions": [
-        "Mint",
-        "Mint"
+        "Excelente",
+        "Excelente"
       ]
     },
     "16": {
       "count": 4,
       "conditions": [
-        "Good",
-        "Used",
-        "Good",
-        "Used"
+        "Bien",
+        "Maltratado",
+        "Bien",
+        "Maltratado"
       ]
     },
     "17": {
       "count": 3,
       "conditions": [
-        "Good",
-        "Good",
-        "Used"
+        "Bien",
+        "Bien",
+        "Maltratado"
       ]
     },
     "18": {
       "count": 3,
       "conditions": [
-        "Good",
-        "Good",
-        "Used"
+        "Bien",
+        "Bien",
+        "Maltratado"
       ]
     },
     "19": {
       "count": 4,
       "conditions": [
-        "Mint",
-        "Good",
-        "Good",
-        "Used"
+        "Excelente",
+        "Bien",
+        "Bien",
+        "Maltratado"
       ]
     },
     "20": {
       "count": 5,
       "conditions": [
-        "Mint",
-        "Mint",
-        "Good",
-        "Good",
-        "Good"
+        "Excelente",
+        "Excelente",
+        "Bien",
+        "Bien",
+        "Bien"
       ]
     },
     "21": {
       "count": 4,
       "conditions": [
-        "Good",
-        "Good",
-        "Mint",
-        "Very Damaged"
+        "Bien",
+        "Bien",
+        "Excelente",
+        "Dañado"
       ]
     },
     "22": {
       "count": 4,
       "conditions": [
-        "Mint",
-        "Good",
-        "Good",
-        "Used"
+        "Excelente",
+        "Bien",
+        "Bien",
+        "Maltratado"
       ]
     },
     "23": {
       "count": 5,
       "conditions": [
-        "Mint",
-        "Mint",
-        "Mint",
-        "Mint",
-        "Used"
+        "Excelente",
+        "Excelente",
+        "Excelente",
+        "Excelente",
+        "Maltratado"
       ]
     },
     "24": {
       "count": 1,
       "conditions": [
-        "Good"
+        "Bien"
       ]
     },
     "25": {
       "count": 4,
       "conditions": [
-        "Mint",
-        "Mint",
-        "Good",
-        "Very Damaged"
+        "Excelente",
+        "Excelente",
+        "Bien",
+        "Dañado"
       ]
     },
     "26": {
       "count": 2,
       "conditions": [
-        "Mint",
-        "Good"
+        "Excelente",
+        "Bien"
       ]
     },
     "27": {
       "count": 5,
       "conditions": [
-        "Mint",
-        "Mint",
-        "Mint",
-        "Mint",
-        "Mint"
+        "Excelente",
+        "Excelente",
+        "Excelente",
+        "Excelente",
+        "Excelente"
       ]
     },
     "28": {
       "count": 1,
       "conditions": [
-        "Mint"
+        "Excelente"
       ]
     },
     "29": {
       "count": 6,
       "conditions": [
-        "Mint",
-        "Good",
-        "Used",
-        "Used",
-        "Used",
-        "Damaged"
+        "Excelente",
+        "Bien",
+        "Maltratado",
+        "Maltratado",
+        "Maltratado",
+        "Muy Maltratado"
       ]
     },
     "30": {
       "count": 1,
       "conditions": [
-        "Mint"
+        "Excelente"
       ]
     },
     "31": {
       "count": 4,
       "conditions": [
-        "Mint",
-        "Mint",
-        "Good",
-        "Good"
+        "Excelente",
+        "Excelente",
+        "Bien",
+        "Bien"
       ]
     },
     "32": {
       "count": 2,
       "conditions": [
-        "Mint",
-        "Mint"
+        "Excelente",
+        "Excelente"
       ]
     },
     "33": {
       "count": 2,
       "conditions": [
-        "Mint",
-        "Good"
+        "Excelente",
+        "Bien"
       ]
     },
     "34": {
       "count": 4,
       "conditions": [
-        "Mint",
-        "Mint",
-        "Mint",
-        "Mint"
+        "Excelente",
+        "Excelente",
+        "Excelente",
+        "Excelente"
       ]
     },
     "35": {
       "count": 4,
       "conditions": [
-        "Mint",
-        "Mint",
-        "Good",
-        "Good"
+        "Excelente",
+        "Excelente",
+        "Bien",
+        "Bien"
       ]
     },
     "36": {
       "count": 5,
       "conditions": [
-        "Mint",
-        "Mint",
-        "Good",
-        "Good",
-        "Good"
+        "Excelente",
+        "Excelente",
+        "Bien",
+        "Bien",
+        "Bien"
       ]
     },
     "37": {
       "count": 3,
       "conditions": [
-        "Mint",
-        "Good",
-        "Good"
+        "Excelente",
+        "Bien",
+        "Bien"
       ]
     },
     "38": {
       "count": 2,
       "conditions": [
-        "Mint",
-        "Good"
+        "Excelente",
+        "Bien"
       ]
     },
     "39": {
       "count": 9,
       "conditions": [
-        "Mint",
-        "Good",
-        "Good",
-        "Good",
-        "Good",
-        "Used",
-        "Used",
-        "Used",
-        "Damaged"
+        "Excelente",
+        "Bien",
+        "Bien",
+        "Bien",
+        "Bien",
+        "Maltratado",
+        "Maltratado",
+        "Maltratado",
+        "Muy Maltratado"
       ]
     },
     "40": {
       "count": 2,
       "conditions": [
-        "Mint",
-        "Damaged"
+        "Excelente",
+        "Muy Maltratado"
       ]
     },
     "41": {
       "count": 3,
       "conditions": [
-        "Mint",
-        "Mint",
-        "Mint"
+        "Excelente",
+        "Excelente",
+        "Excelente"
       ]
     },
     "42": {
       "count": 2,
       "conditions": [
-        "Used",
-        "Very Damaged"
+        "Maltratado",
+        "Dañado"
       ]
     },
     "43": {
       "count": 3,
       "conditions": [
-        "Mint",
-        "Good",
-        "Used"
+        "Excelente",
+        "Bien",
+        "Maltratado"
       ]
     },
     "44": {
       "count": 3,
       "conditions": [
-        "Mint",
-        "Good",
-        "Good"
+        "Excelente",
+        "Bien",
+        "Bien"
       ]
     },
     "45": {
       "count": 4,
       "conditions": [
-        "Mint",
-        "Good",
-        "Mint",
-        "Good"
+        "Excelente",
+        "Bien",
+        "Excelente",
+        "Bien"
       ]
     },
     "46": {
       "count": 1,
       "conditions": [
-        "Mint"
+        "Excelente"
       ]
     },
     "47": {
       "count": 3,
       "conditions": [
-        "Mint",
-        "Mint",
-        "Mint"
+        "Excelente",
+        "Excelente",
+        "Excelente"
       ]
     },
     "48": {
       "count": 2,
       "conditions": [
-        "Mint",
-        "Good"
+        "Excelente",
+        "Bien"
       ]
     },
     "49": {
       "count": 2,
       "conditions": [
-        "Mint",
-        "Good"
+        "Excelente",
+        "Bien"
       ]
     },
     "50": {
       "count": 2,
       "conditions": [
-        "Good",
-        "Very Damaged"
+        "Bien",
+        "Dañado"
       ]
     },
     "51": {
       "count": 3,
       "conditions": [
-        "Mint",
-        "Mint",
-        "Mint"
+        "Excelente",
+        "Excelente",
+        "Excelente"
       ]
     },
     "52": {
       "count": 3,
       "conditions": [
-        "Good",
-        "Used",
-        "Very Damaged"
+        "Bien",
+        "Maltratado",
+        "Dañado"
       ]
     },
     "53": {
       "count": 4,
       "conditions": [
-        "Mint",
-        "Mint",
-        "Good",
-        "Used"
+        "Excelente",
+        "Excelente",
+        "Bien",
+        "Maltratado"
       ]
     },
     "54": {
       "count": 3,
       "conditions": [
-        "Mint",
-        "Mint",
-        "Good"
+        "Excelente",
+        "Excelente",
+        "Bien"
       ]
     },
     "55": {
       "count": 3,
       "conditions": [
-        "Mint",
-        "Good",
-        "Good"
+        "Excelente",
+        "Bien",
+        "Bien"
       ]
     },
     "56": {
       "count": 2,
       "conditions": [
-        "Mint",
-        "Used"
+        "Excelente",
+        "Maltratado"
       ]
     },
     "57": {
       "count": 4,
       "conditions": [
-        "Mint",
-        "Mint",
-        "Mint",
-        "Good"
+        "Excelente",
+        "Excelente",
+        "Excelente",
+        "Bien"
       ]
     },
     "58": {
       "count": 1,
       "conditions": [
-        "Mint"
+        "Excelente"
       ]
     },
     "59": {
       "count": 2,
       "conditions": [
-        "Mint",
-        "Good"
+        "Excelente",
+        "Bien"
       ]
     },
     "60": {
       "count": 1,
       "conditions": [
-        "Mint"
+        "Excelente"
       ]
     },
     "61": {
       "count": 2,
       "conditions": [
-        "Mint",
-        "Good"
+        "Excelente",
+        "Bien"
       ]
     },
     "62": {
       "count": 6,
       "conditions": [
-        "Mint",
-        "Good",
-        "Good",
-        "Used",
-        "Used",
-        "Damaged"
+        "Excelente",
+        "Bien",
+        "Bien",
+        "Maltratado",
+        "Maltratado",
+        "Muy Maltratado"
       ]
     },
     "63": {
       "count": 2,
       "conditions": [
-        "Good",
-        "Damaged"
+        "Bien",
+        "Muy Maltratado"
       ]
     },
     "64": {
       "count": 9,
       "conditions": [
-        "Mint",
-        "Mint",
-        "Good",
-        "Used",
-        "Used",
-        "Used",
-        "Damaged",
-        "Damaged",
-        "Damaged"
+        "Excelente",
+        "Excelente",
+        "Bien",
+        "Maltratado",
+        "Maltratado",
+        "Maltratado",
+        "Muy Maltratado",
+        "Muy Maltratado",
+        "Muy Maltratado"
       ]
     },
     "65": {
       "count": 4,
       "conditions": [
-        "Used",
-        "Used",
-        "Damaged",
-        "Good"
+        "Maltratado",
+        "Maltratado",
+        "Muy Maltratado",
+        "Bien"
       ]
     },
     "66": {
       "count": 1,
       "conditions": [
-        "Mint"
+        "Excelente"
       ]
     },
     "67": {
       "count": 4,
       "conditions": [
-        "Mint",
-        "Mint",
-        "Good",
-        "Good"
+        "Excelente",
+        "Excelente",
+        "Bien",
+        "Bien"
       ]
     },
     "68": {
       "count": 5,
       "conditions": [
-        "Mint",
-        "Good",
-        "Good",
-        "Good",
-        "Used"
+        "Excelente",
+        "Bien",
+        "Bien",
+        "Bien",
+        "Maltratado"
       ]
     },
     "69": {
       "count": 5,
       "conditions": [
-        "Mint",
-        "Good",
-        "Good",
-        "Used",
-        "Damaged"
+        "Excelente",
+        "Bien",
+        "Bien",
+        "Maltratado",
+        "Muy Maltratado"
       ]
     },
     "70": {
       "count": 3,
       "conditions": [
-        "Mint",
-        "Good",
-        "Damaged"
+        "Excelente",
+        "Bien",
+        "Muy Maltratado"
       ]
     },
     "71": {
       "count": 2,
       "conditions": [
-        "Mint",
-        "Good"
+        "Excelente",
+        "Bien"
       ]
     },
     "72": {
       "count": 3,
       "conditions": [
-        "Good",
-        "Used",
-        "Very Damaged"
+        "Bien",
+        "Maltratado",
+        "Dañado"
       ]
     },
     "73": {
       "count": 5,
       "conditions": [
-        "Mint",
-        "Good",
-        "Good",
-        "Used",
-        "Used"
+        "Excelente",
+        "Bien",
+        "Bien",
+        "Maltratado",
+        "Maltratado"
       ]
     },
     "74": {
       "count": 2,
       "conditions": [
-        "Mint",
-        "Used"
+        "Excelente",
+        "Maltratado"
       ]
     },
     "75": {
       "count": 1,
       "conditions": [
-        "Mint"
+        "Excelente"
       ]
     },
     "76": {
       "count": 4,
       "conditions": [
-        "Good",
-        "Good",
-        "Good",
-        "Used"
+        "Bien",
+        "Bien",
+        "Bien",
+        "Maltratado"
       ]
     },
     "77": {
       "count": 2,
       "conditions": [
-        "Mint",
-        "Good"
+        "Excelente",
+        "Bien"
       ]
     },
     "78": {
       "count": 3,
       "conditions": [
-        "Mint",
-        "Used",
-        "Used"
+        "Excelente",
+        "Maltratado",
+        "Maltratado"
       ]
     },
     "79": {
       "count": 2,
       "conditions": [
-        "Good",
-        "Good"
+        "Bien",
+        "Bien"
       ]
     },
     "80": {
       "count": 2,
       "conditions": [
-        "Mint",
-        "Good"
+        "Excelente",
+        "Bien"
       ]
     },
     "81": {
       "count": 6,
       "conditions": [
-        "Mint",
-        "Good",
-        "Good",
-        "Good",
-        "Good",
-        "Good"
+        "Excelente",
+        "Bien",
+        "Bien",
+        "Bien",
+        "Bien",
+        "Bien"
       ]
     },
     "82": {
       "count": 4,
       "conditions": [
-        "Mint",
-        "Good",
-        "Good",
-        "Good"
+        "Excelente",
+        "Bien",
+        "Bien",
+        "Bien"
       ]
     },
     "83": {
       "count": 4,
       "conditions": [
-        "Mint",
-        "Used",
-        "Used",
-        "Used"
+        "Excelente",
+        "Maltratado",
+        "Maltratado",
+        "Maltratado"
       ]
     },
     "84": {
       "count": 4,
       "conditions": [
-        "Mint",
-        "Good",
-        "Good",
-        "Good"
+        "Excelente",
+        "Bien",
+        "Bien",
+        "Bien"
       ]
     },
     "85": {
@@ -712,484 +712,484 @@
     "86": {
       "count": 1,
       "conditions": [
-        "Mint"
+        "Excelente"
       ]
     },
     "87": {
       "count": 8,
       "conditions": [
-        "Mint",
-        "Mint",
-        "Mint",
-        "Good",
-        "Good",
-        "Good",
-        "Damaged",
-        "Damaged"
+        "Excelente",
+        "Excelente",
+        "Excelente",
+        "Bien",
+        "Bien",
+        "Bien",
+        "Muy Maltratado",
+        "Muy Maltratado"
       ]
     },
     "88": {
       "count": 2,
       "conditions": [
-        "Mint",
-        "Good"
+        "Excelente",
+        "Bien"
       ]
     },
     "89": {
       "count": 2,
       "conditions": [
-        "Mint",
-        "Good"
+        "Excelente",
+        "Bien"
       ]
     },
     "90": {
       "count": 7,
       "conditions": [
-        "Mint",
-        "Mint",
-        "Good",
-        "Good",
-        "Used",
-        "Used",
-        "Used"
+        "Excelente",
+        "Excelente",
+        "Bien",
+        "Bien",
+        "Maltratado",
+        "Maltratado",
+        "Maltratado"
       ]
     },
     "91": {
       "count": 3,
       "conditions": [
-        "Mint",
-        "Good",
-        "Good"
+        "Excelente",
+        "Bien",
+        "Bien"
       ]
     },
     "92": {
       "count": 2,
       "conditions": [
-        "Mint",
-        "Good"
+        "Excelente",
+        "Bien"
       ]
     },
     "93": {
       "count": 8,
       "conditions": [
-        "Mint",
-        "Mint",
-        "Good",
-        "Good",
-        "Used",
-        "Used",
-        "Damaged",
-        "Very Damaged"
+        "Excelente",
+        "Excelente",
+        "Bien",
+        "Bien",
+        "Maltratado",
+        "Maltratado",
+        "Muy Maltratado",
+        "Dañado"
       ]
     },
     "94": {
       "count": 7,
       "conditions": [
-        "Mint",
-        "Good",
-        "Good",
-        "Used",
-        "Used",
-        "Used",
-        "Used"
+        "Excelente",
+        "Bien",
+        "Bien",
+        "Maltratado",
+        "Maltratado",
+        "Maltratado",
+        "Maltratado"
       ]
     },
     "95": {
       "count": 2,
       "conditions": [
-        "Mint",
-        "Mint"
+        "Excelente",
+        "Excelente"
       ]
     },
     "96": {
       "count": 2,
       "conditions": [
-        "Mint",
-        "Used"
+        "Excelente",
+        "Maltratado"
       ]
     },
     "97": {
       "count": 5,
       "conditions": [
-        "Mint",
-        "Good",
-        "Good",
-        "Good",
-        "Good"
+        "Excelente",
+        "Bien",
+        "Bien",
+        "Bien",
+        "Bien"
       ]
     },
     "98": {
       "count": 3,
       "conditions": [
-        "Mint",
-        "Mint",
-        "Good"
+        "Excelente",
+        "Excelente",
+        "Bien"
       ]
     },
     "99": {
       "count": 4,
       "conditions": [
-        "Mint",
-        "Good",
-        "Used",
-        "Used"
+        "Excelente",
+        "Bien",
+        "Maltratado",
+        "Maltratado"
       ]
     },
     "100": {
       "count": 5,
       "conditions": [
-        "Mint",
-        "Good",
-        "Used",
-        "Damaged",
-        "Used"
+        "Excelente",
+        "Bien",
+        "Maltratado",
+        "Muy Maltratado",
+        "Maltratado"
       ]
     },
     "101": {
       "count": 1,
       "conditions": [
-        "Good"
+        "Bien"
       ]
     },
     "102": {
       "count": 2,
       "conditions": [
-        "Mint",
-        "Mint"
+        "Excelente",
+        "Excelente"
       ]
     },
     "103": {
       "count": 3,
       "conditions": [
-        "Good",
-        "Good",
-        "Good"
+        "Bien",
+        "Bien",
+        "Bien"
       ]
     },
     "104": {
       "count": 2,
       "conditions": [
-        "Mint",
-        "Good"
+        "Excelente",
+        "Bien"
       ]
     },
     "105": {
       "count": 3,
       "conditions": [
-        "Mint",
-        "Good",
-        "Used"
+        "Excelente",
+        "Bien",
+        "Maltratado"
       ]
     },
     "106": {
       "count": 5,
       "conditions": [
-        "Mint",
-        "Good",
-        "Good",
-        "Used",
-        "Used"
+        "Excelente",
+        "Bien",
+        "Bien",
+        "Maltratado",
+        "Maltratado"
       ]
     },
     "107": {
       "count": 6,
       "conditions": [
-        "Mint",
-        "Mint",
-        "Good",
-        "Good",
-        "Used",
-        "Used"
+        "Excelente",
+        "Excelente",
+        "Bien",
+        "Bien",
+        "Maltratado",
+        "Maltratado"
       ]
     },
     "108": {
       "count": 1,
       "conditions": [
-        "Mint"
+        "Excelente"
       ]
     },
     "109": {
       "count": 2,
       "conditions": [
-        "Mint",
-        "Good"
+        "Excelente",
+        "Bien"
       ]
     },
     "110": {
       "count": 3,
       "conditions": [
-        "Mint",
-        "Good",
-        "Used"
+        "Excelente",
+        "Bien",
+        "Maltratado"
       ]
     },
     "111": {
       "count": 3,
       "conditions": [
-        "Mint",
-        "Good",
-        "Used"
+        "Excelente",
+        "Bien",
+        "Maltratado"
       ]
     },
     "112": {
       "count": 1,
       "conditions": [
-        "Mint"
+        "Excelente"
       ]
     },
     "113": {
       "count": 3,
       "conditions": [
-        "Mint",
-        "Mint",
-        "Mint"
+        "Excelente",
+        "Excelente",
+        "Excelente"
       ]
     },
     "114": {
       "count": 2,
       "conditions": [
-        "Mint",
-        "Good"
+        "Excelente",
+        "Bien"
       ]
     },
     "115": {
       "count": 3,
       "conditions": [
-        "Mint",
-        "Good",
-        "Used"
+        "Excelente",
+        "Bien",
+        "Maltratado"
       ]
     },
     "116": {
       "count": 2,
       "conditions": [
-        "Mint",
-        "Used"
+        "Excelente",
+        "Maltratado"
       ]
     },
     "117": {
       "count": 2,
       "conditions": [
-        "Good",
-        "Used"
+        "Bien",
+        "Maltratado"
       ]
     },
     "118": {
       "count": 3,
       "conditions": [
-        "Mint",
-        "Good",
-        "Good"
+        "Excelente",
+        "Bien",
+        "Bien"
       ]
     },
     "119": {
       "count": 5,
       "conditions": [
-        "Mint",
-        "Mint",
-        "Mint",
-        "Good",
-        "Used"
+        "Excelente",
+        "Excelente",
+        "Excelente",
+        "Bien",
+        "Maltratado"
       ]
     },
     "120": {
       "count": 2,
       "conditions": [
-        "Mint",
-        "Mint"
+        "Excelente",
+        "Excelente"
       ]
     },
     "121": {
       "count": 1,
       "conditions": [
-        "Mint"
+        "Excelente"
       ]
     },
     "122": {
       "count": 4,
       "conditions": [
-        "Mint",
-        "Mint",
-        "Mint",
-        "Mint"
+        "Excelente",
+        "Excelente",
+        "Excelente",
+        "Excelente"
       ]
     },
     "123": {
       "count": 6,
       "conditions": [
-        "Mint",
-        "Mint",
-        "Good",
-        "Very Damaged",
-        "Used",
-        "Used"
+        "Excelente",
+        "Excelente",
+        "Bien",
+        "Dañado",
+        "Maltratado",
+        "Maltratado"
       ]
     },
     "124": {
       "count": 6,
       "conditions": [
-        "Mint",
-        "Mint",
-        "Mint",
-        "Mint",
-        "Damaged",
-        "Very Damaged"
+        "Excelente",
+        "Excelente",
+        "Excelente",
+        "Excelente",
+        "Muy Maltratado",
+        "Dañado"
       ]
     },
     "125": {
       "count": 3,
       "conditions": [
-        "Mint",
-        "Mint",
-        "Used"
+        "Excelente",
+        "Excelente",
+        "Maltratado"
       ]
     },
     "126": {
       "count": 4,
       "conditions": [
-        "Good",
-        "Good",
-        "Good",
-        "Used"
+        "Bien",
+        "Bien",
+        "Bien",
+        "Maltratado"
       ]
     },
     "127": {
       "count": 2,
       "conditions": [
-        "Mint",
-        "Mint"
+        "Excelente",
+        "Excelente"
       ]
     },
     "128": {
       "count": 1,
       "conditions": [
-        "Mint"
+        "Excelente"
       ]
     },
     "129": {
       "count": 2,
       "conditions": [
-        "Mint",
-        "Used"
+        "Excelente",
+        "Maltratado"
       ]
     },
     "130": {
       "count": 3,
       "conditions": [
-        "Mint",
-        "Mint",
-        "Good"
+        "Excelente",
+        "Excelente",
+        "Bien"
       ]
     },
     "131": {
       "count": 1,
       "conditions": [
-        "Mint"
+        "Excelente"
       ]
     },
     "132": {
       "count": 2,
       "conditions": [
-        "Mint",
-        "Mint"
+        "Excelente",
+        "Excelente"
       ]
     },
     "133": {
       "count": 5,
       "conditions": [
-        "Mint",
-        "Mint",
-        "Good",
-        "Used",
-        "Used"
+        "Excelente",
+        "Excelente",
+        "Bien",
+        "Maltratado",
+        "Maltratado"
       ]
     },
     "134": {
       "count": 4,
       "conditions": [
-        "Good",
-        "Good",
-        "Used",
-        "Used"
+        "Bien",
+        "Bien",
+        "Maltratado",
+        "Maltratado"
       ]
     },
     "135": {
       "count": 2,
       "conditions": [
-        "Mint",
-        "Good"
+        "Excelente",
+        "Bien"
       ]
     },
     "136": {
       "count": 2,
       "conditions": [
-        "Mint",
-        "Mint"
+        "Excelente",
+        "Excelente"
       ]
     },
     "137": {
       "count": 2,
       "conditions": [
-        "Used",
-        "Damaged"
+        "Maltratado",
+        "Muy Maltratado"
       ]
     },
     "138": {
       "count": 5,
       "conditions": [
-        "Mint",
-        "Mint",
-        "Good",
-        "Good",
-        "Good"
+        "Excelente",
+        "Excelente",
+        "Bien",
+        "Bien",
+        "Bien"
       ]
     },
     "139": {
       "count": 1,
       "conditions": [
-        "Good"
+        "Bien"
       ]
     },
     "140": {
       "count": 5,
       "conditions": [
-        "Mint",
-        "Mint",
-        "Mint",
-        "Good",
-        "Good"
+        "Excelente",
+        "Excelente",
+        "Excelente",
+        "Bien",
+        "Bien"
       ]
     },
     "141": {
       "count": 2,
       "conditions": [
-        "Mint",
-        "Mint"
+        "Excelente",
+        "Excelente"
       ]
     },
     "142": {
       "count": 4,
       "conditions": [
-        "Mint",
-        "Good",
-        "Good",
-        "Good"
+        "Excelente",
+        "Bien",
+        "Bien",
+        "Bien"
       ]
     },
     "143": {
       "count": 5,
       "conditions": [
-        "Mint",
-        "Mint",
-        "Mint",
-        "Mint",
-        "Good"
+        "Excelente",
+        "Excelente",
+        "Excelente",
+        "Excelente",
+        "Bien"
       ]
     },
     "144": {
       "count": 1,
       "conditions": [
-        "Mint"
+        "Excelente"
       ]
     }
   },
