@@ -51,15 +51,35 @@ directly on disk (the static/Pages version cannot, since Pages has no backend).
    - add a copy with a specific condition (Excelente / Bien / Maltratado / Muy Maltratado / Dañado),
    - change the condition of an existing copy,
    - remove one or all copies.
-6. Switch between saved collections with the **— load saved —** dropdown.
+6. Switch between saved collections with the sidebar.
 
 Every change auto-saves.
+
+### Colours & quality
+
+Each tazo cell is coloured by the **best-quality copy** you own:
+
+| Quality | Enum | Colour |
+|---|---|---|
+| Excelente | 1 | 🟢 Green |
+| Bien | 2 | 🟩 Light green |
+| Maltratado | 3 | 🟡 Yellow |
+| Muy Maltratado | 4 | 🟠 Orange |
+| Dañado | 5 | 🔴 Red |
+
+### Ver repetidos (view duplicates)
+
+Click **Ver repetidos** to show only the tazos you have **more than one** of. It
+drops the single best copy of each and shows the rest, coloured by the best of
+what remains — handy for showing others which tazos you can trade.
 
 ## Where your data lives
 
 Each collection is saved twice in the `collections/` folder next to the app:
 
-- `<name>.json` — full data (source of truth, re-loadable in the app)
-- `<name>.csv` — flat table: `number, count, owned, conditions`
+- `<name>.json` — full data (source of truth, re-loadable in the app); conditions
+  are stored by name.
+- `<name>.csv` — flat table: `number, count, owned, conditions`, where the
+  `conditions` column stores the **quality enum** (1–5, best first) — e.g. `1; 3; 5`.
 
 You can open the CSV in Excel / Numbers / Google Sheets anytime.

@@ -1,168 +1,168 @@
 number,count,owned,conditions
-1,1,yes,Excelente
-2,1,yes,Excelente
+1,1,yes,1
+2,1,yes,1
 3,0,no,
-4,1,yes,Excelente
-5,1,yes,Excelente
-6,1,yes,Excelente
-7,1,yes,Excelente
-8,3,yes,Excelente; Excelente; Bien
-9,1,yes,Excelente
-10,1,yes,Excelente
+4,1,yes,1
+5,1,yes,1
+6,1,yes,1
+7,1,yes,1
+8,3,yes,1; 1; 2
+9,1,yes,1
+10,1,yes,1
 11,0,no,
-12,1,yes,Excelente
+12,1,yes,1
 13,0,no,
-14,1,yes,Excelente
+14,1,yes,1
 15,0,no,
-16,1,yes,Excelente
-17,1,yes,Excelente
-18,1,yes,Excelente
-19,2,yes,Excelente; Excelente
+16,1,yes,1
+17,1,yes,1
+18,1,yes,1
+19,2,yes,1; 1
 20,0,no,
 21,0,no,
-22,2,yes,Excelente; Excelente
-23,1,yes,Excelente
-24,1,yes,Excelente
-25,1,yes,Excelente
+22,2,yes,1; 1
+23,1,yes,1
+24,1,yes,1
+25,1,yes,1
 26,0,no,
-27,1,yes,Bien
+27,1,yes,2
 28,0,no,
-29,2,yes,Excelente; Excelente
+29,2,yes,1; 1
 30,0,no,
-31,1,yes,Excelente
+31,1,yes,1
 32,0,no,
 33,0,no,
-34,1,yes,Excelente
-35,1,yes,Excelente
-36,1,yes,Excelente
-37,1,yes,Excelente
-38,1,yes,Excelente
-39,1,yes,Excelente
+34,1,yes,1
+35,1,yes,1
+36,1,yes,1
+37,1,yes,1
+38,1,yes,1
+39,1,yes,1
 40,0,no,
 41,0,no,
-42,1,yes,Excelente
+42,1,yes,1
 43,0,no,
-44,2,yes,Excelente; Excelente
+44,2,yes,1; 1
 45,0,no,
-46,1,yes,Excelente
+46,1,yes,1
 47,0,no,
-48,1,yes,Bien
+48,1,yes,2
 49,0,no,
 50,0,no,
 51,0,no,
 52,0,no,
-53,1,yes,Excelente
-54,1,yes,Excelente
-55,1,yes,Excelente
-56,1,yes,Excelente
-57,1,yes,Excelente
-58,1,yes,Excelente
-59,2,yes,Excelente; Excelente
-60,1,yes,Excelente
-61,2,yes,Excelente; Excelente
-62,1,yes,Excelente
-63,1,yes,Excelente
-64,1,yes,Excelente
-65,2,yes,Excelente; Bien
-66,1,yes,Excelente
-67,1,yes,Excelente
-68,1,yes,Excelente
-69,1,yes,Excelente
+53,1,yes,1
+54,1,yes,1
+55,1,yes,1
+56,1,yes,1
+57,1,yes,1
+58,1,yes,1
+59,2,yes,1; 1
+60,1,yes,1
+61,2,yes,1; 1
+62,1,yes,1
+63,1,yes,1
+64,1,yes,1
+65,2,yes,1; 2
+66,1,yes,1
+67,1,yes,1
+68,1,yes,1
+69,1,yes,1
 70,0,no,
 71,0,no,
-72,1,yes,Excelente
+72,1,yes,1
 73,0,no,
-74,2,yes,Excelente; Excelente
-75,1,yes,Excelente
-76,2,yes,Excelente; Excelente
-77,5,yes,Excelente; Excelente; Excelente; Excelente; Excelente
-78,2,yes,Excelente; Excelente
-79,3,yes,Excelente; Excelente; Excelente
-80,2,yes,Excelente; Excelente
-81,1,yes,Excelente
-82,1,yes,Excelente
-83,1,yes,Excelente
-84,1,yes,Excelente
-85,1,yes,Excelente
-86,1,yes,Excelente
-87,2,yes,Excelente; Excelente
-88,1,yes,Excelente
-89,1,yes,Excelente
-90,1,yes,Excelente
-91,1,yes,Excelente
-92,1,yes,Excelente
-93,1,yes,Excelente
-94,1,yes,Excelente
-95,2,yes,Excelente; Excelente
-96,1,yes,Excelente
-97,2,yes,Excelente; Excelente
-98,3,yes,Excelente; Excelente; Excelente
-99,1,yes,Excelente
-100,1,yes,Excelente
-101,2,yes,Excelente; Excelente
-102,1,yes,Excelente
-103,2,yes,Excelente; Excelente
-104,2,yes,Excelente; Excelente
-105,3,yes,Excelente; Excelente; Excelente
-106,1,yes,Excelente
-107,1,yes,Excelente
-108,1,yes,Excelente
-109,1,yes,Excelente
+74,2,yes,1; 1
+75,1,yes,1
+76,2,yes,1; 1
+77,5,yes,1; 1; 1; 1; 1
+78,2,yes,1; 1
+79,3,yes,1; 1; 1
+80,2,yes,1; 1
+81,1,yes,1
+82,1,yes,1
+83,1,yes,1
+84,1,yes,1
+85,1,yes,1
+86,1,yes,1
+87,2,yes,1; 1
+88,1,yes,1
+89,1,yes,1
+90,1,yes,1
+91,1,yes,1
+92,1,yes,1
+93,1,yes,1
+94,1,yes,1
+95,2,yes,1; 1
+96,1,yes,1
+97,2,yes,1; 1
+98,3,yes,1; 1; 1
+99,1,yes,1
+100,1,yes,1
+101,2,yes,1; 1
+102,1,yes,1
+103,2,yes,1; 1
+104,2,yes,1; 1
+105,3,yes,1; 1; 1
+106,1,yes,1
+107,1,yes,1
+108,1,yes,1
+109,1,yes,1
 110,0,no,
-111,2,yes,Excelente; Excelente
-112,1,yes,Excelente
-113,1,yes,Excelente
-114,1,yes,Excelente
-115,1,yes,Excelente
+111,2,yes,1; 1
+112,1,yes,1
+113,1,yes,1
+114,1,yes,1
+115,1,yes,1
 116,0,no,
-117,1,yes,Excelente
-118,1,yes,Bien
-119,1,yes,Excelente
-120,1,yes,Excelente
+117,1,yes,1
+118,1,yes,2
+119,1,yes,1
+120,1,yes,1
 121,0,no,
 122,0,no,
 123,0,no,
-124,1,yes,Excelente
+124,1,yes,1
 125,0,no,
 126,0,no,
 127,0,no,
-128,1,yes,Bien
-129,1,yes,Excelente
-130,1,yes,Excelente
-131,2,yes,Excelente; Excelente
-132,1,yes,Excelente
-133,1,yes,Bien
-134,1,yes,Excelente
-135,1,yes,Excelente
-136,1,yes,Excelente
-137,1,yes,Excelente
-138,1,yes,Excelente
-139,1,yes,Excelente
-140,1,yes,Excelente
-141,1,yes,Excelente
-142,1,yes,Excelente
-143,1,yes,Excelente
-144,1,yes,Excelente
-145,1,yes,Excelente
-146,1,yes,Excelente
-147,2,yes,Excelente; Excelente
-148,1,yes,Excelente
-149,1,yes,Excelente
-150,1,yes,Excelente
-151,1,yes,Excelente
-152,1,yes,Excelente
-153,2,yes,Excelente; Excelente
-154,1,yes,Excelente
-155,1,yes,Excelente
+128,1,yes,2
+129,1,yes,1
+130,1,yes,1
+131,2,yes,1; 1
+132,1,yes,1
+133,1,yes,2
+134,1,yes,1
+135,1,yes,1
+136,1,yes,1
+137,1,yes,1
+138,1,yes,1
+139,1,yes,1
+140,1,yes,1
+141,1,yes,1
+142,1,yes,1
+143,1,yes,1
+144,1,yes,1
+145,1,yes,1
+146,1,yes,1
+147,2,yes,1; 1
+148,1,yes,1
+149,1,yes,1
+150,1,yes,1
+151,1,yes,1
+152,1,yes,1
+153,2,yes,1; 1
+154,1,yes,1
+155,1,yes,1
 156,0,no,
-157,1,yes,Excelente
-158,1,yes,Excelente
-159,1,yes,Excelente
+157,1,yes,1
+158,1,yes,1
+159,1,yes,1
 160,0,no,
-161,2,yes,Excelente; Excelente
-162,1,yes,Excelente
-163,1,yes,Excelente
-164,2,yes,Excelente; Excelente
+161,2,yes,1; 1
+162,1,yes,1
+163,1,yes,1
+164,2,yes,1; 1
 165,0,no,
 166,0,no,
 167,0,no,
@@ -170,81 +170,81 @@ number,count,owned,conditions
 169,0,no,
 170,0,no,
 171,0,no,
-172,1,yes,Excelente
-173,1,yes,Excelente
+172,1,yes,1
+173,1,yes,1
 174,0,no,
 175,0,no,
-176,1,yes,Excelente
-177,1,yes,Excelente
-178,1,yes,Excelente
-179,2,yes,Excelente; Excelente
-180,1,yes,Excelente
-181,1,yes,Excelente
-182,1,yes,Excelente
-183,1,yes,Excelente
-184,1,yes,Excelente
-185,1,yes,Excelente
-186,1,yes,Excelente
-187,1,yes,Maltratado
-188,1,yes,Excelente
-189,1,yes,Excelente
-190,2,yes,Excelente; Excelente
+176,1,yes,1
+177,1,yes,1
+178,1,yes,1
+179,2,yes,1; 1
+180,1,yes,1
+181,1,yes,1
+182,1,yes,1
+183,1,yes,1
+184,1,yes,1
+185,1,yes,1
+186,1,yes,1
+187,1,yes,3
+188,1,yes,1
+189,1,yes,1
+190,2,yes,1; 1
 191,0,no,
 192,0,no,
 193,0,no,
 194,0,no,
-195,1,yes,Excelente
+195,1,yes,1
 196,0,no,
-197,1,yes,Excelente
+197,1,yes,1
 198,0,no,
-199,1,yes,Excelente
+199,1,yes,1
 200,0,no,
 201,0,no,
 202,0,no,
 203,0,no,
-204,1,yes,Excelente
+204,1,yes,1
 205,0,no,
-206,1,yes,Excelente
-207,1,yes,Excelente
-208,1,yes,Excelente
+206,1,yes,1
+207,1,yes,1
+208,1,yes,1
 209,0,no,
 210,0,no,
 211,0,no,
 212,0,no,
-213,1,yes,Excelente
-214,1,yes,Excelente
+213,1,yes,1
+214,1,yes,1
 215,0,no,
-216,1,yes,Excelente
+216,1,yes,1
 217,0,no,
-218,1,yes,Maltratado
-219,1,yes,Excelente
-220,2,yes,Excelente; Excelente
-221,1,yes,Excelente
-222,1,yes,Excelente
-223,1,yes,Excelente
-224,1,yes,Excelente
-225,1,yes,Excelente
-226,1,yes,Excelente
+218,1,yes,3
+219,1,yes,1
+220,2,yes,1; 1
+221,1,yes,1
+222,1,yes,1
+223,1,yes,1
+224,1,yes,1
+225,1,yes,1
+226,1,yes,1
 227,0,no,
 228,0,no,
-229,1,yes,Excelente
+229,1,yes,1
 230,0,no,
-231,1,yes,Excelente
+231,1,yes,1
 232,0,no,
 233,0,no,
-234,1,yes,Excelente
-235,2,yes,Excelente; Excelente
-236,1,yes,Excelente
-237,1,yes,Excelente
+234,1,yes,1
+235,2,yes,1; 1
+236,1,yes,1
+237,1,yes,1
 238,0,no,
 239,0,no,
-240,1,yes,Excelente
-241,1,yes,Excelente
-242,1,yes,Excelente
-243,1,yes,Excelente
-244,1,yes,Excelente
-245,1,yes,Excelente
-246,1,yes,Excelente
+240,1,yes,1
+241,1,yes,1
+242,1,yes,1
+243,1,yes,1
+244,1,yes,1
+245,1,yes,1
+246,1,yes,1
 247,0,no,
 248,0,no,
 249,0,no,
@@ -260,23 +260,23 @@ number,count,owned,conditions
 259,0,no,
 260,0,no,
 261,0,no,
-262,1,yes,Excelente
-263,2,yes,Excelente; Excelente
+262,1,yes,1
+263,2,yes,1; 1
 264,0,no,
 265,0,no,
 266,0,no,
-267,1,yes,Excelente
-268,1,yes,Excelente
+267,1,yes,1
+268,1,yes,1
 269,0,no,
-270,1,yes,Excelente
+270,1,yes,1
 271,0,no,
-272,1,yes,Excelente
-273,1,yes,Excelente
-274,2,yes,Excelente; Excelente
-275,1,yes,Excelente
-276,1,yes,Excelente
-277,1,yes,Excelente
-278,1,yes,Excelente
+272,1,yes,1
+273,1,yes,1
+274,2,yes,1; 1
+275,1,yes,1
+276,1,yes,1
+277,1,yes,1
+278,1,yes,1
 279,0,no,
 280,0,no,
 281,0,no,

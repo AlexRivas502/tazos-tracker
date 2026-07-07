@@ -26,6 +26,14 @@ CONDITIONS = ["Excelente", "Bien", "Maltratado", "Muy Maltratado", "Dañado"]
 os.makedirs(DATA_DIR, exist_ok=True)
 
 
+def quality_enum(cond):
+    """Quality as an enum 1..5 (1 = Excelente/best), matching CONDITIONS order."""
+    try:
+        return CONDITIONS.index(cond) + 1
+    except ValueError:
+        return 0
+
+
 def safe_name(name):
     """Turn a collection name into a safe filename slug."""
     slug = re.sub(r"[^A-Za-z0-9_\- ]+", "", name).strip()
@@ -61,11 +69,13 @@ def save_collection(data):
             item = items.get(label, {})
             count = int(item.get("count", 0))
             conds = item.get("conditions", [])
+            # conditions column stores the quality enum (1..5), best first
+            enums = sorted(q for q in (quality_enum(c) for c in conds) if q)
             writer.writerow([
                 label,
                 count,
                 "yes" if count > 0 else "no",
-                "; ".join(conds),
+                "; ".join(str(q) for q in enums),
             ])
     return data
 
@@ -289,7 +299,9 @@ INDEX_HTML = r"""<!DOCTYPE html>
   button.block { display: block; width: 100%; text-align: center; }
   button.danger-btn { color: #ff7b72; }
   button.danger-btn:hover { background: #3a2422; }
-  .stats { margin-left: auto; font-size: 13px; color: var(--muted); }
+  button.toggle.active { background: var(--accent); color: #1a1200; border-color: var(--accent); font-weight: 600; }
+  #repeatBtn { margin-left: auto; }
+  .stats { margin-left: 14px; font-size: 13px; color: var(--muted); }
   .stats b { color: var(--text); }
   .save-status { font-size: 12px; color: var(--owned-bright); min-width: 90px; }
 
@@ -315,12 +327,15 @@ INDEX_HTML = r"""<!DOCTYPE html>
   }
   .cell:hover { border-color: var(--accent); }
   .cell:active { transform: scale(.95); }
-  .cell.owned {
-    background: var(--owned);
-    border-color: var(--owned-bright);
-  }
   .cell .num { font-size: 18px; font-weight: 700; }
-  .cell.owned .num { color: #fff; }
+  /* quality colors — best (q1, green) to worst (q5, red) */
+  .cell.q1 { background: #2e7d32; border-color: #43a047; }
+  .cell.q2 { background: #7cb342; border-color: #9ccc65; }
+  .cell.q3 { background: #f9a825; border-color: #ffca28; }
+  .cell.q4 { background: #ef6c00; border-color: #fb8c00; }
+  .cell.q5 { background: #c62828; border-color: #ef5350; }
+  .cell.q1 .num, .cell.q2 .num, .cell.q4 .num, .cell.q5 .num { color: #fff; }
+  .cell.q3 .num { color: #3a2c00; }
   .cell .count {
     position: absolute; top: 4px; right: 6px;
     font-size: 11px; font-weight: 700;
@@ -343,7 +358,9 @@ INDEX_HTML = r"""<!DOCTYPE html>
     font-size: 8px; text-transform: uppercase; letter-spacing: .04em;
     color: var(--accent); opacity: .85;
   }
-  .cell.owned .tag { color: #fff; }
+  .cell.q1 .tag, .cell.q2 .tag, .cell.q4 .tag, .cell.q5 .tag { color: #fff; }
+  .cell.q3 .tag { color: #3a2c00; }
+  .cell.q3 .conds { color: rgba(0,0,0,.6); }
 
   /* context menu */
   .menu {
@@ -389,6 +406,7 @@ INDEX_HTML = r"""<!DOCTYPE html>
   <button id="addCustomBtn">＋ Agregar tazo personalizado</button>
   <button id="renameBtn">Renombrar</button>
   <button id="deleteBtn" class="danger-btn">Eliminar</button>
+  <button id="repeatBtn" class="toggle">Ver repetidos</button>
   <div class="stats" id="stats"></div>
   <span class="save-status" id="saveStatus"></span>
 </header>
@@ -409,8 +427,33 @@ INDEX_HTML = r"""<!DOCTYPE html>
 const CONDITIONS = ["Excelente", "Bien", "Maltratado", "Muy Maltratado", "Dañado"];
 let state = { name: "Mi colección", total: 0, items: {}, extras: [] };
 let saveTimer = null;
+let repeatMode = false;   // "Ver repetidos": show only duplicated tazos
 
 const $ = id => document.getElementById(id);
+const EMPTY_DEFAULT = $("emptyMsg").textContent;
+
+/* ---- quality helpers ----
+   Quality is an enum 1..5 matching CONDITIONS order: 1 = best (Excelente) …
+   5 = worst (Dañado). CSV files store this enum; in the app we translate it
+   back to the condition name via CONDITIONS[enum - 1]. */
+function qualityEnum(cond) {           // name -> 1..5 (0 = unknown/none)
+  const i = CONDITIONS.indexOf(cond);
+  return i < 0 ? 0 : i + 1;
+}
+function qualityRank(cond) {            // lower = better; unknown sorts last
+  const i = CONDITIONS.indexOf(cond);
+  return i < 0 ? CONDITIONS.length : i;
+}
+function sortedConds(it) {              // an item's conditions, best -> worst
+  return (it.conditions || []).slice().sort((a, b) => qualityRank(a) - qualityRank(b));
+}
+// What to show for a tazo. In "Ver repetidos" the single best copy is dropped,
+// leaving the duplicates (coloured by the best of what remains).
+function displayFor(key) {
+  const all = sortedConds(item(key));
+  const conds = repeatMode ? all.slice(1) : all;
+  return { conds, count: conds.length, best: conds[0] || null };
+}
 
 function item(n) {
   const k = String(n);
@@ -444,48 +487,56 @@ function render() {
   const grid = $("grid");
   grid.innerHTML = "";
   if (!state.extras) state.extras = [];
-  const hasContent = state.total > 0 || state.extras.length > 0;
-  if (!hasContent) { $("emptyMsg").style.display = "block"; updateStats(); return; }
-  $("emptyMsg").style.display = "none";
+  const em = $("emptyMsg");
 
-  // numbered tazos first
-  for (let n = 1; n <= state.total; n++) {
-    grid.appendChild(buildCell(String(n), false));
+  const hasContent = state.total > 0 || state.extras.length > 0;
+  if (!hasContent) {
+    em.textContent = EMPTY_DEFAULT;
+    em.style.display = "block";
+    updateStats();
+    return;
   }
-  // then custom labels
-  state.extras.forEach(label => {
-    grid.appendChild(buildCell(String(label), true));
-  });
+
+  em.style.display = "none";
+  // Always draw the full grid. In "Ver repetidos", buildCell colours only the
+  // tazos with a spare copy; tazos without a repeat render as an empty cell,
+  // just like unowned tazos do in the regular view.
+  for (let n = 1; n <= state.total; n++) grid.appendChild(buildCell(String(n), false));
+  state.extras.forEach(label => grid.appendChild(buildCell(String(label), true)));
   updateStats();
 }
 
 function buildCell(key, isCustom) {
-  const it = item(key);
+  const d = displayFor(key);
   const cell = document.createElement("div");
-  cell.className = "cell" + (it.count > 0 ? " owned" : "") + (isCustom ? " custom" : "");
+  const quality = d.count > 0 ? " owned q" + qualityEnum(d.best) : "";
+  cell.className = "cell" + quality + (isCustom ? " custom" : "");
   const numSpan = document.createElement("span");
   numSpan.className = "num";
   numSpan.textContent = key;  // textContent → safe for any custom label
 
   cell.innerHTML =
-    (it.count > 0 ? `<span class="count">${it.count}</span>` : "") +
+    (d.count > 0 ? `<span class="count">${d.count}</span>` : "") +
     (isCustom ? `<span class="tag">extra</span>` : "");
   cell.appendChild(numSpan);
-  if (it.conditions.length) {
+  if (d.conds.length) {
     const cs = document.createElement("span");
     cs.className = "conds";
-    cs.textContent = condSummary(it.conditions);
+    cs.textContent = condSummary(d.conds);
     cell.appendChild(cs);
   }
 
-  cell.addEventListener("click", (e) => {
-    if (e.shiftKey) removeCopy(key);
-    else addCopy(key);
-  });
-  cell.addEventListener("contextmenu", (e) => {
-    e.preventDefault();
-    openMenu(e, key, isCustom);
-  });
+  // editing is disabled while viewing repeats
+  if (!repeatMode) {
+    cell.addEventListener("click", (e) => {
+      if (e.shiftKey) removeCopy(key);
+      else addCopy(key);
+    });
+    cell.addEventListener("contextmenu", (e) => {
+      e.preventDefault();
+      openMenu(e, key, isCustom);
+    });
+  }
   return cell;
 }
 
@@ -502,6 +553,18 @@ function updateStats() {
   const keys = [];
   for (let n = 1; n <= state.total; n++) keys.push(String(n));
   (state.extras || []).forEach(l => keys.push(String(l)));
+
+  if (repeatMode) {
+    let repTazos = 0, repCopies = 0;
+    keys.forEach(k => {
+      const it = state.items[k];
+      const extra = it ? Math.max(0, it.count - 1) : 0;
+      if (extra > 0) { repTazos++; repCopies += extra; }
+    });
+    $("stats").innerHTML =
+      `Repetidos <b>${repTazos}</b> &nbsp;·&nbsp; Copias sobrantes <b>${repCopies}</b>`;
+    return;
+  }
 
   let owned = 0, copies = 0;
   keys.forEach(k => {
@@ -753,6 +816,14 @@ $("newBtn").addEventListener("click", newCollection);
 $("addCustomBtn").addEventListener("click", addCustom);
 $("renameBtn").addEventListener("click", renameCollection);
 $("deleteBtn").addEventListener("click", deleteCollection);
+$("repeatBtn").addEventListener("click", () => {
+  repeatMode = !repeatMode;
+  const b = $("repeatBtn");
+  b.classList.toggle("active", repeatMode);
+  b.textContent = repeatMode ? "Ver todos" : "Ver repetidos";
+  closeMenu();
+  render();
+});
 
 /* on first load: open the most recent collection if any exist */
 (async function init() {

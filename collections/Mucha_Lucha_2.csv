@@ -1,181 +1,181 @@
 number,count,owned,conditions
-1,1,yes,Excelente
-2,1,yes,Excelente
-3,4,yes,Excelente; Excelente; Bien; Maltratado
-4,2,yes,Excelente; Excelente
-5,2,yes,Excelente; Excelente
-6,3,yes,Excelente; Excelente; Maltratado
-7,1,yes,Excelente
-8,1,yes,Bien
-9,3,yes,Excelente; Excelente; Maltratado
-10,3,yes,Excelente; Excelente; Muy Maltratado
-11,1,yes,Bien
-12,1,yes,Excelente
-13,3,yes,Excelente; Maltratado; Muy Maltratado
-14,3,yes,Bien; Maltratado; Maltratado
-15,1,yes,Maltratado
-16,1,yes,Bien
-17,2,yes,Bien; Maltratado
-18,2,yes,Bien; Maltratado
-19,2,yes,Excelente; Maltratado
-20,2,yes,Bien; Bien
-21,1,yes,Maltratado
-22,2,yes,Excelente; Maltratado
-23,1,yes,Bien
-24,1,yes,Bien
-25,1,yes,Excelente
-26,1,yes,Bien
+1,1,yes,1
+2,1,yes,1
+3,4,yes,1; 1; 2; 3
+4,2,yes,1; 1
+5,2,yes,1; 1
+6,3,yes,1; 1; 3
+7,1,yes,1
+8,1,yes,2
+9,3,yes,1; 1; 3
+10,3,yes,1; 1; 4
+11,1,yes,2
+12,1,yes,1
+13,3,yes,1; 3; 4
+14,3,yes,2; 3; 3
+15,1,yes,3
+16,1,yes,2
+17,2,yes,2; 3
+18,2,yes,2; 3
+19,2,yes,1; 3
+20,2,yes,2; 2
+21,1,yes,3
+22,2,yes,1; 3
+23,1,yes,2
+24,1,yes,2
+25,1,yes,1
+26,1,yes,2
 27,0,no,
-28,1,yes,Bien
-29,1,yes,Bien
-30,1,yes,Maltratado
-31,1,yes,Excelente
-32,1,yes,Bien
-33,1,yes,Bien
+28,1,yes,2
+29,1,yes,2
+30,1,yes,3
+31,1,yes,1
+32,1,yes,2
+33,1,yes,2
 34,0,no,
-35,1,yes,Excelente
-36,3,yes,Bien; Maltratado; Maltratado
-37,1,yes,Excelente
-38,1,yes,Bien
-39,2,yes,Excelente; Excelente
+35,1,yes,1
+36,3,yes,2; 3; 3
+37,1,yes,1
+38,1,yes,2
+39,2,yes,1; 1
 40,0,no,
-41,1,yes,Bien
-42,1,yes,Maltratado
-43,3,yes,Excelente; Excelente; Maltratado
-44,1,yes,Maltratado
-45,1,yes,Bien
-46,1,yes,Bien
-47,1,yes,Bien
-48,1,yes,Maltratado
-49,1,yes,Excelente
-50,1,yes,Excelente
+41,1,yes,2
+42,1,yes,3
+43,3,yes,1; 1; 3
+44,1,yes,3
+45,1,yes,2
+46,1,yes,2
+47,1,yes,2
+48,1,yes,3
+49,1,yes,1
+50,1,yes,1
 51,0,no,
-52,1,yes,Bien
-53,1,yes,Bien
-54,1,yes,Bien
-55,1,yes,Bien
-56,1,yes,Bien
-57,1,yes,Excelente
-58,1,yes,Bien
-59,1,yes,Bien
-60,1,yes,Maltratado
-61,2,yes,Bien; Bien
-62,1,yes,Bien
-63,1,yes,Bien
-64,2,yes,Bien; Maltratado
-65,3,yes,Excelente; Bien; Bien
-66,2,yes,Excelente; Bien
-67,1,yes,Maltratado
-68,1,yes,Bien
-69,1,yes,Bien
-70,3,yes,Excelente; Bien; Maltratado
-71,1,yes,Bien
-72,2,yes,Excelente; Bien
+52,1,yes,2
+53,1,yes,2
+54,1,yes,2
+55,1,yes,2
+56,1,yes,2
+57,1,yes,1
+58,1,yes,2
+59,1,yes,2
+60,1,yes,3
+61,2,yes,2; 2
+62,1,yes,2
+63,1,yes,2
+64,2,yes,2; 3
+65,3,yes,1; 2; 2
+66,2,yes,1; 2
+67,1,yes,3
+68,1,yes,2
+69,1,yes,2
+70,3,yes,1; 2; 3
+71,1,yes,2
+72,2,yes,1; 2
 73,0,no,
-74,1,yes,Excelente
-75,1,yes,Bien
-76,1,yes,Bien
-77,1,yes,Bien
-78,2,yes,Excelente; Excelente
-79,2,yes,Excelente; Bien
-80,2,yes,Bien; Bien
-81,3,yes,Excelente; Bien; Maltratado
-82,2,yes,Bien; Maltratado
-83,1,yes,Bien
-84,1,yes,Bien
-85,1,yes,Bien
-86,2,yes,Bien; Bien
-87,1,yes,Excelente
-88,2,yes,Excelente; Bien
-89,2,yes,Excelente; Bien
-90,1,yes,Excelente
-91,4,yes,Excelente; Bien; Bien; Bien
-92,2,yes,Bien; Bien
-93,2,yes,Bien; Bien
-94,2,yes,Bien; Bien
-95,2,yes,Bien; Bien
-96,1,yes,Bien
-97,2,yes,Excelente; Bien
-98,3,yes,Bien; Bien; Bien
-99,3,yes,Bien; Bien; Bien
-100,4,yes,Excelente; Bien; Bien; Bien
-101,2,yes,Bien; Bien
-102,3,yes,Excelente; Excelente; Bien
-103,3,yes,Excelente; Excelente; Bien
-104,2,yes,Excelente; Excelente
-105,2,yes,Bien; Bien
-106,1,yes,Bien
-107,2,yes,Bien; Bien
-108,2,yes,Excelente; Bien
-109,2,yes,Excelente; Bien
-110,3,yes,Excelente; Excelente; Bien
-111,3,yes,Excelente; Bien; Maltratado
-112,1,yes,Bien
-113,1,yes,Maltratado
-114,2,yes,Excelente; Excelente
-115,2,yes,Excelente; Excelente
-116,2,yes,Bien; Maltratado
-117,1,yes,Bien
-118,2,yes,Bien; Bien
-119,1,yes,Bien
+74,1,yes,1
+75,1,yes,2
+76,1,yes,2
+77,1,yes,2
+78,2,yes,1; 1
+79,2,yes,1; 2
+80,2,yes,2; 2
+81,3,yes,1; 2; 3
+82,2,yes,2; 3
+83,1,yes,2
+84,1,yes,2
+85,1,yes,2
+86,2,yes,2; 2
+87,1,yes,1
+88,2,yes,1; 2
+89,2,yes,1; 2
+90,1,yes,1
+91,4,yes,1; 2; 2; 2
+92,2,yes,2; 2
+93,2,yes,2; 2
+94,2,yes,2; 2
+95,2,yes,2; 2
+96,1,yes,2
+97,2,yes,1; 2
+98,3,yes,2; 2; 2
+99,3,yes,2; 2; 2
+100,4,yes,1; 2; 2; 2
+101,2,yes,2; 2
+102,3,yes,1; 1; 2
+103,3,yes,1; 1; 2
+104,2,yes,1; 1
+105,2,yes,2; 2
+106,1,yes,2
+107,2,yes,2; 2
+108,2,yes,1; 2
+109,2,yes,1; 2
+110,3,yes,1; 1; 2
+111,3,yes,1; 2; 3
+112,1,yes,2
+113,1,yes,3
+114,2,yes,1; 1
+115,2,yes,1; 1
+116,2,yes,2; 3
+117,1,yes,2
+118,2,yes,2; 2
+119,1,yes,2
 120,0,no,
-121,1,yes,Bien
-122,1,yes,Bien
-123,2,yes,Bien; Muy Maltratado
-124,3,yes,Excelente; Bien; Bien
-125,3,yes,Excelente; Muy Maltratado; Maltratado
-126,1,yes,Excelente
-127,1,yes,Bien
-128,1,yes,Bien
-129,1,yes,Bien
-130,2,yes,Excelente; Bien
-131,1,yes,Bien
-132,2,yes,Excelente; Excelente
-133,2,yes,Excelente; Excelente
-134,1,yes,Excelente
-135,2,yes,Excelente; Excelente
-136,2,yes,Excelente; Muy Maltratado
-137,2,yes,Excelente; Muy Maltratado
-138,1,yes,Excelente
-139,1,yes,Excelente
-140,2,yes,Excelente; Maltratado
+121,1,yes,2
+122,1,yes,2
+123,2,yes,2; 4
+124,3,yes,1; 2; 2
+125,3,yes,1; 3; 4
+126,1,yes,1
+127,1,yes,2
+128,1,yes,2
+129,1,yes,2
+130,2,yes,1; 2
+131,1,yes,2
+132,2,yes,1; 1
+133,2,yes,1; 1
+134,1,yes,1
+135,2,yes,1; 1
+136,2,yes,1; 4
+137,2,yes,1; 4
+138,1,yes,1
+139,1,yes,1
+140,2,yes,1; 3
 141,0,no,
-142,1,yes,Bien
+142,1,yes,2
 143,0,no,
-144,1,yes,Excelente
+144,1,yes,1
 145,0,no,
 146,0,no,
 147,0,no,
 148,0,no,
 149,0,no,
 150,0,no,
-151,1,yes,Excelente
-152,1,yes,Excelente
-153,1,yes,Excelente
-154,1,yes,Excelente
+151,1,yes,1
+152,1,yes,1
+153,1,yes,1
+154,1,yes,1
 155,0,no,
-156,1,yes,Bien
+156,1,yes,2
 157,0,no,
-158,1,yes,Excelente
-159,1,yes,Excelente
-160,1,yes,Excelente
-161,1,yes,Excelente
+158,1,yes,1
+159,1,yes,1
+160,1,yes,1
+161,1,yes,1
 162,0,no,
-163,1,yes,Excelente
+163,1,yes,1
 164,0,no,
-165,1,yes,Muy Maltratado
-166,1,yes,Bien
+165,1,yes,4
+166,1,yes,2
 167,0,no,
-168,1,yes,Bien
-169,1,yes,Bien
+168,1,yes,2
+169,1,yes,2
 170,0,no,
-171,1,yes,Excelente
-172,1,yes,Maltratado
-173,1,yes,Bien
-174,1,yes,Excelente
+171,1,yes,1
+172,1,yes,3
+173,1,yes,2
+174,1,yes,1
 175,0,no,
-176,1,yes,Maltratado
-177,1,yes,Bien
-178,1,yes,Excelente
-179,1,yes,Bien
-180,1,yes,Bien
+176,1,yes,3
+177,1,yes,2
+178,1,yes,1
+179,1,yes,2
+180,1,yes,2

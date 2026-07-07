@@ -5,7 +5,8 @@
       "Bash(node --check /tmp/claude-1000/-mnt-c-Users-forev-OneDrive-Documentos-GitHub-tazos-tracker/7227b334-8f79-4431-a9f6-be47d0e81bf8/scratchpad/app.js)",
       "Bash(python3 -c \"import ast,py_compile; py_compile.compile\\('server.py', doraise=True\\); print\\('server.py OK'\\)\")",
       "Bash(python3 -c \"import re; s=open\\('server.py'\\).read\\(\\); print\\('py list:', re.search\\(r'^CONDITIONS = .*', s, re.M\\).group\\(\\)\\); print\\('js list:', re.search\\(r'const CONDITIONS = .*', s\\).group\\(\\)\\)\")",
-      "Bash(python3 -c \"import py_compile; py_compile.compile\\('server.py', doraise=True\\); print\\('server.py OK'\\)\")"
+      "Bash(python3 -c \"import py_compile; py_compile.compile\\('server.py', doraise=True\\); print\\('server.py OK'\\)\")",
+      "Bash(node --check /tmp/claude-1000/-mnt-c-Users-forev-OneDrive-Documentos-GitHub-tazos-tracker/7227b334-8f79-4431-a9f6-be47d0e81bf8/scratchpad/srv.js)"
     ]
   }
 }
