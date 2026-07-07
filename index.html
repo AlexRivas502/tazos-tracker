@@ -216,7 +216,8 @@ const $ = id => document.getElementById(id);
    the JSON files shipped in ./collections (listed in manifest.json).
    ===================================================================== */
 const STORAGE_KEY = "tazos-tracker:collections";
-const SEEDED_KEY  = "tazos-tracker:seeded";
+// Bumped to :v2 so browsers stuck by an earlier failed seed re-seed once.
+const SEEDED_KEY  = "tazos-tracker:seeded:v2";
 
 function safeName(name) {
   let slug = String(name).replace(/[^A-Za-z0-9_\- ]+/g, "").trim();
@@ -235,30 +236,38 @@ function writeStore(store) {
   localStorage.setItem(STORAGE_KEY, JSON.stringify(store));
 }
 
-// Seed localStorage from the bundled JSON files, but only once ever.
+// Seed localStorage from the bundled JSON files. Runs when the store is empty
+// and we haven't already seeded successfully. Crucially, we only set the
+// "seeded" flag when at least one collection actually loaded — so a failed or
+// too-early first visit retries on the next load instead of getting stuck.
 async function seedIfNeeded() {
-  if (localStorage.getItem(SEEDED_KEY)) return;
+  const store = readStore();
+  if (Object.keys(store).length > 0) return;   // user already has data locally
+  if (localStorage.getItem(SEEDED_KEY)) return; // seeded before, then emptied on purpose
   try {
     const res = await fetch("collections/manifest.json", { cache: "no-store" });
-    if (res.ok) {
-      const manifest = await res.json();
-      const store = readStore();
-      await Promise.all(manifest.map(async entry => {
-        try {
-          const r = await fetch("collections/" + entry.file, { cache: "no-store" });
-          if (!r.ok) return;
-          const data = await r.json();
-          const key = safeName(data.name || entry.name);
-          // don't clobber anything the user already has locally
-          if (!store[key]) store[key] = data;
-        } catch (e) { /* skip a bad file */ }
-      }));
+    if (!res.ok) throw new Error("manifest HTTP " + res.status);
+    const manifest = await res.json();
+    let loaded = 0;
+    await Promise.all(manifest.map(async entry => {
+      try {
+        const r = await fetch("collections/" + entry.file, { cache: "no-store" });
+        if (!r.ok) return;
+        const data = await r.json();
+        const key = safeName(data.name || entry.name);
+        if (!store[key]) { store[key] = data; loaded++; }
+      } catch (e) { /* skip a bad file */ }
+    }));
+    if (loaded > 0) {
       writeStore(store);
+      localStorage.setItem(SEEDED_KEY, "1");
+    } else {
+      console.warn("Tazos: manifest loaded but no collections were seeded.");
     }
   } catch (e) {
-    // offline or manifest missing — start with an empty tracker
+    // Don't set the seeded flag — leave it to retry on the next visit.
+    console.warn("Tazos: could not load bundled collections —", e.message);
   }
-  localStorage.setItem(SEEDED_KEY, "1");
 }
 
 /* API replacements — all synchronous localStorage operations, kept async
