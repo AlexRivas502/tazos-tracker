@@ -398,15 +398,15 @@
       ]
     },
     "145": {
+      "count": 0,
+      "conditions": []
+    },
+    "146": {
       "count": 2,
       "conditions": [
         "Bien",
         "Dañado"
       ]
-    },
-    "146": {
-      "count": 0,
-      "conditions": []
     },
     "150": {
       "count": 0,

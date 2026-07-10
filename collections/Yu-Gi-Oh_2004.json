@@ -1,0 +1,565 @@
+{
+  "name": "Yu-Gi-Oh (2004)",
+  "total": 100,
+  "items": {
+    "1": {
+      "count": 3,
+      "conditions": [
+        "Bien",
+        "Bien",
+        "Maltratado"
+      ]
+    },
+    "2": {
+      "count": 1,
+      "conditions": [
+        "Bien"
+      ]
+    },
+    "3": {
+      "count": 1,
+      "conditions": [
+        "Bien"
+      ]
+    },
+    "4": {
+      "count": 1,
+      "conditions": [
+        "Excelente"
+      ]
+    },
+    "5": {
+      "count": 0,
+      "conditions": []
+    },
+    "6": {
+      "count": 0,
+      "conditions": []
+    },
+    "7": {
+      "count": 0,
+      "conditions": []
+    },
+    "8": {
+      "count": 0,
+      "conditions": []
+    },
+    "9": {
+      "count": 1,
+      "conditions": [
+        "Bien"
+      ]
+    },
+    "10": {
+      "count": 0,
+      "conditions": []
+    },
+    "11": {
+      "count": 0,
+      "conditions": []
+    },
+    "12": {
+      "count": 0,
+      "conditions": []
+    },
+    "13": {
+      "count": 1,
+      "conditions": [
+        "Bien"
+      ]
+    },
+    "14": {
+      "count": 1,
+      "conditions": [
+        "Bien"
+      ]
+    },
+    "15": {
+      "count": 0,
+      "conditions": []
+    },
+    "16": {
+      "count": 2,
+      "conditions": [
+        "Excelente",
+        "Excelente"
+      ]
+    },
+    "17": {
+      "count": 1,
+      "conditions": [
+        "Excelente"
+      ]
+    },
+    "18": {
+      "count": 0,
+      "conditions": []
+    },
+    "19": {
+      "count": 1,
+      "conditions": [
+        "Bien"
+      ]
+    },
+    "20": {
+      "count": 1,
+      "conditions": [
+        "Bien"
+      ]
+    },
+    "21": {
+      "count": 1,
+      "conditions": [
+        "Bien"
+      ]
+    },
+    "22": {
+      "count": 1,
+      "conditions": [
+        "Maltratado"
+      ]
+    },
+    "23": {
+      "count": 1,
+      "conditions": [
+        "Bien"
+      ]
+    },
+    "24": {
+      "count": 1,
+      "conditions": [
+        "Bien"
+      ]
+    },
+    "25": {
+      "count": 0,
+      "conditions": []
+    },
+    "26": {
+      "count": 0,
+      "conditions": []
+    },
+    "27": {
+      "count": 1,
+      "conditions": [
+        "Bien"
+      ]
+    },
+    "28": {
+      "count": 1,
+      "conditions": [
+        "Bien"
+      ]
+    },
+    "29": {
+      "count": 0,
+      "conditions": []
+    },
+    "30": {
+      "count": 0,
+      "conditions": []
+    },
+    "31": {
+      "count": 1,
+      "conditions": [
+        "Excelente"
+      ]
+    },
+    "32": {
+      "count": 1,
+      "conditions": [
+        "Bien"
+      ]
+    },
+    "33": {
+      "count": 2,
+      "conditions": [
+        "Bien",
+        "Bien"
+      ]
+    },
+    "34": {
+      "count": 1,
+      "conditions": [
+        "Bien"
+      ]
+    },
+    "35": {
+      "count": 1,
+      "conditions": [
+        "Bien"
+      ]
+    },
+    "36": {
+      "count": 0,
+      "conditions": []
+    },
+    "37": {
+      "count": 2,
+      "conditions": [
+        "Bien",
+        "Bien"
+      ]
+    },
+    "38": {
+      "count": 3,
+      "conditions": [
+        "Bien",
+        "Bien",
+        "Bien"
+      ]
+    },
+    "39": {
+      "count": 2,
+      "conditions": [
+        "Maltratado",
+        "Maltratado"
+      ]
+    },
+    "40": {
+      "count": 0,
+      "conditions": []
+    },
+    "41": {
+      "count": 3,
+      "conditions": [
+        "Bien",
+        "Maltratado",
+        "Maltratado"
+      ]
+    },
+    "42": {
+      "count": 0,
+      "conditions": []
+    },
+    "43": {
+      "count": 0,
+      "conditions": []
+    },
+    "44": {
+      "count": 0,
+      "conditions": []
+    },
+    "45": {
+      "count": 0,
+      "conditions": []
+    },
+    "46": {
+      "count": 2,
+      "conditions": [
+        "Bien",
+        "Maltratado"
+      ]
+    },
+    "47": {
+      "count": 2,
+      "conditions": [
+        "Maltratado",
+        "Maltratado"
+      ]
+    },
+    "48": {
+      "count": 1,
+      "conditions": [
+        "Maltratado"
+      ]
+    },
+    "49": {
+      "count": 2,
+      "conditions": [
+        "Bien",
+        "Bien"
+      ]
+    },
+    "50": {
+      "count": 1,
+      "conditions": [
+        "Bien"
+      ]
+    },
+    "51": {
+      "count": 1,
+      "conditions": [
+        "Excelente"
+      ]
+    },
+    "52": {
+      "count": 0,
+      "conditions": []
+    },
+    "53": {
+      "count": 1,
+      "conditions": [
+        "Excelente"
+      ]
+    },
+    "54": {
+      "count": 1,
+      "conditions": [
+        "Bien"
+      ]
+    },
+    "55": {
+      "count": 1,
+      "conditions": [
+        "Excelente"
+      ]
+    },
+    "56": {
+      "count": 0,
+      "conditions": []
+    },
+    "57": {
+      "count": 2,
+      "conditions": [
+        "Excelente",
+        "Excelente"
+      ]
+    },
+    "58": {
+      "count": 2,
+      "conditions": [
+        "Excelente",
+        "Muy Maltratado"
+      ]
+    },
+    "59": {
+      "count": 3,
+      "conditions": [
+        "Bien",
+        "Muy Maltratado",
+        "Bien"
+      ]
+    },
+    "60": {
+      "count": 1,
+      "conditions": [
+        "Excelente"
+      ]
+    },
+    "61": {
+      "count": 1,
+      "conditions": [
+        "Excelente"
+      ]
+    },
+    "62": {
+      "count": 3,
+      "conditions": [
+        "Excelente",
+        "Excelente",
+        "Bien"
+      ]
+    },
+    "63": {
+      "count": 1,
+      "conditions": [
+        "Maltratado"
+      ]
+    },
+    "64": {
+      "count": 2,
+      "conditions": [
+        "Excelente",
+        "Maltratado"
+      ]
+    },
+    "65": {
+      "count": 3,
+      "conditions": [
+        "Excelente",
+        "Maltratado",
+        "Maltratado"
+      ]
+    },
+    "66": {
+      "count": 2,
+      "conditions": [
+        "Excelente",
+        "Excelente"
+      ]
+    },
+    "67": {
+      "count": 1,
+      "conditions": [
+        "Excelente"
+      ]
+    },
+    "68": {
+      "count": 0,
+      "conditions": []
+    },
+    "69": {
+      "count": 1,
+      "conditions": [
+        "Excelente"
+      ]
+    },
+    "70": {
+      "count": 0,
+      "conditions": []
+    },
+    "71": {
+      "count": 1,
+      "conditions": [
+        "Excelente"
+      ]
+    },
+    "72": {
+      "count": 1,
+      "conditions": [
+        "Excelente"
+      ]
+    },
+    "73": {
+      "count": 1,
+      "conditions": [
+        "Excelente"
+      ]
+    },
+    "74": {
+      "count": 3,
+      "conditions": [
+        "Excelente",
+        "Excelente",
+        "Excelente"
+      ]
+    },
+    "75": {
+      "count": 1,
+      "conditions": [
+        "Excelente"
+      ]
+    },
+    "76": {
+      "count": 1,
+      "conditions": [
+        "Excelente"
+      ]
+    },
+    "77": {
+      "count": 1,
+      "conditions": [
+        "Excelente"
+      ]
+    },
+    "78": {
+      "count": 1,
+      "conditions": [
+        "Excelente"
+      ]
+    },
+    "79": {
+      "count": 0,
+      "conditions": []
+    },
+    "80": {
+      "count": 1,
+      "conditions": [
+        "Excelente"
+      ]
+    },
+    "81": {
+      "count": 1,
+      "conditions": [
+        "Excelente"
+      ]
+    },
+    "82": {
+      "count": 1,
+      "conditions": [
+        "Excelente"
+      ]
+    },
+    "83": {
+      "count": 0,
+      "conditions": []
+    },
+    "84": {
+      "count": 1,
+      "conditions": [
+        "Excelente"
+      ]
+    },
+    "85": {
+      "count": 0,
+      "conditions": []
+    },
+    "86": {
+      "count": 3,
+      "conditions": [
+        "Excelente",
+        "Excelente",
+        "Maltratado"
+      ]
+    },
+    "87": {
+      "count": 0,
+      "conditions": []
+    },
+    "88": {
+      "count": 0,
+      "conditions": []
+    },
+    "89": {
+      "count": 2,
+      "conditions": [
+        "Excelente",
+        "Muy Maltratado"
+      ]
+    },
+    "90": {
+      "count": 0,
+      "conditions": []
+    },
+    "91": {
+      "count": 1,
+      "conditions": [
+        "Excelente"
+      ]
+    },
+    "92": {
+      "count": 1,
+      "conditions": [
+        "Excelente"
+      ]
+    },
+    "93": {
+      "count": 0,
+      "conditions": []
+    },
+    "94": {
+      "count": 1,
+      "conditions": [
+        "Bien"
+      ]
+    },
+    "95": {
+      "count": 0,
+      "conditions": []
+    },
+    "96": {
+      "count": 0,
+      "conditions": []
+    },
+    "97": {
+      "count": 0,
+      "conditions": []
+    },
+    "98": {
+      "count": 0,
+      "conditions": []
+    },
+    "99": {
+      "count": 0,
+      "conditions": []
+    },
+    "100": {
+      "count": 1,
+      "conditions": [
+        "Muy Maltratado"
+      ]
+    }
+  },
+  "extras": []
+}
