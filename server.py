@@ -77,13 +77,14 @@ def save_collection(data):
                 "yes" if count > 0 else "no",
                 "; ".join(str(q) for q in enums),
             ])
+    write_manifest()  # keep the static-site manifest in sync
     return data
 
 
 def list_collections():
     out = []
     for fn in sorted(os.listdir(DATA_DIR)):
-        if fn.endswith(".json"):
+        if fn.endswith(".json") and fn != "manifest.json":
             try:
                 with open(os.path.join(DATA_DIR, fn), encoding="utf-8") as f:
                     d = json.load(f)
@@ -91,6 +92,25 @@ def list_collections():
             except Exception:
                 pass
     return out
+
+
+def write_manifest():
+    """Rebuild collections/manifest.json from the JSON files on disk.
+
+    GitHub Pages can't list a directory, so the static site reads this manifest
+    to know which collections exist. We regenerate it on every change so the
+    published site never drifts out of sync with the files."""
+    entries = []
+    for fn in sorted(os.listdir(DATA_DIR)):
+        if fn.endswith(".json") and fn != "manifest.json":
+            try:
+                with open(os.path.join(DATA_DIR, fn), encoding="utf-8") as f:
+                    d = json.load(f)
+                entries.append({"file": fn, "name": d.get("name", fn[:-5]), "total": d.get("total", 0)})
+            except Exception:
+                pass
+    with open(os.path.join(DATA_DIR, "manifest.json"), "w", encoding="utf-8") as f:
+        json.dump(entries, f, indent=2, ensure_ascii=False)
 
 
 def load_collection(name):
@@ -108,6 +128,8 @@ def delete_collection(name):
         if os.path.exists(p):
             os.remove(p)
             removed = True
+    if removed:
+        write_manifest()  # keep the static-site manifest in sync
     return removed
 
 
@@ -841,6 +863,7 @@ $("repeatBtn").addEventListener("click", () => {
 
 
 def main():
+    write_manifest()  # refresh in case collections were added/edited by hand
     socketserver.TCPServer.allow_reuse_address = True
     with socketserver.TCPServer(("127.0.0.1", PORT), Handler) as httpd:
         url = f"http://localhost:{PORT}"

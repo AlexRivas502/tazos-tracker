@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# OS / filesystem cruft
+.DS_Store
+Thumbs.db
+desktop.ini
+*~
+
+# Editor / IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs & temp
+*.log
+*.tmp
+
+# NOTE: collections/ (the *.json / *.csv data and manifest.json) is intentionally
+# tracked — it's the app's content and the source the GitHub Pages site reads.
+.claude/

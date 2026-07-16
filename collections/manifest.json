@@ -1,18 +1,43 @@
 [
   {
-    "file": "Bob_Esponja_1_2007.json",
-    "name": "Bob Esponja 1 (2007)",
+    "file": "Angry_Birds_2012.json",
+    "name": "Angry Birds (2012)",
+    "total": 240
+  },
+  {
+    "file": "Angry_Birds_Space_2013.json",
+    "name": "Angry Birds Space (2013)",
+    "total": 302
+  },
+  {
+    "file": "Animaniacs_Super_Taps_1995.json",
+    "name": "Animaniacs Super Taps (1995)",
+    "total": 60
+  },
+  {
+    "file": "Bob_Esponja_2007.json",
+    "name": "Bob Esponja (2007)",
     "total": 163
   },
   {
-    "file": "Bob_Esponja_3_2014.json",
-    "name": "Bob Esponja 3 (2014)",
+    "file": "Bob_Esponja_2014.json",
+    "name": "Bob Esponja (2014)",
     "total": 50
+  },
+  {
+    "file": "Cartoon_Network_2005.json",
+    "name": "Cartoon Network (2005)",
+    "total": 100
   },
   {
     "file": "Funki_Punky_Extremo_2011.json",
     "name": "Funki Punky Extremo (2011)",
     "total": 226
+  },
+  {
+    "file": "Funki_Punky_Super_2013.json",
+    "name": "Funki Punky Super (2013)",
+    "total": 236
   },
   {
     "file": "Looney_TUnes_Vuelta_al_mundo_1994.json",
@@ -25,6 +50,11 @@
     "total": 100
   },
   {
+    "file": "Medabots_2003.json",
+    "name": "Medabots (2003)",
+    "total": 140
+  },
+  {
     "file": "Mucha_Lucha_1.json",
     "name": "Mucha Lucha 1",
     "total": 150
@@ -35,14 +65,14 @@
     "total": 180
   },
   {
+    "file": "Nickelodeon_2010.json",
+    "name": "Nickelodeon (2010)",
+    "total": 195
+  },
+  {
     "file": "Plants_vs_Zombies_2013.json",
     "name": "Plants vs Zombies (2013)",
     "total": 309
-  },
-  {
-    "file": "Pokemon_1_1999.json",
-    "name": "Pokemon 1 (1999)",
-    "total": 51
   },
   {
     "file": "Pokemon_1_2_2000.json",
@@ -50,14 +80,14 @@
     "total": 151
   },
   {
-    "file": "Pokemon_2_Lenticulares_2000.json",
-    "name": "Pokemon 2 (Lenticulares) (2000)",
+    "file": "Pokemon_2_3D_2000.json",
+    "name": "Pokemon 2 (3D) (2000)",
     "total": 50
   },
   {
     "file": "Pokemon_3_2001.json",
     "name": "Pokemon 3 (2001)",
-    "total": 88
+    "total": 0
   },
   {
     "file": "Pokemon_4_2007.json",
@@ -70,13 +100,18 @@
     "total": 144
   },
   {
-    "file": "Super_Funki_Punky_2013.json",
-    "name": "Super Funki Punky (2013)",
-    "total": 236
+    "file": "Simpsons_2_2012.json",
+    "name": "Simpsons 2 (2012)",
+    "total": 304
   },
   {
     "file": "Tiny_Tunes_1994.json",
     "name": "Tiny Tunes (1994)",
     "total": 124
+  },
+  {
+    "file": "Yu-Gi-Oh_2004.json",
+    "name": "Yu-Gi-Oh (2004)",
+    "total": 100
   }
 ]
