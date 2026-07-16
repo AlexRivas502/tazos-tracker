@@ -1,5 +1,5 @@
 {
-  "name": "Angry Birds (2011)",
+  "name": "Angry Birds (2012)",
   "total": 240,
   "items": {
     "1": {
@@ -15,8 +15,10 @@
       "conditions": []
     },
     "4": {
-      "count": 0,
-      "conditions": []
+      "count": 1,
+      "conditions": [
+        "Excelente"
+      ]
     },
     "5": {
       "count": 0,
@@ -43,8 +45,10 @@
       "conditions": []
     },
     "11": {
-      "count": 0,
-      "conditions": []
+      "count": 1,
+      "conditions": [
+        "Excelente"
+      ]
     },
     "12": {
       "count": 0,
@@ -79,8 +83,10 @@
       "conditions": []
     },
     "20": {
-      "count": 0,
-      "conditions": []
+      "count": 1,
+      "conditions": [
+        "Excelente"
+      ]
     },
     "21": {
       "count": 0,
@@ -91,8 +97,10 @@
       "conditions": []
     },
     "23": {
-      "count": 0,
-      "conditions": []
+      "count": 1,
+      "conditions": [
+        "Excelente"
+      ]
     },
     "24": {
       "count": 0,
@@ -147,12 +155,16 @@
       "conditions": []
     },
     "37": {
-      "count": 0,
-      "conditions": []
+      "count": 1,
+      "conditions": [
+        "Excelente"
+      ]
     },
     "38": {
-      "count": 0,
-      "conditions": []
+      "count": 1,
+      "conditions": [
+        "Excelente"
+      ]
     },
     "39": {
       "count": 0,
@@ -239,8 +251,10 @@
       "conditions": []
     },
     "60": {
-      "count": 0,
-      "conditions": []
+      "count": 1,
+      "conditions": [
+        "Excelente"
+      ]
     },
     "61": {
       "count": 0,
@@ -299,8 +313,10 @@
       "conditions": []
     },
     "75": {
-      "count": 0,
-      "conditions": []
+      "count": 1,
+      "conditions": [
+        "Excelente"
+      ]
     },
     "76": {
       "count": 0,
@@ -347,8 +363,10 @@
       "conditions": []
     },
     "87": {
-      "count": 0,
-      "conditions": []
+      "count": 1,
+      "conditions": [
+        "Excelente"
+      ]
     },
     "88": {
       "count": 0,
@@ -407,16 +425,20 @@
       "conditions": []
     },
     "102": {
-      "count": 0,
-      "conditions": []
+      "count": 1,
+      "conditions": [
+        "Excelente"
+      ]
     },
     "103": {
       "count": 0,
       "conditions": []
     },
     "104": {
-      "count": 0,
-      "conditions": []
+      "count": 1,
+      "conditions": [
+        "Excelente"
+      ]
     },
     "105": {
       "count": 0,
@@ -435,8 +457,10 @@
       "conditions": []
     },
     "109": {
-      "count": 0,
-      "conditions": []
+      "count": 1,
+      "conditions": [
+        "Excelente"
+      ]
     },
     "110": {
       "count": 0,
@@ -447,8 +471,10 @@
       "conditions": []
     },
     "112": {
-      "count": 0,
-      "conditions": []
+      "count": 1,
+      "conditions": [
+        "Excelente"
+      ]
     },
     "113": {
       "count": 0,
@@ -527,20 +553,27 @@
       "conditions": []
     },
     "132": {
-      "count": 0,
-      "conditions": []
+      "count": 1,
+      "conditions": [
+        "Excelente"
+      ]
     },
     "133": {
       "count": 0,
       "conditions": []
     },
     "134": {
-      "count": 0,
-      "conditions": []
+      "count": 1,
+      "conditions": [
+        "Excelente"
+      ]
     },
     "135": {
-      "count": 0,
-      "conditions": []
+      "count": 2,
+      "conditions": [
+        "Excelente",
+        "Excelente"
+      ]
     },
     "136": {
       "count": 0,
@@ -551,8 +584,10 @@
       "conditions": []
     },
     "138": {
-      "count": 0,
-      "conditions": []
+      "count": 1,
+      "conditions": [
+        "Excelente"
+      ]
     },
     "139": {
       "count": 0,
@@ -603,8 +638,10 @@
       "conditions": []
     },
     "151": {
-      "count": 0,
-      "conditions": []
+      "count": 1,
+      "conditions": [
+        "Excelente"
+      ]
     },
     "152": {
       "count": 0,
@@ -679,12 +716,16 @@
       "conditions": []
     },
     "170": {
-      "count": 0,
-      "conditions": []
+      "count": 1,
+      "conditions": [
+        "Excelente"
+      ]
     },
     "171": {
-      "count": 0,
-      "conditions": []
+      "count": 1,
+      "conditions": [
+        "Excelente"
+      ]
     },
     "172": {
       "count": 0,
@@ -695,12 +736,17 @@
       "conditions": []
     },
     "174": {
-      "count": 0,
-      "conditions": []
+      "count": 1,
+      "conditions": [
+        "Excelente"
+      ]
     },
     "175": {
-      "count": 0,
-      "conditions": []
+      "count": 2,
+      "conditions": [
+        "Excelente",
+        "Excelente"
+      ]
     },
     "176": {
       "count": 0,
@@ -711,12 +757,18 @@
       "conditions": []
     },
     "178": {
-      "count": 0,
-      "conditions": []
+      "count": 1,
+      "conditions": [
+        "Excelente"
+      ]
     },
     "179": {
-      "count": 0,
-      "conditions": []
+      "count": 3,
+      "conditions": [
+        "Excelente",
+        "Excelente",
+        "Excelente"
+      ]
     },
     "180": {
       "count": 0,
@@ -831,8 +883,10 @@
       "conditions": []
     },
     "208": {
-      "count": 0,
-      "conditions": []
+      "count": 1,
+      "conditions": [
+        "Excelente"
+      ]
     },
     "209": {
       "count": 0,
@@ -875,8 +929,10 @@
       "conditions": []
     },
     "219": {
-      "count": 0,
-      "conditions": []
+      "count": 1,
+      "conditions": [
+        "Excelente"
+      ]
     },
     "220": {
       "count": 0,

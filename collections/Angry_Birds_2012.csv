@@ -2,14 +2,14 @@ number,count,owned,conditions
 1,0,no,
 2,0,no,
 3,0,no,
-4,0,no,
+4,1,yes,1
 5,0,no,
 6,0,no,
 7,0,no,
 8,0,no,
 9,0,no,
 10,0,no,
-11,0,no,
+11,1,yes,1
 12,0,no,
 13,0,no,
 14,0,no,
@@ -18,10 +18,10 @@ number,count,owned,conditions
 17,0,no,
 18,0,no,
 19,0,no,
-20,0,no,
+20,1,yes,1
 21,0,no,
 22,0,no,
-23,0,no,
+23,1,yes,1
 24,0,no,
 25,0,no,
 26,0,no,
@@ -35,8 +35,8 @@ number,count,owned,conditions
 34,0,no,
 35,0,no,
 36,0,no,
-37,0,no,
-38,0,no,
+37,1,yes,1
+38,1,yes,1
 39,0,no,
 40,0,no,
 41,0,no,
@@ -58,7 +58,7 @@ number,count,owned,conditions
 57,0,no,
 58,0,no,
 59,0,no,
-60,0,no,
+60,1,yes,1
 61,0,no,
 62,0,no,
 63,0,no,
@@ -73,7 +73,7 @@ number,count,owned,conditions
 72,0,no,
 73,0,no,
 74,0,no,
-75,0,no,
+75,1,yes,1
 76,0,no,
 77,0,no,
 78,0,no,
@@ -85,7 +85,7 @@ number,count,owned,conditions
 84,0,no,
 85,0,no,
 86,0,no,
-87,0,no,
+87,1,yes,1
 88,0,no,
 89,0,no,
 90,0,no,
@@ -100,17 +100,17 @@ number,count,owned,conditions
 99,0,no,
 100,0,no,
 101,0,no,
-102,0,no,
+102,1,yes,1
 103,0,no,
-104,0,no,
+104,1,yes,1
 105,0,no,
 106,0,no,
 107,0,no,
 108,0,no,
-109,0,no,
+109,1,yes,1
 110,0,no,
 111,0,no,
-112,0,no,
+112,1,yes,1
 113,0,no,
 114,0,no,
 115,0,no,
@@ -130,13 +130,13 @@ number,count,owned,conditions
 129,0,no,
 130,0,no,
 131,0,no,
-132,0,no,
+132,1,yes,1
 133,0,no,
-134,0,no,
-135,0,no,
+134,1,yes,1
+135,2,yes,1; 1
 136,0,no,
 137,0,no,
-138,0,no,
+138,1,yes,1
 139,0,no,
 140,0,no,
 141,0,no,
@@ -149,7 +149,7 @@ number,count,owned,conditions
 148,0,no,
 149,0,no,
 150,0,no,
-151,0,no,
+151,1,yes,1
 152,0,no,
 153,0,no,
 154,0,no,
@@ -168,16 +168,16 @@ number,count,owned,conditions
 167,0,no,
 168,0,no,
 169,0,no,
-170,0,no,
-171,0,no,
+170,1,yes,1
+171,1,yes,1
 172,0,no,
 173,0,no,
-174,0,no,
-175,0,no,
+174,1,yes,1
+175,2,yes,1; 1
 176,0,no,
 177,0,no,
-178,0,no,
-179,0,no,
+178,1,yes,1
+179,3,yes,1; 1; 1
 180,0,no,
 181,0,no,
 182,0,no,
@@ -206,7 +206,7 @@ number,count,owned,conditions
 205,0,no,
 206,0,no,
 207,0,no,
-208,0,no,
+208,1,yes,1
 209,0,no,
 210,0,no,
 211,0,no,
@@ -217,7 +217,7 @@ number,count,owned,conditions
 216,0,no,
 217,0,no,
 218,0,no,
-219,0,no,
+219,1,yes,1
 220,0,no,
 221,0,no,
 222,0,no,
