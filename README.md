@@ -73,6 +73,15 @@ Click **Ver repetidos** to show only the tazos you have **more than one** of. It
 drops the single best copy of each and shows the rest, coloured by the best of
 what remains — handy for showing others which tazos you can trade.
 
+### 🤝 Modo intercambio (trade mode) — local app only
+
+Click **🤝 Modo intercambio** to work through a trade. Like *Ver repetidos*, it
+shows only the tazos you have spares of (your single best copy of each is kept
+aside). Click a tazo, pick the quality of the copy you're handing over, and that
+copy is removed from your collection — so your list stays accurate after a swap.
+It's mutually exclusive with *Ver repetidos*, and because it edits your data it's
+available only in the local Python app, not on the read-only GitHub Pages site.
+
 ## Where your data lives
 
 Each collection is saved twice in the `collections/` folder next to the app:

@@ -223,8 +223,9 @@
       "conditions": []
     },
     "54": {
-      "count": 1,
+      "count": 2,
       "conditions": [
+        "Bien",
         "Bien"
       ]
     },
@@ -459,12 +460,16 @@
       "conditions": []
     },
     "160": {
-      "count": 0,
-      "conditions": []
+      "count": 1,
+      "conditions": [
+        "Bien"
+      ]
     },
     "161": {
-      "count": 0,
-      "conditions": []
+      "count": 1,
+      "conditions": [
+        "Maltratado"
+      ]
     },
     "162": {
       "count": 0,
@@ -505,8 +510,10 @@
       "conditions": []
     },
     "171": {
-      "count": 0,
-      "conditions": []
+      "count": 1,
+      "conditions": [
+        "Maltratado"
+      ]
     },
     "172": {
       "count": 0,
@@ -675,16 +682,20 @@
       "conditions": []
     },
     "217": {
-      "count": 0,
-      "conditions": []
+      "count": 1,
+      "conditions": [
+        "Maltratado"
+      ]
     },
     "220": {
       "count": 0,
       "conditions": []
     },
     "221": {
-      "count": 0,
-      "conditions": []
+      "count": 1,
+      "conditions": [
+        "Maltratado"
+      ]
     },
     "226": {
       "count": 0,
@@ -729,17 +740,20 @@
       "conditions": []
     },
     "244": {
-      "count": 0,
-      "conditions": []
+      "count": 1,
+      "conditions": [
+        "Maltratado"
+      ]
     },
     "249": {
       "count": 0,
       "conditions": []
     },
     "250": {
-      "count": 1,
+      "count": 2,
       "conditions": [
-        "Bien"
+        "Bien",
+        "Muy Maltratado"
       ]
     }
   },

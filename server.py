@@ -322,6 +322,7 @@ INDEX_HTML = r"""<!DOCTYPE html>
   button.danger-btn { color: #ff7b72; }
   button.danger-btn:hover { background: #3a2422; }
   button.toggle.active { background: var(--accent); color: #1a1200; border-color: var(--accent); font-weight: 600; }
+  #tradeBtn.active { background: #7cb342; color: #10240b; border-color: #9ccc65; }
   #repeatBtn { margin-left: auto; }
   .stats { margin-left: 14px; font-size: 13px; color: var(--muted); }
   .stats b { color: var(--text); }
@@ -429,6 +430,7 @@ INDEX_HTML = r"""<!DOCTYPE html>
   <button id="renameBtn">Renombrar</button>
   <button id="deleteBtn" class="danger-btn">Eliminar</button>
   <button id="repeatBtn" class="toggle">Ver repetidos</button>
+  <button id="tradeBtn" class="toggle">🤝 Modo intercambio</button>
   <div class="stats" id="stats"></div>
   <span class="save-status" id="saveStatus"></span>
 </header>
@@ -437,6 +439,7 @@ INDEX_HTML = r"""<!DOCTYPE html>
   <div class="legend">
     Haz clic izquierdo en un tazo para agregar uno (por defecto <b>Excelente</b>). Haz clic de nuevo para agregar otra copia.
     Haz clic derecho para establecer la condición de una copia, quitar una copia o <b>reiniciar el número</b> si lo marcaste por error. <code>Shift+Clic</code> quita una copia.
+    <b>🤝 Modo intercambio</b>: muestra solo tus repetidos; haz clic en un tazo, elige la copia que entregas y se quita de tu colección.
   </div>
   <div id="grid" class="grid"></div>
   <div id="emptyMsg" class="empty-msg">Escribe un número total arriba y haz clic en “Crear cuadrícula”, o usa “＋ Agregar tazo personalizado”.</div>
@@ -450,6 +453,7 @@ const CONDITIONS = ["Excelente", "Bien", "Maltratado", "Muy Maltratado", "Dañad
 let state = { name: "Mi colección", total: 0, items: {}, extras: [] };
 let saveTimer = null;
 let repeatMode = false;   // "Ver repetidos": show only duplicated tazos
+let tradeMode  = false;   // "Modo intercambio": show spares; click a copy to trade it away
 
 const $ = id => document.getElementById(id);
 const EMPTY_DEFAULT = $("emptyMsg").textContent;
@@ -469,11 +473,12 @@ function qualityRank(cond) {            // lower = better; unknown sorts last
 function sortedConds(it) {              // an item's conditions, best -> worst
   return (it.conditions || []).slice().sort((a, b) => qualityRank(a) - qualityRank(b));
 }
-// What to show for a tazo. In "Ver repetidos" the single best copy is dropped,
-// leaving the duplicates (coloured by the best of what remains).
+// What to show for a tazo. In "Ver repetidos" and "Modo intercambio" the single
+// best copy is dropped (the one you keep), leaving the spares (coloured by the
+// best of what remains).
 function displayFor(key) {
   const all = sortedConds(item(key));
-  const conds = repeatMode ? all.slice(1) : all;
+  const conds = (repeatMode || tradeMode) ? all.slice(1) : all;
   return { conds, count: conds.length, best: conds[0] || null };
 }
 
@@ -503,6 +508,13 @@ function setCondition(n, idx, condition) {
   const it = item(n);
   if (idx >= 0 && idx < it.conditions.length) it.conditions[idx] = condition;
   render(); scheduleSave();
+}
+
+// Trade one copy away: remove the first copy matching a given condition.
+function removeCopyByCondition(n, condition) {
+  const it = item(n);
+  const idx = it.conditions.indexOf(condition);
+  if (idx >= 0) removeCopy(n, idx);
 }
 
 function render() {
@@ -549,7 +561,11 @@ function buildCell(key, isCustom) {
   }
 
   // editing is disabled while viewing repeats
-  if (!repeatMode) {
+  if (tradeMode) {
+    // In trade mode a plain click opens the "trade a copy away" picker.
+    // stopPropagation so the document click-listener doesn't instantly close it.
+    if (d.count > 0) cell.addEventListener("click", (e) => { e.stopPropagation(); openTradePicker(e, key); });
+  } else if (!repeatMode) {
     cell.addEventListener("click", (e) => {
       if (e.shiftKey) removeCopy(key);
       else addCopy(key);
@@ -576,15 +592,16 @@ function updateStats() {
   for (let n = 1; n <= state.total; n++) keys.push(String(n));
   (state.extras || []).forEach(l => keys.push(String(l)));
 
-  if (repeatMode) {
+  if (repeatMode || tradeMode) {
     let repTazos = 0, repCopies = 0;
     keys.forEach(k => {
       const it = state.items[k];
       const extra = it ? Math.max(0, it.count - 1) : 0;
       if (extra > 0) { repTazos++; repCopies += extra; }
     });
+    const lead = tradeMode ? "Para intercambiar" : "Repetidos";
     $("stats").innerHTML =
-      `Repetidos <b>${repTazos}</b> &nbsp;·&nbsp; Copias sobrantes <b>${repCopies}</b>`;
+      `${lead} <b>${repTazos}</b> &nbsp;·&nbsp; Copias sobrantes <b>${repCopies}</b>`;
     return;
   }
 
@@ -668,6 +685,32 @@ function openCondPicker(e, n, idx) {
       ev.stopPropagation();
       if (btn.dataset.remove) removeCopy(n, idx);
       else setCondition(n, idx, btn.dataset.cond);
+      closeMenu();
+    });
+  });
+}
+
+// "Modo intercambio": pick which spare copy you're trading away, then remove it.
+// The picker lists only the spare qualities (displayFor already drops the single
+// best copy you keep), grouped by quality.
+function openTradePicker(e, n) {
+  const d = displayFor(n);
+  if (!d.conds.length) return;   // no spare to trade
+  const menu = $("menu");
+  const order = {};
+  d.conds.forEach(c => order[c] = (order[c] || 0) + 1);
+  let html = `<div class="mtitle">Intercambiar tazo ${escapeHtml(n)} — elige la copia que entregas:</div>`;
+  Object.entries(order).forEach(([c, k]) => {
+    const avail = k > 1 ? ` (${k} disponibles)` : "";
+    html += `<button class="danger" data-cond="${escapeHtml(c)}">－ ${escapeHtml(c)}${avail}</button>`;
+  });
+  menu.innerHTML = html;
+  menu.classList.add("show");
+  positionMenu(e.clientX, e.clientY);
+  menu.querySelectorAll("button").forEach(btn => {
+    btn.addEventListener("click", (ev) => {
+      ev.stopPropagation();
+      removeCopyByCondition(n, btn.dataset.cond);
       closeMenu();
     });
   });
@@ -838,11 +881,26 @@ $("newBtn").addEventListener("click", newCollection);
 $("addCustomBtn").addEventListener("click", addCustom);
 $("renameBtn").addEventListener("click", renameCollection);
 $("deleteBtn").addEventListener("click", deleteCollection);
+function syncModeButtons() {
+  const rb = $("repeatBtn");
+  rb.classList.toggle("active", repeatMode);
+  rb.textContent = repeatMode ? "Ver todos" : "Ver repetidos";
+  const tb = $("tradeBtn");
+  tb.classList.toggle("active", tradeMode);
+  tb.textContent = tradeMode ? "✓ Salir de intercambio" : "🤝 Modo intercambio";
+}
+
 $("repeatBtn").addEventListener("click", () => {
   repeatMode = !repeatMode;
-  const b = $("repeatBtn");
-  b.classList.toggle("active", repeatMode);
-  b.textContent = repeatMode ? "Ver todos" : "Ver repetidos";
+  if (repeatMode) tradeMode = false;   // the two view modes are mutually exclusive
+  syncModeButtons();
+  closeMenu();
+  render();
+});
+$("tradeBtn").addEventListener("click", () => {
+  tradeMode = !tradeMode;
+  if (tradeMode) repeatMode = false;   // the two view modes are mutually exclusive
+  syncModeButtons();
   closeMenu();
   render();
 });

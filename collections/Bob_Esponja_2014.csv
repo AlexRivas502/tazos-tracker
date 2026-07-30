@@ -3,18 +3,18 @@ number,count,owned,conditions
 2,0,no,
 3,0,no,
 4,0,no,
-5,0,no,
+5,1,yes,1
 6,1,yes,1
 7,0,no,
 8,1,yes,1
-9,0,no,
+9,1,yes,1
 10,1,yes,1
 11,1,yes,1
 12,0,no,
-13,0,no,
+13,1,yes,1
 14,1,yes,1
 15,2,yes,1; 1
-16,0,no,
+16,1,yes,2
 17,0,no,
 18,1,yes,1
 19,0,no,
@@ -32,20 +32,20 @@ number,count,owned,conditions
 31,0,no,
 32,0,no,
 33,0,no,
-34,0,no,
+34,2,yes,1; 1
 35,1,yes,1
 36,0,no,
 37,0,no,
-38,0,no,
+38,2,yes,1; 2
 39,1,yes,1
 40,1,yes,1
 41,0,no,
 42,0,no,
 43,0,no,
-44,0,no,
+44,1,yes,2
 45,0,no,
-46,0,no,
-47,0,no,
-48,0,no,
+46,1,yes,2
+47,1,yes,2
+48,1,yes,2
 49,1,yes,1
-50,1,yes,1
+50,2,yes,1; 3

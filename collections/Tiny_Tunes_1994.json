@@ -443,8 +443,10 @@
       ]
     },
     "103": {
-      "count": 0,
-      "conditions": []
+      "count": 1,
+      "conditions": [
+        "Muy Maltratado"
+      ]
     },
     "104": {
       "count": 0,

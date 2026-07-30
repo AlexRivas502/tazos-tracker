@@ -55,8 +55,10 @@
       "conditions": []
     },
     "14": {
-      "count": 0,
-      "conditions": []
+      "count": 1,
+      "conditions": [
+        "Maltratado"
+      ]
     },
     "15": {
       "count": 0,
@@ -221,8 +223,10 @@
       ]
     },
     "50": {
-      "count": 0,
-      "conditions": []
+      "count": 1,
+      "conditions": [
+        "Bien"
+      ]
     },
     "51": {
       "count": 1,
@@ -266,10 +270,11 @@
       ]
     },
     "58": {
-      "count": 2,
+      "count": 3,
       "conditions": [
         "Excelente",
-        "Excelente"
+        "Excelente",
+        "Bien"
       ]
     },
     "59": {
@@ -322,8 +327,10 @@
       ]
     },
     "69": {
-      "count": 0,
-      "conditions": []
+      "count": 1,
+      "conditions": [
+        "Maltratado"
+      ]
     },
     "70": {
       "count": 1,
@@ -342,9 +349,10 @@
       "conditions": []
     },
     "73": {
-      "count": 1,
+      "count": 2,
       "conditions": [
-        "Excelente"
+        "Excelente",
+        "Maltratado"
       ]
     },
     "74": {
@@ -647,8 +655,10 @@
       "conditions": []
     },
     "142": {
-      "count": 0,
-      "conditions": []
+      "count": 1,
+      "conditions": [
+        "Maltratado"
+      ]
     },
     "143": {
       "count": 0,
@@ -742,8 +752,10 @@
       "conditions": []
     },
     "162": {
-      "count": 0,
-      "conditions": []
+      "count": 1,
+      "conditions": [
+        "Bien"
+      ]
     },
     "163": {
       "count": 0,
@@ -779,9 +791,10 @@
       ]
     },
     "170": {
-      "count": 1,
+      "count": 2,
       "conditions": [
-        "Excelente"
+        "Excelente",
+        "Bien"
       ]
     },
     "171": {
@@ -834,10 +847,11 @@
       ]
     },
     "180": {
-      "count": 2,
+      "count": 3,
       "conditions": [
         "Excelente",
-        "Excelente"
+        "Excelente",
+        "Maltratado"
       ]
     },
     "181": {
@@ -860,8 +874,10 @@
       "conditions": []
     },
     "185": {
-      "count": 0,
-      "conditions": []
+      "count": 1,
+      "conditions": [
+        "Muy Maltratado"
+      ]
     },
     "186": {
       "count": 0,
@@ -892,8 +908,10 @@
       "conditions": []
     },
     "192": {
-      "count": 0,
-      "conditions": []
+      "count": 1,
+      "conditions": [
+        "Maltratado"
+      ]
     },
     "193": {
       "count": 0,
@@ -916,8 +934,10 @@
       "conditions": []
     },
     "198": {
-      "count": 0,
-      "conditions": []
+      "count": 1,
+      "conditions": [
+        "Maltratado"
+      ]
     },
     "199": {
       "count": 0,

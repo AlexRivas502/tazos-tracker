@@ -19,8 +19,10 @@
       "conditions": []
     },
     "5": {
-      "count": 0,
-      "conditions": []
+      "count": 1,
+      "conditions": [
+        "Excelente"
+      ]
     },
     "6": {
       "count": 1,
@@ -39,8 +41,10 @@
       ]
     },
     "9": {
-      "count": 0,
-      "conditions": []
+      "count": 1,
+      "conditions": [
+        "Excelente"
+      ]
     },
     "10": {
       "count": 1,
@@ -59,8 +63,10 @@
       "conditions": []
     },
     "13": {
-      "count": 0,
-      "conditions": []
+      "count": 1,
+      "conditions": [
+        "Excelente"
+      ]
     },
     "14": {
       "count": 1,
@@ -76,8 +82,10 @@
       ]
     },
     "16": {
-      "count": 0,
-      "conditions": []
+      "count": 1,
+      "conditions": [
+        "Bien"
+      ]
     },
     "17": {
       "count": 0,
@@ -162,8 +170,11 @@
       "conditions": []
     },
     "34": {
-      "count": 0,
-      "conditions": []
+      "count": 2,
+      "conditions": [
+        "Excelente",
+        "Excelente"
+      ]
     },
     "35": {
       "count": 1,
@@ -180,8 +191,11 @@
       "conditions": []
     },
     "38": {
-      "count": 0,
-      "conditions": []
+      "count": 2,
+      "conditions": [
+        "Bien",
+        "Excelente"
+      ]
     },
     "39": {
       "count": 1,
@@ -208,24 +222,32 @@
       "conditions": []
     },
     "44": {
-      "count": 0,
-      "conditions": []
+      "count": 1,
+      "conditions": [
+        "Bien"
+      ]
     },
     "45": {
       "count": 0,
       "conditions": []
     },
     "46": {
-      "count": 0,
-      "conditions": []
+      "count": 1,
+      "conditions": [
+        "Bien"
+      ]
     },
     "47": {
-      "count": 0,
-      "conditions": []
+      "count": 1,
+      "conditions": [
+        "Bien"
+      ]
     },
     "48": {
-      "count": 0,
-      "conditions": []
+      "count": 1,
+      "conditions": [
+        "Bien"
+      ]
     },
     "49": {
       "count": 1,
@@ -234,9 +256,10 @@
       ]
     },
     "50": {
-      "count": 1,
+      "count": 2,
       "conditions": [
-        "Excelente"
+        "Excelente",
+        "Maltratado"
       ]
     }
   },

@@ -10,7 +10,7 @@ number,count,owned,conditions
 9,1,yes,2
 10,0,no,
 11,0,no,
-12,0,no,
+12,1,yes,1
 13,1,yes,2
 14,1,yes,2
 15,0,no,

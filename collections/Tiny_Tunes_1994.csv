@@ -101,7 +101,7 @@ number,count,owned,conditions
 100,0,no,
 101,0,no,
 102,1,yes,2
-103,0,no,
+103,1,yes,4
 104,0,no,
 105,0,no,
 106,0,no,

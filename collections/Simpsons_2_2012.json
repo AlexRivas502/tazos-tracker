@@ -69,20 +69,26 @@
       "conditions": []
     },
     "17": {
-      "count": 0,
-      "conditions": []
+      "count": 1,
+      "conditions": [
+        "Muy Maltratado"
+      ]
     },
     "18": {
       "count": 0,
       "conditions": []
     },
     "19": {
-      "count": 0,
-      "conditions": []
+      "count": 1,
+      "conditions": [
+        "Excelente"
+      ]
     },
     "20": {
-      "count": 0,
-      "conditions": []
+      "count": 1,
+      "conditions": [
+        "Muy Maltratado"
+      ]
     },
     "21": {
       "count": 0,
@@ -103,8 +109,10 @@
       ]
     },
     "25": {
-      "count": 0,
-      "conditions": []
+      "count": 1,
+      "conditions": [
+        "Muy Maltratado"
+      ]
     },
     "26": {
       "count": 0,
@@ -119,8 +127,10 @@
       "conditions": []
     },
     "29": {
-      "count": 0,
-      "conditions": []
+      "count": 1,
+      "conditions": [
+        "Maltratado"
+      ]
     },
     "30": {
       "count": 0,
@@ -131,8 +141,10 @@
       "conditions": []
     },
     "32": {
-      "count": 0,
-      "conditions": []
+      "count": 1,
+      "conditions": [
+        "Maltratado"
+      ]
     },
     "33": {
       "count": 0,
@@ -147,8 +159,10 @@
       "conditions": []
     },
     "36": {
-      "count": 0,
-      "conditions": []
+      "count": 1,
+      "conditions": [
+        "Maltratado"
+      ]
     },
     "37": {
       "count": 0,
@@ -195,16 +209,22 @@
       "conditions": []
     },
     "48": {
-      "count": 0,
-      "conditions": []
+      "count": 1,
+      "conditions": [
+        "Maltratado"
+      ]
     },
     "49": {
-      "count": 0,
-      "conditions": []
+      "count": 1,
+      "conditions": [
+        "Maltratado"
+      ]
     },
     "50": {
-      "count": 0,
-      "conditions": []
+      "count": 1,
+      "conditions": [
+        "Maltratado"
+      ]
     },
     "51": {
       "count": 0,
@@ -215,30 +235,41 @@
       "conditions": []
     },
     "53": {
-      "count": 0,
-      "conditions": []
-    },
-    "54": {
-      "count": 0,
-      "conditions": []
-    },
-    "55": {
       "count": 1,
       "conditions": [
         "Excelente"
       ]
     },
+    "54": {
+      "count": 1,
+      "conditions": [
+        "Maltratado"
+      ]
+    },
+    "55": {
+      "count": 3,
+      "conditions": [
+        "Excelente",
+        "Muy Maltratado",
+        "Muy Maltratado"
+      ]
+    },
     "56": {
-      "count": 0,
-      "conditions": []
+      "count": 2,
+      "conditions": [
+        "Maltratado",
+        "Excelente"
+      ]
     },
     "57": {
       "count": 0,
       "conditions": []
     },
     "58": {
-      "count": 0,
-      "conditions": []
+      "count": 1,
+      "conditions": [
+        "Maltratado"
+      ]
     },
     "59": {
       "count": 0,
@@ -289,8 +320,10 @@
       "conditions": []
     },
     "71": {
-      "count": 0,
-      "conditions": []
+      "count": 1,
+      "conditions": [
+        "Muy Maltratado"
+      ]
     },
     "72": {
       "count": 0,
@@ -313,8 +346,10 @@
       "conditions": []
     },
     "77": {
-      "count": 0,
-      "conditions": []
+      "count": 1,
+      "conditions": [
+        "Excelente"
+      ]
     },
     "78": {
       "count": 0,
@@ -345,9 +380,8 @@
       "conditions": []
     },
     "85": {
-      "count": 2,
+      "count": 1,
       "conditions": [
-        "Excelente",
         "Excelente"
       ]
     },
@@ -374,8 +408,10 @@
       "conditions": []
     },
     "90": {
-      "count": 0,
-      "conditions": []
+      "count": 1,
+      "conditions": [
+        "Maltratado"
+      ]
     },
     "91": {
       "count": 0,
@@ -396,8 +432,10 @@
       "conditions": []
     },
     "95": {
-      "count": 0,
-      "conditions": []
+      "count": 1,
+      "conditions": [
+        "Dañado"
+      ]
     },
     "96": {
       "count": 0,
@@ -412,8 +450,10 @@
       "conditions": []
     },
     "99": {
-      "count": 0,
-      "conditions": []
+      "count": 1,
+      "conditions": [
+        "Muy Maltratado"
+      ]
     },
     "100": {
       "count": 0,
@@ -428,8 +468,10 @@
       "conditions": []
     },
     "103": {
-      "count": 0,
-      "conditions": []
+      "count": 1,
+      "conditions": [
+        "Maltratado"
+      ]
     },
     "104": {
       "count": 0,
@@ -494,8 +536,10 @@
       "conditions": []
     },
     "117": {
-      "count": 0,
-      "conditions": []
+      "count": 1,
+      "conditions": [
+        "Excelente"
+      ]
     },
     "118": {
       "count": 2,
@@ -527,16 +571,20 @@
       ]
     },
     "123": {
-      "count": 0,
-      "conditions": []
+      "count": 1,
+      "conditions": [
+        "Bien"
+      ]
     },
     "124": {
       "count": 0,
       "conditions": []
     },
     "125": {
-      "count": 0,
-      "conditions": []
+      "count": 1,
+      "conditions": [
+        "Maltratado"
+      ]
     },
     "126": {
       "count": 0,
@@ -603,8 +651,10 @@
       "conditions": []
     },
     "140": {
-      "count": 0,
-      "conditions": []
+      "count": 1,
+      "conditions": [
+        "Maltratado"
+      ]
     },
     "141": {
       "count": 0,
@@ -649,8 +699,10 @@
       "conditions": []
     },
     "151": {
-      "count": 0,
-      "conditions": []
+      "count": 1,
+      "conditions": [
+        "Maltratado"
+      ]
     },
     "152": {
       "count": 0,
@@ -673,9 +725,10 @@
       "conditions": []
     },
     "157": {
-      "count": 1,
+      "count": 2,
       "conditions": [
-        "Excelente"
+        "Excelente",
+        "Maltratado"
       ]
     },
     "158": {
@@ -689,8 +742,10 @@
       "conditions": []
     },
     "160": {
-      "count": 0,
-      "conditions": []
+      "count": 1,
+      "conditions": [
+        "Maltratado"
+      ]
     },
     "161": {
       "count": 0,
@@ -735,12 +790,16 @@
       "conditions": []
     },
     "170": {
-      "count": 0,
-      "conditions": []
+      "count": 1,
+      "conditions": [
+        "Muy Maltratado"
+      ]
     },
     "171": {
-      "count": 0,
-      "conditions": []
+      "count": 1,
+      "conditions": [
+        "Muy Maltratado"
+      ]
     },
     "172": {
       "count": 1,
@@ -753,8 +812,10 @@
       "conditions": []
     },
     "174": {
-      "count": 0,
-      "conditions": []
+      "count": 1,
+      "conditions": [
+        "Maltratado"
+      ]
     },
     "175": {
       "count": 0,
@@ -765,8 +826,11 @@
       "conditions": []
     },
     "177": {
-      "count": 0,
-      "conditions": []
+      "count": 2,
+      "conditions": [
+        "Maltratado",
+        "Maltratado"
+      ]
     },
     "178": {
       "count": 0,
@@ -787,8 +851,10 @@
       "conditions": []
     },
     "182": {
-      "count": 0,
-      "conditions": []
+      "count": 1,
+      "conditions": [
+        "Bien"
+      ]
     },
     "183": {
       "count": 1,
@@ -841,8 +907,10 @@
       "conditions": []
     },
     "195": {
-      "count": 0,
-      "conditions": []
+      "count": 1,
+      "conditions": [
+        "Maltratado"
+      ]
     },
     "196": {
       "count": 1,
@@ -857,9 +925,12 @@
       ]
     },
     "198": {
-      "count": 1,
+      "count": 4,
       "conditions": [
-        "Excelente"
+        "Excelente",
+        "Maltratado",
+        "Maltratado",
+        "Maltratado"
       ]
     },
     "199": {
@@ -881,54 +952,80 @@
       ]
     },
     "202": {
-      "count": 1,
+      "count": 3,
       "conditions": [
-        "Excelente"
+        "Excelente",
+        "Maltratado",
+        "Muy Maltratado"
       ]
     },
     "203": {
-      "count": 0,
-      "conditions": []
+      "count": 2,
+      "conditions": [
+        "Maltratado",
+        "Maltratado"
+      ]
     },
     "204": {
-      "count": 0,
-      "conditions": []
+      "count": 1,
+      "conditions": [
+        "Muy Maltratado"
+      ]
     },
     "205": {
-      "count": 0,
-      "conditions": []
+      "count": 1,
+      "conditions": [
+        "Bien"
+      ]
     },
     "206": {
-      "count": 0,
-      "conditions": []
+      "count": 1,
+      "conditions": [
+        "Maltratado"
+      ]
     },
     "207": {
       "count": 0,
       "conditions": []
     },
     "208": {
-      "count": 0,
-      "conditions": []
+      "count": 2,
+      "conditions": [
+        "Maltratado",
+        "Maltratado"
+      ]
     },
     "209": {
-      "count": 0,
-      "conditions": []
+      "count": 2,
+      "conditions": [
+        "Dañado",
+        "Excelente"
+      ]
     },
     "210": {
-      "count": 0,
-      "conditions": []
+      "count": 1,
+      "conditions": [
+        "Maltratado"
+      ]
     },
     "211": {
-      "count": 0,
-      "conditions": []
+      "count": 2,
+      "conditions": [
+        "Maltratado",
+        "Muy Maltratado"
+      ]
     },
     "212": {
-      "count": 0,
-      "conditions": []
+      "count": 1,
+      "conditions": [
+        "Maltratado"
+      ]
     },
     "213": {
-      "count": 0,
-      "conditions": []
+      "count": 1,
+      "conditions": [
+        "Maltratado"
+      ]
     },
     "214": {
       "count": 1,
@@ -949,76 +1046,100 @@
       ]
     },
     "217": {
+      "count": 4,
+      "conditions": [
+        "Excelente",
+        "Excelente",
+        "Excelente",
+        "Maltratado"
+      ]
+    },
+    "218": {
+      "count": 2,
+      "conditions": [
+        "Excelente",
+        "Maltratado"
+      ]
+    },
+    "219": {
       "count": 3,
       "conditions": [
         "Excelente",
         "Excelente",
-        "Excelente"
-      ]
-    },
-    "218": {
-      "count": 1,
-      "conditions": [
-        "Excelente"
-      ]
-    },
-    "219": {
-      "count": 2,
-      "conditions": [
-        "Excelente",
-        "Excelente"
+        "Maltratado"
       ]
     },
     "220": {
-      "count": 1,
+      "count": 3,
       "conditions": [
-        "Excelente"
+        "Excelente",
+        "Muy Maltratado",
+        "Maltratado"
       ]
     },
     "221": {
-      "count": 0,
-      "conditions": []
-    },
-    "222": {
       "count": 2,
       "conditions": [
-        "Excelente",
+        "Maltratado",
         "Excelente"
+      ]
+    },
+    "222": {
+      "count": 5,
+      "conditions": [
+        "Excelente",
+        "Excelente",
+        "Maltratado",
+        "Maltratado",
+        "Maltratado"
       ]
     },
     "223": {
-      "count": 1,
+      "count": 4,
       "conditions": [
-        "Excelente"
+        "Excelente",
+        "Maltratado",
+        "Maltratado",
+        "Muy Maltratado"
       ]
     },
     "224": {
-      "count": 1,
+      "count": 2,
       "conditions": [
-        "Excelente"
+        "Excelente",
+        "Maltratado"
       ]
     },
     "225": {
-      "count": 0,
-      "conditions": []
+      "count": 1,
+      "conditions": [
+        "Bien"
+      ]
     },
     "226": {
-      "count": 0,
-      "conditions": []
-    },
-    "227": {
-      "count": 0,
-      "conditions": []
-    },
-    "228": {
       "count": 1,
       "conditions": [
         "Excelente"
       ]
     },
+    "227": {
+      "count": 1,
+      "conditions": [
+        "Maltratado"
+      ]
+    },
+    "228": {
+      "count": 2,
+      "conditions": [
+        "Excelente",
+        "Maltratado"
+      ]
+    },
     "229": {
-      "count": 0,
-      "conditions": []
+      "count": 1,
+      "conditions": [
+        "Maltratado"
+      ]
     },
     "230": {
       "count": 0,
@@ -1036,12 +1157,18 @@
       "conditions": []
     },
     "233": {
-      "count": 0,
-      "conditions": []
+      "count": 2,
+      "conditions": [
+        "Maltratado",
+        "Bien"
+      ]
     },
     "234": {
-      "count": 0,
-      "conditions": []
+      "count": 2,
+      "conditions": [
+        "Maltratado",
+        "Bien"
+      ]
     },
     "235": {
       "count": 0,
@@ -1084,8 +1211,10 @@
       "conditions": []
     },
     "245": {
-      "count": 0,
-      "conditions": []
+      "count": 1,
+      "conditions": [
+        "Maltratado"
+      ]
     },
     "246": {
       "count": 0,
@@ -1148,8 +1277,10 @@
       "conditions": []
     },
     "261": {
-      "count": 0,
-      "conditions": []
+      "count": 1,
+      "conditions": [
+        "Muy Maltratado"
+      ]
     },
     "262": {
       "count": 0,

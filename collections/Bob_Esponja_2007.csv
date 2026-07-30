@@ -1,34 +1,34 @@
 number,count,owned,conditions
 1,1,yes,2
-2,1,yes,1
+2,2,yes,1; 5
 3,1,yes,1
 4,1,yes,1
 5,1,yes,1
 6,2,yes,1; 2
 7,1,yes,1
-8,1,yes,1
+8,2,yes,1; 3
 9,1,yes,1
 10,2,yes,1; 1
-11,0,no,
+11,1,yes,1
 12,1,yes,1
-13,1,yes,2
+13,2,yes,2; 3
 14,1,yes,1
 15,1,yes,1
 16,2,yes,2; 3
 17,1,yes,1
-18,1,yes,1
+18,2,yes,1; 3
 19,1,yes,1
 20,2,yes,1; 1
 21,1,yes,1
-22,1,yes,1
+22,2,yes,1; 3
 23,1,yes,1
 24,1,yes,1
-25,1,yes,1
+25,2,yes,1; 3
 26,2,yes,1; 1
 27,1,yes,1
 28,1,yes,1
 29,1,yes,1
-30,1,yes,1
+30,2,yes,1; 2
 31,2,yes,1; 3
 32,1,yes,1
 33,1,yes,1
@@ -40,10 +40,10 @@ number,count,owned,conditions
 39,2,yes,1; 4
 40,2,yes,1; 1
 41,1,yes,1
-42,0,no,
+42,1,yes,2
 43,1,yes,2
 44,1,yes,1
-45,1,yes,1
+45,2,yes,1; 1
 46,1,yes,1
 47,1,yes,1
 48,1,yes,1
@@ -61,31 +61,31 @@ number,count,owned,conditions
 60,1,yes,1
 61,3,yes,1; 1; 1
 62,1,yes,2
-63,1,yes,1
+63,2,yes,1; 2
 64,1,yes,1
 65,1,yes,1
-66,1,yes,1
+66,2,yes,1; 1
 67,1,yes,1
 68,1,yes,1
 69,1,yes,3
-70,2,yes,1; 3
+70,1,yes,1
 71,1,yes,1
-72,1,yes,1
+72,2,yes,1; 1
 73,1,yes,1
 74,1,yes,1
 75,1,yes,1
 76,1,yes,1
-77,2,yes,1; 2
+77,3,yes,1; 2; 4
 78,1,yes,1
 79,1,yes,1
-80,1,yes,1
+80,2,yes,1; 2
 81,1,yes,1
-82,1,yes,1
+82,4,yes,1; 1; 3; 3
 83,1,yes,1
 84,1,yes,1
-85,1,yes,1
+85,2,yes,1; 1
 86,1,yes,1
-87,0,no,
+87,1,yes,1
 88,1,yes,1
 89,1,yes,1
 90,1,yes,2
@@ -105,7 +105,7 @@ number,count,owned,conditions
 104,1,yes,1
 105,1,yes,1
 106,1,yes,1
-107,1,yes,1
+107,2,yes,1; 3
 108,1,yes,1
 109,1,yes,1
 110,1,yes,1
@@ -132,16 +132,16 @@ number,count,owned,conditions
 131,1,yes,1
 132,1,yes,1
 133,1,yes,1
-134,1,yes,1
+134,2,yes,1; 2
 135,1,yes,1
 136,1,yes,1
 137,1,yes,1
-138,1,yes,1
-139,1,yes,1
+138,2,yes,1; 1
+139,2,yes,1; 1
 140,1,yes,1
 141,1,yes,1
 142,1,yes,1
-143,2,yes,1; 1
+143,1,yes,1
 144,1,yes,1
 145,1,yes,1
 146,1,yes,1
@@ -154,12 +154,12 @@ number,count,owned,conditions
 153,1,yes,3
 154,1,yes,1
 155,1,yes,1
-156,1,yes,1
-157,1,yes,1
+156,2,yes,1; 3
+157,2,yes,1; 2
 158,1,yes,1
 159,1,yes,1
-160,0,no,
-161,0,no,
-162,0,no,
+160,1,yes,1
+161,3,yes,1; 2; 2
+162,2,yes,1; 2
 163,0,no,
 0,1,yes,1

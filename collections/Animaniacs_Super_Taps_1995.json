@@ -219,8 +219,10 @@
       "conditions": []
     },
     "49": {
-      "count": 0,
-      "conditions": []
+      "count": 1,
+      "conditions": [
+        "Bien"
+      ]
     },
     "50": {
       "count": 0,

@@ -7,9 +7,9 @@ number,count,owned,conditions
 6,3,yes,1; 1; 1
 7,2,yes,1; 1
 8,2,yes,1; 1
-9,2,yes,1; 1
+9,3,yes,1; 1; 1
 10,1,yes,1
-11,2,yes,1; 1
+11,3,yes,1; 1; 1
 12,2,yes,1; 1
 13,4,yes,1; 1; 1; 1
 14,1,yes,1
@@ -98,13 +98,13 @@ number,count,owned,conditions
 97,1,yes,1
 98,1,yes,1
 99,1,yes,1
-100,1,yes,1
+100,2,yes,1; 3
 101,1,yes,1
 102,1,yes,1
 103,1,yes,1
 104,1,yes,1
 105,1,yes,1
-106,1,yes,1
+106,2,yes,1; 3
 107,1,yes,1
 108,1,yes,1
 109,1,yes,1
@@ -134,7 +134,7 @@ number,count,owned,conditions
 133,1,yes,1
 134,1,yes,1
 135,1,yes,1
-136,1,yes,4
+136,2,yes,3; 3
 137,2,yes,1; 2
 138,1,yes,1
 139,1,yes,1
@@ -147,7 +147,7 @@ number,count,owned,conditions
 146,1,yes,1
 147,1,yes,1
 148,1,yes,1
-149,1,yes,1
+149,2,yes,1; 3
 150,1,yes,1
 151,1,yes,2
 152,1,yes,2
@@ -170,10 +170,10 @@ number,count,owned,conditions
 169,1,yes,1
 170,1,yes,1
 171,1,yes,1
-172,1,yes,1
+172,2,yes,1; 3
 173,1,yes,1
 174,1,yes,1
-175,1,yes,1
+175,2,yes,1; 3
 176,1,yes,2
 177,1,yes,1
 178,1,yes,2
@@ -206,18 +206,18 @@ number,count,owned,conditions
 205,2,yes,1; 3
 206,2,yes,1; 3
 207,2,yes,1; 2
-208,2,yes,1; 1
+208,3,yes,1; 1; 3
 209,2,yes,1; 3
 210,2,yes,2; 2
-211,1,yes,1
-212,1,yes,1
-213,2,yes,1; 2
+211,2,yes,1; 1
+212,2,yes,1; 1
+213,3,yes,1; 2; 3
 214,3,yes,1; 1; 1
-215,1,yes,1
+215,2,yes,1; 3
 216,1,yes,1
 217,2,yes,2; 2
 218,1,yes,1
-219,1,yes,1
+219,3,yes,1; 3; 3
 220,1,yes,1
 221,4,yes,1; 2; 2; 2
 222,1,yes,2

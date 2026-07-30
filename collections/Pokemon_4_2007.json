@@ -59,8 +59,9 @@
       ]
     },
     "9": {
-      "count": 2,
+      "count": 3,
       "conditions": [
+        "Excelente",
         "Excelente",
         "Excelente"
       ]
@@ -72,8 +73,9 @@
       ]
     },
     "11": {
-      "count": 2,
+      "count": 3,
       "conditions": [
+        "Excelente",
         "Excelente",
         "Excelente"
       ]
@@ -630,9 +632,10 @@
       ]
     },
     "100": {
-      "count": 1,
+      "count": 2,
       "conditions": [
-        "Excelente"
+        "Excelente",
+        "Maltratado"
       ]
     },
     "101": {
@@ -666,9 +669,10 @@
       ]
     },
     "106": {
-      "count": 1,
+      "count": 2,
       "conditions": [
-        "Excelente"
+        "Excelente",
+        "Maltratado"
       ]
     },
     "107": {
@@ -848,9 +852,10 @@
       ]
     },
     "136": {
-      "count": 1,
+      "count": 2,
       "conditions": [
-        "Muy Maltratado"
+        "Maltratado",
+        "Maltratado"
       ]
     },
     "137": {
@@ -927,9 +932,10 @@
       ]
     },
     "149": {
-      "count": 1,
+      "count": 2,
       "conditions": [
-        "Excelente"
+        "Excelente",
+        "Maltratado"
       ]
     },
     "150": {
@@ -1069,9 +1075,10 @@
       ]
     },
     "172": {
-      "count": 1,
+      "count": 2,
       "conditions": [
-        "Excelente"
+        "Excelente",
+        "Maltratado"
       ]
     },
     "173": {
@@ -1087,9 +1094,10 @@
       ]
     },
     "175": {
-      "count": 1,
+      "count": 2,
       "conditions": [
-        "Excelente"
+        "Excelente",
+        "Maltratado"
       ]
     },
     "176": {
@@ -1296,10 +1304,11 @@
       ]
     },
     "208": {
-      "count": 2,
+      "count": 3,
       "conditions": [
         "Excelente",
-        "Excelente"
+        "Excelente",
+        "Maltratado"
       ]
     },
     "209": {
@@ -1317,22 +1326,25 @@
       ]
     },
     "211": {
-      "count": 1,
+      "count": 2,
       "conditions": [
+        "Excelente",
         "Excelente"
       ]
     },
     "212": {
-      "count": 1,
+      "count": 2,
       "conditions": [
+        "Excelente",
         "Excelente"
       ]
     },
     "213": {
-      "count": 2,
+      "count": 3,
       "conditions": [
         "Excelente",
-        "Bien"
+        "Bien",
+        "Maltratado"
       ]
     },
     "214": {
@@ -1344,9 +1356,10 @@
       ]
     },
     "215": {
-      "count": 1,
+      "count": 2,
       "conditions": [
-        "Excelente"
+        "Excelente",
+        "Maltratado"
       ]
     },
     "216": {
@@ -1369,9 +1382,11 @@
       ]
     },
     "219": {
-      "count": 1,
+      "count": 3,
       "conditions": [
-        "Excelente"
+        "Excelente",
+        "Maltratado",
+        "Maltratado"
       ]
     },
     "220": {

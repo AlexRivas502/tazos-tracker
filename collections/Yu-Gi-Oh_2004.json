@@ -59,8 +59,10 @@
       "conditions": []
     },
     "12": {
-      "count": 0,
-      "conditions": []
+      "count": 1,
+      "conditions": [
+        "Excelente"
+      ]
     },
     "13": {
       "count": 1,

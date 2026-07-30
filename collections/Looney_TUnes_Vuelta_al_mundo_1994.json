@@ -21,8 +21,9 @@
       ]
     },
     "4": {
-      "count": 1,
+      "count": 2,
       "conditions": [
+        "Excelente",
         "Excelente"
       ]
     },
@@ -40,9 +41,10 @@
       ]
     },
     "7": {
-      "count": 1,
+      "count": 2,
       "conditions": [
-        "Bien"
+        "Bien",
+        "Muy Maltratado"
       ]
     },
     "8": {
@@ -301,8 +303,10 @@
       "conditions": []
     },
     "49": {
-      "count": 0,
-      "conditions": []
+      "count": 1,
+      "conditions": [
+        "Muy Maltratado"
+      ]
     },
     "50": {
       "count": 1,

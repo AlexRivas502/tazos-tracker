@@ -32,7 +32,7 @@
   {
     "file": "Funki_Punky_Extremo_2011.json",
     "name": "Funki Punky Extremo (2011)",
-    "total": 226
+    "total": 262
   },
   {
     "file": "Funki_Punky_Super_2013.json",
@@ -48,6 +48,11 @@
     "file": "Looney_Tunes_1994.json",
     "name": "Looney Tunes (1994)",
     "total": 100
+  },
+  {
+    "file": "Looney_Tunes_20_Aniv_2014.json",
+    "name": "Looney Tunes 20 Aniv. (2014)",
+    "total": 150
   },
   {
     "file": "Medabots_2003.json",
@@ -68,6 +73,11 @@
     "file": "Nickelodeon_2010.json",
     "name": "Nickelodeon (2010)",
     "total": 195
+  },
+  {
+    "file": "Pac-Man_2020.json",
+    "name": "Pac-Man (2020)",
+    "total": 100
   },
   {
     "file": "Plants_vs_Zombies_2013.json",
@@ -93,6 +103,11 @@
     "file": "Pokemon_4_2007.json",
     "name": "Pokemon 4 (2007)",
     "total": 235
+  },
+  {
+    "file": "Pokemon_Picks_2000.json",
+    "name": "Pokemon Picks (2000)",
+    "total": 0
   },
   {
     "file": "Simpsons_1_2006.json",

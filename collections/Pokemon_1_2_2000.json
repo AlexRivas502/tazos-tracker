@@ -302,8 +302,9 @@
       "conditions": []
     },
     "64": {
-      "count": 1,
+      "count": 2,
       "conditions": [
+        "Maltratado",
         "Maltratado"
       ]
     },
@@ -601,8 +602,10 @@
       "conditions": []
     },
     "129": {
-      "count": 0,
-      "conditions": []
+      "count": 1,
+      "conditions": [
+        "Dañado"
+      ]
     },
     "130": {
       "count": 0,

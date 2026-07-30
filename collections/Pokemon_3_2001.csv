@@ -5,7 +5,7 @@ number,count,owned,conditions
 25,2,yes,1; 2
 26,2,yes,1; 2
 52,0,no,
-54,1,yes,2
+54,2,yes,2; 2
 94,1,yes,2
 125,0,no,
 128,0,no,
@@ -25,8 +25,8 @@ number,count,owned,conditions
 157,0,no,
 158,2,yes,3; 4
 159,0,no,
-160,0,no,
-161,0,no,
+160,1,yes,2
+161,1,yes,3
 162,0,no,
 163,0,no,
 164,1,yes,3
@@ -35,7 +35,7 @@ number,count,owned,conditions
 167,1,yes,2
 168,1,yes,2
 170,0,no,
-171,0,no,
+171,1,yes,3
 172,0,no,
 173,0,no,
 174,1,yes,2
@@ -72,9 +72,9 @@ number,count,owned,conditions
 213,0,no,
 214,0,no,
 216,0,no,
-217,0,no,
+217,1,yes,3
 220,0,no,
-221,0,no,
+221,1,yes,3
 226,0,no,
 231,1,yes,3
 232,1,yes,2
@@ -84,6 +84,6 @@ number,count,owned,conditions
 239,1,yes,2
 241,0,no,
 242,0,no,
-244,0,no,
+244,1,yes,3
 249,0,no,
-250,1,yes,2
+250,2,yes,2; 4

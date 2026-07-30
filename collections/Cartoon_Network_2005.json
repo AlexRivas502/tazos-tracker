@@ -39,8 +39,10 @@
       "conditions": []
     },
     "9": {
-      "count": 0,
-      "conditions": []
+      "count": 1,
+      "conditions": [
+        "Bien"
+      ]
     },
     "10": {
       "count": 0,
@@ -165,8 +167,10 @@
       "conditions": []
     },
     "34": {
-      "count": 0,
-      "conditions": []
+      "count": 1,
+      "conditions": [
+        "Bien"
+      ]
     },
     "35": {
       "count": 0,
@@ -193,9 +197,10 @@
       "conditions": []
     },
     "40": {
-      "count": 1,
+      "count": 2,
       "conditions": [
-        "Excelente"
+        "Excelente",
+        "Bien"
       ]
     },
     "41": {
@@ -325,8 +330,11 @@
       "conditions": []
     },
     "69": {
-      "count": 0,
-      "conditions": []
+      "count": 2,
+      "conditions": [
+        "Excelente",
+        "Maltratado"
+      ]
     },
     "70": {
       "count": 1,
